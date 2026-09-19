@@ -33,7 +33,7 @@ Net annual value
 Gross value - annual run cost
 ```
 
-All figures below are illustrative portfolio assumptions and **not client figures**.
+**Actual client economics and realized benefits are confidential and are not shown.** The scenario values below are reconstructed to demonstrate the value-driver logic and sensitivity approach.
 
 ---
 
