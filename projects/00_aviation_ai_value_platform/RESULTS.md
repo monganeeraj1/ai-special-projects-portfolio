@@ -1,6 +1,6 @@
-# Synthetic Benchmark Results
+# Reconstructed Benchmark Results
 
-These results come from the portfolio's **synthetic** flight dataset and illustrative model. They are not production airline results.
+**Actual client data and production model results are confidential and are not shown.** These results come from the portfolio reconstruction and are included to demonstrate the evaluation methodology.
 
 ## Model performance
 
@@ -14,7 +14,7 @@ The intent is deliberately not to create an unrealistically perfect model. Opera
 
 ## Most influential features
 
-Permutation importance in the synthetic benchmark:
+Permutation importance in the portfolio benchmark:
 
 | Rank | Feature | Relative importance |
 |---:|---|---:|
@@ -30,7 +30,7 @@ Contextual variables such as headwind, route distance, aircraft age, payload, an
 
 After adding controllability to the prioritization logic:
 
-- the top 10% of prioritized cases captured **14.9% of total synthetic avoidable-fuel opportunity**
+- the top 10% of prioritized cases captured **14.9% of total reconstructed avoidable-fuel opportunity**
 - **100%** of those top-priority cases contained at least one flagged controllable operational lever
 
 This is an example of why the portfolio separates:
