@@ -205,7 +205,7 @@ Topics:
 - benefits realization
 - transition to permanent ownership
 
-[Open framework →](projects/04_ai_special_projects_operating_model/)
+[Open framework →](projects/04_ai_transformation_operating_model/)
 
 ---
 
