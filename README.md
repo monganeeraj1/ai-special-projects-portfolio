@@ -8,7 +8,7 @@ My career has evolved from strategy consulting into large-scale transformation, 
 
 My focus is not AI as a standalone technology. It is the point where **AI, economics, operating models and implementation meet**.
 
-> This portfolio combines real professional experience with selected technical reconstructions and independent AI labs. Synthetic or illustrative data is used whenever client data, proprietary architecture or confidential implementation material would otherwise be required.
+> This portfolio combines real professional experience with technical reconstructions and independent AI labs. **Actual client data, production results and internal implementation materials are confidential and are not shown.** Portfolio figures and visuals are reconstructed to demonstrate the methodology, architecture and implementation approach.
 
 ---
 
@@ -80,7 +80,7 @@ Compact builds used to explore AI architecture, evaluation, governance and opera
 
 How do you move from an operational AI opportunity to a model, decision-support workflow, implementation program and measurable value?
 
-This case combines **real professional engagement context** with a **sanitized technical reconstruction using synthetic data**.
+This case is based on **real professional engagement experience**. Actual client data and production outputs are confidential, so the technical implementation shown here has been reconstructed for portfolio demonstration.
 
 It covers:
 - AI problem formulation
@@ -99,11 +99,11 @@ It covers:
 
 ![AI implementation dashboard](docs/assets/implementation_dashboard.svg)
 
-*Sanitized portfolio reconstruction — not a client slide.*
+*Actual client implementation materials are confidential; this view is reconstructed for portfolio demonstration.*
 
 ![AI implementation roadmap](docs/assets/implementation_roadmap.svg)
 
-*Illustrative implementation roadmap — not a client plan.*
+*Actual client implementation plans are confidential; this roadmap is reconstructed to demonstrate the delivery approach.*
 
 ### Model & value view
 
@@ -111,7 +111,7 @@ It covers:
 
 ![Value realization dashboard](docs/assets/value_dashboard.svg)
 
-*All figures and model results shown above are synthetic / illustrative.*
+*Actual client data and production results are confidential and are not shown; displayed metrics are reconstructed for portfolio demonstration.*
 
 ### Deep dive
 
@@ -271,6 +271,6 @@ Exchange — MIT Sloan
 
 ## Disclosure
 
-The aviation case is based on real professional experience. The code, synthetic dataset, feature set, model design, thresholds, benchmark results, dashboards and implementation visuals are portfolio reconstructions.
+The aviation case is based on real professional experience. **Actual client data, production results, proprietary algorithms and internal implementation materials remain confidential and are not shown.** The code, data, model outputs, dashboards and implementation visuals in this portfolio are reconstructed to demonstrate the analytical and delivery approach.
 
 The other technical labs are independent portfolio builds intended to demonstrate how I think about AI systems. They are not presented as client work.
