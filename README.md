@@ -21,6 +21,29 @@ This portfolio is designed to demonstrate that my AI experience goes beyond prog
 
 # Portfolio
 
+## 00 — Aviation AI Value & Operations Platform — Flagship
+**Question:** How do you move from an operational AI opportunity to a model, decision-support workflow, governance model, and measurable value?
+
+This case is based on my **real professional experience supporting a GCC airline AI initiative**, combined with a sanitized technical reconstruction using synthetic data.
+
+Demonstrates:
+- AI problem formulation for operational efficiency
+- synthetic flight-data generation
+- feature engineering
+- gradient-boosted regression
+- MAE / RMSE / R² evaluation
+- explainability via permutation importance
+- controllable vs contextual driver separation
+- decision / intervention prioritization
+- drift monitoring with PSI
+- human-in-the-loop design
+- value-realization logic
+- MLOps and governance
+
+[Open flagship project →](projects/00_aviation_ai_value_platform/)
+
+---
+
 ## 01 — RAG Evaluation Lab
 **Question:** How do you design and evaluate a grounded enterprise GenAI assistant?
 
@@ -122,7 +145,9 @@ That framing is particularly important in zero-to-one environments, where a tech
 
 If you are reviewing this portfolio for an AI-focused Special Projects role:
 
-1. Start with **RAG Evaluation Lab** for GenAI technical depth.
-2. Review **Predictive Operations AI** for applied ML and decision integration.
+1. Start with **Aviation AI Value & Operations Platform** — this connects real engagement experience with a sanitized technical reconstruction spanning modeling, decision support, monitoring, governance, and value realization.
+2. Review **RAG Evaluation Lab** for GenAI / retrieval technical depth.
 3. Review **Agentic AI Control Plane** for emerging AI architecture and governance.
 4. Review **AI Special Projects Operating Model** for strategy-to-execution leadership.
+
+The separate **Predictive Operations AI** project provides an additional compact applied-ML example.
