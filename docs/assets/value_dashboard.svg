@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
 <rect width="1440" height="810" fill="#f5f8fb"/><rect width="1440" height="84" fill="#10233b"/>
-<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">AI Value Realization — Illustrative Scenario Model</text><text x="1075" y="50" font-family="Arial" font-size="16" fill="#a9bed4">NOT CLIENT FIGURES</text>
+<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">AI Value Realization — Reconstructed Scenario Model</text><text x="1075" y="50" font-family="Arial" font-size="16" fill="#a9bed4">CONFIDENTIAL CLIENT ECONOMICS NOT SHOWN</text>
 <text x="55" y="130" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Net annual value by scenario</text>
 <line x1="140" y1="575" x2="830" y2="575" stroke="#6f8092" stroke-width="2"/>
 <line x1="140" y1="185" x2="140" y2="575" stroke="#6f8092" stroke-width="2"/>
@@ -25,5 +25,5 @@
 <text x="935" y="585">Run cost</text><text x="1270" y="585" text-anchor="end" font-weight="700">AED 2.50M</text>
 <text x="935" y="625" font-weight="700">Net value</text><text x="1270" y="625" text-anchor="end" font-weight="700" fill="#1e6c61">AED 3.80M</text>
 </g>
-<text x="55" y="760" font-family="Arial" font-size="13" fill="#718398">Illustrative assumptions only. The point is the value chain from model opportunity to actionability, adoption, realized impact and run cost.</text>
+<text x="55" y="760" font-family="Arial" font-size="13" fill="#718398">Reconstructed value view. Actual client economics and realized benefits remain confidential.</text>
 </svg>
