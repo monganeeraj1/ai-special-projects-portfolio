@@ -1,153 +1,254 @@
-# Deep AI × Special Projects Portfolio
+# Neeraj Monga — AI Strategy & Special Projects
 
-## AI strategy, architecture, evaluation, and execution
+**AI opportunity → architecture → value case → implementation → scale**
 
-I am a strategy and operations leader with **15+ years of experience** across consulting, sovereign investment, government, aviation, infrastructure, telecom, industrials, and consumer sectors, including **9 years in strategy consulting**.
+Strategy and operations leader with **15+ years of experience** across sovereign investment, government, aviation, infrastructure, telecom, industrials and consumer sectors, including **9 years in strategy consulting**.
 
-My recent work includes shaping AI-enabled operational initiatives from use-case identification and value case through architecture, governance, implementation, and adoption.
+I work at the boundary between the **technical AI system** and the **operating system around it**: where models, data, workflow, governance, adoption and economics have to come together.
 
-This portfolio is designed to demonstrate that my AI experience goes beyond program implementation. It focuses on the technical and strategic questions that determine whether an AI initiative will actually work:
-
-- How should the problem be framed for AI?
-- What data and model approach is appropriate?
-- How should retrieval, reasoning, prediction, or optimization be structured?
-- How do we evaluate quality, groundedness, robustness, and failure modes?
-- How do model outputs translate into operational decisions?
-- What governance is required to deploy safely and at scale?
-
-> All examples use synthetic, public, or illustrative data. No confidential client data or proprietary models are included.
+> Portfolio examples use synthetic, public or illustrative data where client data or proprietary architecture would otherwise be required.
 
 ---
 
-# Portfolio
+## Executive proof
+
+| | |
+|---|---|
+| **15+ years** | Strategy, transformation and operations |
+| **9 years** | Strategy consulting |
+| **Strategy& · Bain · Kearney** | Top-tier consulting experience |
+| **3+ recent years in the GCC** | Abu Dhabi / Dubai / Saudi engagements |
+| **US$20B transaction** | Integration Management Office experience |
+| **1,200+ retail locations** | Cross-functional integration scope |
+| **9 strategic initiatives** | Utility strategy mobilization |
+| **3 promotions in 3 years** | Kearney career progression |
+
+---
+
+## Selected experience
+
+### AI-enabled aviation transformation
+Supported a **GCC airline AI initiative** focused on operational and fuel-efficiency priorities.
+
+My role included:
+- AI use-case identification and prioritization
+- translating operational opportunities into data, technology, analytics and organizational requirements
+- developing the business and value case for priority AI-enabled fuel-efficiency opportunities
+- defining a scalable technology and implementation roadmap
+- shaping AI-enabled decision support, governance, operating processes and adoption
+- supporting implementation
+
+### Sovereign portfolio transformation
+Associate Director in Abu Dhabi, supporting transformation and restructuring programs across portfolio companies, including strategic initiative mobilization, enterprise PMO and cross-functional execution.
+
+### GCC government strategy
+At Strategy&, led government operating-model redesign and national utility-sector transformation engagements in Saudi Arabia.
+
+### Large-scale integration
+Helped establish an Integration Management Office for a **US$20B telecom transaction**, coordinating 54 consultants / operations specialists and integration across **1,200+ retail locations**.
+
+### Emerging technology
+Led innovation and advisory work at Robert Bosch and helped pioneer a blockchain team.
+
+---
+
+# AI Portfolio
 
 ## 00 — Aviation AI Value & Operations Platform — Flagship
-**Question:** How do you move from an operational AI opportunity to a model, decision-support workflow, governance model, and measurable value?
 
-This case is based on my **real professional experience supporting a GCC airline AI initiative**, combined with a sanitized technical reconstruction using synthetic data.
+**How do you move from an operational AI opportunity to a model, decision-support workflow, governance model, implementation program and measurable value?**
 
-Demonstrates:
-- AI problem formulation for operational efficiency
+This case combines **real professional engagement context** with a **sanitized technical reconstruction using synthetic data**.
+
+It demonstrates:
+- AI problem formulation
 - synthetic flight-data generation
 - feature engineering
 - gradient-boosted regression
-- MAE / RMSE / R² evaluation
-- explainability via permutation importance
+- MAE / RMSE / R²
+- permutation importance / explainability
 - controllable vs contextual driver separation
-- decision / intervention prioritization
+- intervention prioritization
 - drift monitoring with PSI
 - human-in-the-loop design
-- value-realization logic
-- MLOps and governance
+- MLOps
+- implementation governance
+- business / value-case logic
 
-[Open flagship project →](projects/00_aviation_ai_value_platform/)
+### Implementation tracking
+
+![AI implementation dashboard](docs/assets/implementation_dashboard.svg)
+
+*Sanitized portfolio reconstruction — not a client slide.*
+
+![AI implementation roadmap](docs/assets/implementation_roadmap.svg)
+
+*Illustrative pilot roadmap — not a client implementation plan.*
+
+### Model & value monitoring
+
+![Model monitoring dashboard](docs/assets/model_monitoring_dashboard.svg)
+
+![Value realization dashboard](docs/assets/value_dashboard.svg)
+
+*All values and model results shown above are synthetic / illustrative.*
+
+### Technical review path
+
+1. [Flagship case overview](projects/00_aviation_ai_value_platform/)
+2. [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
+3. [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
+4. [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
+5. [AI Investment & Value Model](projects/00_aviation_ai_value_platform/VALUE_MODEL.md)
+6. [Synthetic Benchmark Results](projects/00_aviation_ai_value_platform/RESULTS.md)
+7. [Runnable Python](projects/00_aviation_ai_value_platform/src/)
 
 ---
 
 ## 01 — RAG Evaluation Lab
-**Question:** How do you design and evaluate a grounded enterprise GenAI assistant?
+
+**Question:** How do you know whether a Retrieval-Augmented Generation system is actually trustworthy?
 
 Demonstrates:
-- chunking and retrieval design
-- dense vs lexical retrieval concepts
-- retrieval metrics: Recall@K, MRR
-- grounding and answer-quality evaluation
+- Recall@K and MRR
+- lexical vs dense retrieval
+- chunking and reranking
+- groundedness
+- citation correctness
+- abstention behavior
 - hallucination controls
-- cost / latency / quality trade-offs
-- production RAG architecture
+- multilingual / adversarial stress tests
+- latency and cost trade-offs
 
-[Open project →](projects/01_rag_evaluation_lab/)
+[Open RAG case →](projects/01_rag_evaluation_lab/)
 
 ---
 
-## 02 — Predictive Operations AI + Decision Optimization
+## 02 — Predictive Operations AI
+
 **Question:** How do you move from prediction to operational action?
 
 Demonstrates:
 - feature engineering
-- supervised learning
-- train/test discipline
-- regression metrics
-- feature importance
-- decision thresholds
-- intervention prioritization
-- economic value translation
-- causal caveats
+- supervised ML
+- train / test discipline
+- gradient boosting
+- MAE / RMSE / R²
+- permutation importance
+- top-k decision prioritization
+- prediction vs causality
+- controllable vs contextual variables
 
-[Open project →](projects/02_predictive_operations_ai/)
+[Open predictive AI case →](projects/02_predictive_operations_ai/)
 
 ---
 
 ## 03 — Agentic AI Control Plane
-**Question:** How should a tool-using AI agent be governed in an enterprise environment?
+
+**Question:** How should a tool-using AI agent be governed when it can take actions?
 
 Demonstrates:
-- agent/tool architecture
-- routing logic
+- agent / tool architecture
+- tool selection
 - permission boundaries
 - human approval gates
+- least privilege
 - audit logging
 - failure handling
-- evaluation of tool selection
-- enterprise governance
+- prompt-injection considerations
+- agent evaluation
 
-[Open project →](projects/03_agentic_ai_control_plane/)
+[Open agentic AI case →](projects/03_agentic_ai_control_plane/)
 
 ---
 
 ## 04 — AI Special Projects Operating Model
-**Question:** How do you take AI from concept to funded pilot and then to scale?
+
+**Question:** How do you take AI from idea to funded pilot and scaled operating ownership?
 
 Demonstrates:
 - AI opportunity funnel
 - use-case prioritization
-- business/value case
-- governance
+- technical thesis
+- business / value thesis
 - pilot stage gates
 - model-risk review
+- governance
 - benefits realization
 - transition to BAU
 
-[Open project →](projects/04_ai_special_projects_operating_model/)
+[Open operating-model case →](projects/04_ai_special_projects_operating_model/)
 
 ---
 
-# My AI point of view
+# How I think about AI
 
-I do not treat AI as a technology procurement problem.
+For each AI use case I separate six layers:
 
-For each use case, I separate six layers:
+| Layer | Core question |
+|---|---|
+| **Decision / outcome** | What decision or outcome needs to improve? |
+| **Data** | What signals exist, and are they reliable and available at decision time? |
+| **Model** | Prediction, retrieval, generation, optimization or hybrid? |
+| **Evaluation** | What does “good” mean before and after deployment? |
+| **Workflow** | Where does model output enter a real process? |
+| **Governance** | What must be monitored, overridden, approved or stopped? |
 
-1. **Decision / outcome** — what business or user decision needs to improve?
-2. **Data** — what signals exist, and how reliable and timely are they?
-3. **Model** — prediction, retrieval, generation, optimization, or hybrid?
-4. **Evaluation** — what does “good” mean before and after deployment?
-5. **Workflow** — where does the model output enter a real operating process?
-6. **Governance** — what must be controlled, monitored, escalated, or approved?
-
-That framing is particularly important in zero-to-one environments, where a technically impressive model can still fail because the workflow, incentives, data pipeline, or decision rights are wrong.
-
----
-
-# Relevant experience
-
-- AI-enabled aviation transformation: use-case identification, prioritization, value case, architecture, decision support, governance, implementation roadmap, and adoption
-- Abu Dhabi sovereign portfolio transformation and restructuring
-- GCC government operating-model and sector transformation
-- Strategy& / Bain / Kearney consulting background
-- Large-scale integration and transformation PMOs
-- Computer Science Engineering background
-- Emerging-technology experience including blockchain
+A technically impressive model can still fail because the workflow, incentives, data pipeline, intervention design or decision rights are wrong.
 
 ---
 
-# Suggested review order
+# Career journey
 
-If you are reviewing this portfolio for an AI-focused Special Projects role:
+### 2025–Present · Abu Dhabi
+**Associate Director — Transformation & Restructuring work for ADQ via Contango**
 
-1. Start with **Aviation AI Value & Operations Platform** — this connects real engagement experience with a sanitized technical reconstruction spanning modeling, decision support, monitoring, governance, and value realization.
-2. Review **RAG Evaluation Lab** for GenAI / retrieval technical depth.
-3. Review **Agentic AI Control Plane** for emerging AI architecture and governance.
-4. Review **AI Special Projects Operating Model** for strategy-to-execution leadership.
+AI-enabled aviation initiative; strategic initiative mobilization; enterprise IT / business transformation PMO.
 
-The separate **Predictive Operations AI** project provides an additional compact applied-ML example.
+### 2023–2025 · Dubai / GCC
+**Senior Engagement Manager / SME — Strategy&**
+
+Saudi government operating-model redesign and national water-sector transformation.
+
+### 2020–2023 · North America
+**Engagement Manager — Asteri Partners**
+
+Integration Management Office and wireless integration supporting a US$20B telecom transaction.
+
+### 2018–2020 · North America
+**Innovation & Advisory Lead — Robert Bosch**
+
+Business and digital transformation; blockchain innovation.
+
+### 2016–2018
+**Engagement Manager — Bain & Company**
+
+Consumer-industry strategy consulting.
+
+### 2011–2016
+**Consultant — Kearney**
+
+Promoted three levels in three years with an “Exceeding All” rating each year.
+
+---
+
+# Education
+
+**Executive MBA — IIM Calcutta**  
+Exchange — MIT Sloan
+
+**Computer Science Engineering — Panjab University**
+
+---
+
+## Portfolio website source
+
+A full résumé-style microsite is included under [docs/](docs/), with individual case-study pages and implementation visuals. Once GitHub Pages is enabled for the repository, it can be published directly from the included workflow.
+
+---
+
+## Disclosure
+
+The aviation case is based on real professional experience. The code, synthetic dataset, feature set, model design, thresholds, benchmark results, dashboards and implementation visuals in this repository are **portfolio reconstructions**.
+
+They are not production airline code, proprietary algorithms, confidential datasets, client PowerPoint slides or internal implementation status.
