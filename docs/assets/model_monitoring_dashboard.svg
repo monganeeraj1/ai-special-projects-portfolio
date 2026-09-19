@@ -1,0 +1,25 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
+<rect width="1440" height="810" fill="#f5f8fb"/><rect width="1440" height="84" fill="#10233b"/>
+<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">Model Performance & Monitoring — Synthetic Benchmark</text>
+<text x="1110" y="50" font-family="Arial" font-size="16" fill="#a9bed4">PORTFOLIO DATA</text>
+<g>
+<rect x="55" y="125" width="260" height="115" rx="12" fill="#fff" stroke="#d8e2ec"/><text x="82" y="160" font-family="Arial" font-size="14" fill="#61758c">R²</text><text x="82" y="213" font-family="Arial" font-size="42" font-weight="700" fill="#10233b">0.609</text>
+<rect x="335" y="125" width="260" height="115" rx="12" fill="#fff" stroke="#d8e2ec"/><text x="362" y="160" font-family="Arial" font-size="14" fill="#61758c">MAE</text><text x="362" y="213" font-family="Arial" font-size="42" font-weight="700" fill="#10233b">66.1 kg</text>
+<rect x="615" y="125" width="260" height="115" rx="12" fill="#fff" stroke="#d8e2ec"/><text x="642" y="160" font-family="Arial" font-size="14" fill="#61758c">RMSE</text><text x="642" y="213" font-family="Arial" font-size="42" font-weight="700" fill="#10233b">82.9 kg</text>
+<rect x="895" y="125" width="490" height="115" rx="12" fill="#fff" stroke="#d8e2ec"/><text x="922" y="160" font-family="Arial" font-size="14" fill="#61758c">Top 10% prioritized cases</text><text x="922" y="205" font-family="Arial" font-size="30" font-weight="700" fill="#10233b">14.9% opportunity captured</text>
+</g>
+<text x="55" y="292" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Permutation importance</text>
+<rect x="55" y="315" width="820" height="390" rx="12" fill="#fff" stroke="#d8e2ec"/>
+<g font-family="Arial" font-size="14" fill="#31485f">
+<text x="85" y="370">Route efficiency</text><rect x="250" y="350" width="500" height="25" fill="#65d6c6"/><text x="765" y="370">36.68</text>
+<text x="85" y="425">Cruise-speed delta</text><rect x="250" y="405" width="244" height="25" fill="#7aa7ff"/><text x="509" y="425">17.92</text>
+<text x="85" y="480">APU minutes</text><rect x="250" y="460" width="213" height="25" fill="#7aa7ff"/><text x="478" y="480">15.63</text>
+<text x="85" y="535">Taxi-out time</text><rect x="250" y="515" width="207" height="25" fill="#7aa7ff"/><text x="472" y="535">15.21</text>
+<text x="85" y="590">Departure delay</text><rect x="250" y="570" width="92" height="25" fill="#f3c969"/><text x="357" y="590">6.74</text>
+</g>
+<text x="925" y="292" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Monitoring gates</text>
+<rect x="925" y="315" width="460" height="390" rx="12" fill="#fff" stroke="#d8e2ec"/>
+<g font-family="Arial" font-size="16" fill="#21384f"><circle cx="960" cy="366" r="10" fill="#34a853"/><text x="985" y="372">Input schema health</text><circle cx="960" cy="421" r="10" fill="#34a853"/><text x="985" y="427">Missingness within threshold</text><circle cx="960" cy="476" r="10" fill="#fbbc04"/><text x="985" y="482">Taxi-time PSI: review</text><circle cx="960" cy="531" r="10" fill="#34a853"/><text x="985" y="537">Prediction volume stable</text><circle cx="960" cy="586" r="10" fill="#34a853"/><text x="985" y="592">No critical OOD alert</text><circle cx="960" cy="641" r="10" fill="#fbbc04"/><text x="985" y="647">Operator rejection reasons: watch</text></g>
+<text x="55" y="762" font-family="Arial" font-size="13" fill="#718398">Synthetic results. Dashboard demonstrates what a production monitoring discussion should include; it is not a live airline dashboard.</text>
+</svg>
