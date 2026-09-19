@@ -1,7 +1,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
 <rect width="1440" height="810" fill="#f5f8fb"/><rect width="1440" height="84" fill="#10233b"/>
-<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">Model Performance & Monitoring — Synthetic Benchmark</text>
+<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">Model Performance & Monitoring — Reconstructed Benchmark</text>
 <text x="1110" y="50" font-family="Arial" font-size="16" fill="#a9bed4">CONFIDENTIAL PRODUCTION DATA NOT SHOWN</text>
 <g>
 <rect x="55" y="125" width="260" height="115" rx="12" fill="#fff" stroke="#d8e2ec"/><text x="82" y="160" font-family="Arial" font-size="14" fill="#61758c">R²</text><text x="82" y="213" font-family="Arial" font-size="42" font-weight="700" fill="#10233b">0.609</text>
