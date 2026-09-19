@@ -38,3 +38,6 @@ jobs:
 
       - name: Run drift monitor
         run: python projects/00_aviation_ai_value_platform/src/drift_monitor.py
+
+      - name: Run value model
+        run: python projects/00_aviation_ai_value_platform/value_model.py
