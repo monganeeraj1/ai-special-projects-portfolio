@@ -1,6 +1,6 @@
 # 00 — Aviation AI Value & Operations Platform
 
-## Flagship case: real engagement context + sanitized technical reconstruction
+## Flagship case: real engagement experience + confidential-client reconstruction
 
 This project is based on my professional experience supporting a **GCC airline AI initiative** focused on operational and fuel-efficiency priorities.
 
@@ -14,11 +14,11 @@ My role included:
 - shaping AI-enabled decision support, governance, operating processes, and adoption
 - supporting end-to-end implementation
 
-### What is reconstructed for this portfolio
+### Client confidentiality
 
-The code, synthetic dataset, feature set, model design, thresholds, and architecture in this repository are **illustrative reconstructions** designed to demonstrate how I think about the technical problem.
+**Actual client data, production results, proprietary algorithms and internal implementation materials are confidential and are not shown.**
 
-They are not production code, client data, proprietary algorithms, or a disclosure of the airline's internal systems.
+The code, data, model design, thresholds and architecture in this repository are reconstructed to demonstrate the technical and implementation approach without disclosing client information.
 
 ---
 
@@ -80,10 +80,10 @@ The system should identify where excess consumption is likely, then determine wh
 
 # Technical workflow
 
-## 1. Synthetic data generation
+## 1. Portfolio data generation
 `src/generate_synthetic_flights.py`
 
-Creates a synthetic flight-level dataset with known signal relationships and random noise.
+Creates a reconstructed flight-level dataset for demonstrating the modeling workflow without exposing client data.
 
 ## 2. Model training
 `src/train_model.py`
@@ -177,7 +177,7 @@ For a technical / hiring review, I suggest this sequence:
 2. **[Failure Analysis](FAILURE_ANALYSIS.md)** — leakage, OOD cases, false positives, false negatives, causal failure, and red-team scenarios.
 3. **[Architecture Deep Dive](ARCHITECTURE_DEEP_DIVE.md)** — feature pipeline, model registry, decision layer, human review, monitoring, and value feedback loop.
 4. **[AI Investment & Value Model](VALUE_MODEL.md)** — how prediction quality converts (or fails to convert) into adoption, realized fuel savings, and net value.
-5. **[Synthetic Benchmark Results](RESULTS.md)** — current portfolio-model metrics and prioritization results.
+5. **[Reconstructed Benchmark Results](RESULTS.md)** — current portfolio-model metrics and prioritization results.
 
 ## Additional technical notes
 
