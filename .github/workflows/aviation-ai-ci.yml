@@ -1,0 +1,40 @@
+name: Aviation AI Prototype CI
+
+on:
+  push:
+    paths:
+      - "projects/00_aviation_ai_value_platform/**"
+      - "requirements.txt"
+      - ".github/workflows/aviation-ai-ci.yml"
+  pull_request:
+    paths:
+      - "projects/00_aviation_ai_value_platform/**"
+      - "requirements.txt"
+
+jobs:
+  run-prototype:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate synthetic data
+        run: python projects/00_aviation_ai_value_platform/src/generate_synthetic_flights.py
+
+      - name: Train model
+        run: python projects/00_aviation_ai_value_platform/src/train_model.py
+
+      - name: Run decision engine
+        run: python projects/00_aviation_ai_value_platform/src/decision_engine.py
+
+      - name: Run drift monitor
+        run: python projects/00_aviation_ai_value_platform/src/drift_monitor.py
