@@ -1,12 +1,14 @@
 # Neeraj Monga — AI Strategy & Transformation
 
-**From strategic opportunity to AI-enabled operating change**
+**Strategy, AI and transformation — shaped by curiosity about how people, systems and places work.**
 
 I am a strategy and transformation leader with **15+ years of experience** advising governments, sovereign investors and C-suite executives across aviation, infrastructure, telecom, industrials and consumer sectors.
 
 My career has evolved from strategy consulting into large-scale transformation, innovation and AI-enabled execution. I have spent **9 years in strategy consulting**, including roles at **Strategy&, Bain & Company and Kearney**, and I currently work on transformation initiatives in Abu Dhabi.
 
 My focus is not AI as a standalone technology. It is the point where **AI, economics, operating models and implementation meet**.
+
+Outside the formal CV, **culture and travel are a major part of my life**. I have lived in **7 countries** and travelled to **92 countries**. That experience has made me deeply curious about how people experience a place — its culture, infrastructure, services and everyday details.
 
 > This portfolio combines real professional experience with technical reconstructions and independent AI labs. **Actual client data, production results and internal implementation materials are confidential and are not shown.** Portfolio figures and visuals are reconstructed to demonstrate the methodology, architecture and implementation approach.
 
