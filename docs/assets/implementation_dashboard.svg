@@ -1,0 +1,32 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
+<rect width="1440" height="810" fill="#f4f7fb"/><rect width="1440" height="84" fill="#10233b"/>
+<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#ffffff">AI Fuel-Efficiency Program — Executive Implementation Dashboard</text>
+<text x="1120" y="50" font-family="Arial" font-size="16" fill="#a9bed4">SANITIZED RECONSTRUCTION</text>
+<text x="55" y="122" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Program health</text>
+<rect x="55" y="145" width="300" height="108" rx="12" fill="#ffffff" stroke="#d7e1eb"/><circle cx="93" cy="180" r="12" fill="#34a853"/><text x="118" y="187" font-family="Arial" font-size="18" font-weight="700" fill="#152a42">Overall status: Green</text><text x="82" y="223" font-family="Arial" font-size="14" fill="#53667c">Pilot build on plan · 2 decisions due this cycle</text>
+<rect x="375" y="145" width="300" height="108" rx="12" fill="#ffffff" stroke="#d7e1eb"/><text x="402" y="180" font-family="Arial" font-size="14" fill="#53667c">Use cases in active build</text><text x="402" y="224" font-family="Arial" font-size="38" font-weight="700" fill="#10233b">3</text>
+<rect x="695" y="145" width="300" height="108" rx="12" fill="#ffffff" stroke="#d7e1eb"/><text x="722" y="180" font-family="Arial" font-size="14" fill="#53667c">Critical dependencies</text><text x="722" y="224" font-family="Arial" font-size="38" font-weight="700" fill="#d97706">2</text>
+<rect x="1015" y="145" width="370" height="108" rx="12" fill="#ffffff" stroke="#d7e1eb"/><text x="1042" y="180" font-family="Arial" font-size="14" fill="#53667c">Next executive gate</text><text x="1042" y="216" font-family="Arial" font-size="22" font-weight="700" fill="#10233b">Pilot readiness review</text>
+
+<text x="55" y="305" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Workstream delivery</text>
+<rect x="55" y="330" width="850" height="365" rx="12" fill="#ffffff" stroke="#d7e1eb"/>
+<text x="82" y="366" font-family="Arial" font-size="14" font-weight="700" fill="#53667c">WORKSTREAM</text><text x="480" y="366" font-family="Arial" font-size="14" font-weight="700" fill="#53667c">STATUS</text><text x="655" y="366" font-family="Arial" font-size="14" font-weight="700" fill="#53667c">NEXT MILESTONE</text>
+<g font-family="Arial" font-size="16" fill="#152a42">
+<text x="82" y="413">Data integration & quality</text><circle cx="515" cy="407" r="10" fill="#34a853"/><text x="655" y="413">Feature contract signed off</text>
+<text x="82" y="468">Model & analytics</text><circle cx="515" cy="462" r="10" fill="#34a853"/><text x="655" y="468">Offline validation complete</text>
+<text x="82" y="523">Decision-support product</text><circle cx="515" cy="517" r="10" fill="#fbbc04"/><text x="655" y="523">Operator UX validation</text>
+<text x="82" y="578">Governance & model risk</text><circle cx="515" cy="572" r="10" fill="#34a853"/><text x="655" y="578">Pilot approval package</text>
+<text x="82" y="633">Change & adoption</text><circle cx="515" cy="627" r="10" fill="#fbbc04"/><text x="655" y="633">Frontline champions mobilized</text>
+<text x="82" y="678">Benefits realization</text><circle cx="515" cy="672" r="10" fill="#34a853"/><text x="655" y="678">Finance baseline agreed</text>
+</g>
+
+<text x="950" y="305" font-family="Arial" font-size="18" font-weight="700" fill="#10233b">Executive decisions / risks</text>
+<rect x="950" y="330" width="435" height="365" rx="12" fill="#ffffff" stroke="#d7e1eb"/>
+<text x="980" y="372" font-family="Arial" font-size="15" font-weight="700" fill="#d97706">DECISION 01</text><text x="980" y="400" font-family="Arial" font-size="16" fill="#152a42">Confirm pilot operating scope and</text><text x="980" y="423" font-family="Arial" font-size="16" fill="#152a42">decision threshold.</text>
+<line x1="980" y1="450" x2="1355" y2="450" stroke="#e4ebf2"/>
+<text x="980" y="487" font-family="Arial" font-size="15" font-weight="700" fill="#d97706">DECISION 02</text><text x="980" y="515" font-family="Arial" font-size="16" fill="#152a42">Approve benefits attribution method</text><text x="980" y="538" font-family="Arial" font-size="16" fill="#152a42">before pilot measurement starts.</text>
+<line x1="980" y1="565" x2="1355" y2="565" stroke="#e4ebf2"/>
+<text x="980" y="602" font-family="Arial" font-size="15" font-weight="700" fill="#c0392b">RISK</text><text x="980" y="630" font-family="Arial" font-size="16" fill="#152a42">Late operational data may compress</text><text x="980" y="653" font-family="Arial" font-size="16" fill="#152a42">the pilot window. Mitigation: staged</text><text x="980" y="676" font-family="Arial" font-size="16" fill="#152a42">data onboarding + fallback baseline.</text>
+<text x="55" y="760" font-family="Arial" font-size="13" fill="#718398">Illustrative portfolio reconstruction. No confidential client data, status, values, or slide content is shown.</text>
+</svg>
