@@ -1,8 +1,8 @@
-# 04 — AI Special Projects Operating Model
+# 04 — AI Transformation Operating Model
 
 ## Executive question
 
-**How do you build a Special Projects function that can identify, validate, launch, and scale AI initiatives?**
+**How do you build a Transformation function that can identify, validate, launch, and scale AI initiatives?**
 
 The function should not become:
 - an innovation theatre team
