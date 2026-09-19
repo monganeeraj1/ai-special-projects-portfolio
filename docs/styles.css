@@ -136,3 +136,12 @@ footer{padding:42px 0 55px;border-top:1px solid var(--line);color:var(--muted);f
   section{padding:62px 0}
   .hero-note{border-left:0;padding-left:0;border-top:1px solid var(--line);padding-top:20px}
 }
+
+/* Shared case-study components */
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:26px}
+.card p{color:#465561}
+.visual{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.visual img{display:block;width:100%}
+@media(max-width:850px){.grid,.two{grid-template-columns:1fr}}
