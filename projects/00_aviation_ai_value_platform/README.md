@@ -169,21 +169,22 @@ A model can perform well while business value fails because the intervention is 
 
 ---
 
-# Production architecture
+# Recommended review path
 
-See [architecture.md](architecture.md).
+For a technical / hiring review, I suggest this sequence:
 
-# Modeling choices
+1. **[Model Card](MODEL_CARD.md)** — intended use, target, training approach, benchmark, limitations, risks, and go-live criteria.
+2. **[Failure Analysis](FAILURE_ANALYSIS.md)** — leakage, OOD cases, false positives, false negatives, causal failure, and red-team scenarios.
+3. **[Architecture Deep Dive](ARCHITECTURE_DEEP_DIVE.md)** — feature pipeline, model registry, decision layer, human review, monitoring, and value feedback loop.
+4. **[AI Investment & Value Model](VALUE_MODEL.md)** — how prediction quality converts (or fails to convert) into adoption, realized fuel savings, and net value.
+5. **[Synthetic Benchmark Results](RESULTS.md)** — current portfolio-model metrics and prioritization results.
 
-See [model_design.md](model_design.md).
+## Additional technical notes
 
-# Value realization
-
-See [value_case.md](value_case.md).
-
-# Governance & monitoring
-
-See [monitoring_and_governance.md](monitoring_and_governance.md).
+- [Reference architecture](architecture.md)
+- [Model design choices](model_design.md)
+- [Value realization logic](value_case.md)
+- [Monitoring & governance](monitoring_and_governance.md)
 
 ---
 
@@ -194,6 +195,7 @@ python src/generate_synthetic_flights.py
 python src/train_model.py
 python src/decision_engine.py
 python src/drift_monitor.py
+python value_model.py
 ```
 
 Requires the packages listed in the repository-level `requirements.txt`.
