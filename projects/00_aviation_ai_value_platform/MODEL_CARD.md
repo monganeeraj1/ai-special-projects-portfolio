@@ -4,12 +4,12 @@
 
 **Model name:** Aviation Fuel Opportunity Model  
 **Model type:** Gradient-boosted regression  
-**Portfolio status:** Synthetic technical reconstruction  
+**Portfolio status:** Confidential-client technical reconstruction  
 **Primary output:** Predicted avoidable fuel opportunity per flight (kg)  
 **Intended use:** Decision support for prioritizing operational fuel-efficiency review  
 **Not intended for:** Automated flight-control decisions, safety-critical automation, crew performance scoring, or unreviewed financial attribution
 
-> This model is a portfolio reconstruction using synthetic data. It is not a production airline model and does not represent proprietary client logic.
+> Actual client data, production results and proprietary model logic are confidential and are not shown. This portfolio model reconstructs the analytical approach without disclosing client information.
 
 ---
 
@@ -55,7 +55,7 @@ These may support intervention hypotheses, subject to operational and causal val
 
 ## 3. Target
 
-**Synthetic target:** `avoidable_fuel_kg`
+**Portfolio target:** `avoidable_fuel_kg`
 
 The target is designed to approximate excess fuel consumption above a contextual baseline.
 
@@ -77,7 +77,7 @@ Poor target design can create a technically accurate model that optimizes the wr
 
 Portfolio prototype:
 
-- synthetic tabular dataset
+- reconstructed tabular dataset for portfolio demonstration
 - gradient-boosted regression
 - train/test holdout
 - MAE, RMSE, R²
@@ -98,7 +98,7 @@ Random train/test splits are useful for a prototype but can overstate real-world
 
 ---
 
-## 5. Current synthetic benchmark
+## 5. Portfolio benchmark
 
 | Metric | Result |
 |---|---:|
@@ -106,7 +106,7 @@ Random train/test splits are useful for a prototype but can overstate real-world
 | RMSE | 82.90 kg |
 | R² | 0.609 |
 
-These results are synthetic and illustrative.
+Actual production metrics are confidential and are not shown. These benchmark results are from the portfolio reconstruction.
 
 The model is intentionally not presented as "high accuracy = success." The relevant question is whether the model improves the precision and economics of real operational interventions.
 
@@ -147,7 +147,7 @@ The decision layer considers:
 
 ## 8. Known limitations
 
-- synthetic target construction
+- reconstructed target design rather than the confidential production target
 - simplified feature space
 - no temporal sequence modeling
 - no aircraft-tail-specific effects
