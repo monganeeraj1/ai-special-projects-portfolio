@@ -10,7 +10,7 @@ My focus is not AI as a standalone technology. It is the point where **AI, econo
 
 Outside the formal CV, **culture and travel are a major part of my life**. I have lived in **7 countries** and travelled to **92 countries**. That experience has made me deeply curious about how people experience a place — its culture, infrastructure, services and everyday details.
 
-> This portfolio combines real professional experience with technical reconstructions and independent AI labs. **Actual client data, production results and internal implementation materials are confidential and are not shown.** Portfolio figures and visuals are reconstructed to demonstrate the methodology, architecture and implementation approach.
+> The engagement and consulting scope in this portfolio are experience based; the technical and delivery examples are portfolio reconstructions. **Client data, internal architecture, implementation status and production results remain confidential and are not shown.**
 
 ---
 
@@ -22,33 +22,23 @@ Outside the formal CV, **culture and travel are a major part of my life**. I hav
 | **9 years** | Strategy consulting |
 | **Strategy& · Bain · Kearney** | Top-tier consulting experience |
 | **GCC leadership** | Abu Dhabi, Dubai and Saudi engagements |
-| **AI transformation** | Aviation AI initiative from opportunity identification through implementation |
+| **AI programme leadership** | Airline fuel-efficiency AI programme, from opportunity identification through implementation |
 | **US$20B transaction** | Integration Management Office experience |
 | **1,200+ locations** | Cross-functional telecom integration scope |
-| **9 initiatives** | Strategic portfolio mobilization for a major utility |
+| **9 initiatives** | Strategic portfolio mobilisation for a major utility |
 | **3 promotions in 3 years** | Kearney career progression |
 
 ---
 
 # Selected Work
 
-## A major airline — AI transformation
+## A major airline — AI fuel-efficiency programme
 
-Supported an **AI initiative for a major airline** focused on operational and fuel-efficiency priorities.
-
-My role included:
-- identifying and prioritizing AI use cases
-- translating operational opportunities into data, technology, analytics and organizational requirements
-- developing business and value cases for priority AI-enabled opportunities
-- defining a scalable technology and implementation roadmap
-- shaping AI-enabled decision support, governance, operating processes and adoption
-- supporting implementation
-
-This is the anchor for the flagship case study in this portfolio.
+Advised the airline's leadership on translating fuel-efficiency objectives into an AI programme: a prioritised use-case portfolio, a business case, decision-support design, governance and an implementation roadmap. Set out in full below.
 
 ## Sovereign Portfolio Transformation
 
-As an Associate Director in Abu Dhabi, I support transformation and restructuring programs across portfolio companies, including strategic initiative mobilization, cross-functional PMO and enterprise change.
+As an Associate Director in Abu Dhabi, I support transformation and restructuring programmes across portfolio companies, including strategic initiative mobilisation, cross-functional PMO and enterprise change.
 
 ## GCC Government Strategy
 
@@ -64,108 +54,36 @@ At Robert Bosch, I worked across business and digital transformation and helped 
 
 ---
 
-# AI & Technical Portfolio
+# The airline AI programme
 
-The work below is split deliberately into two categories:
+**Leading an airline fuel-efficiency AI programme — business strategy, technical oversight and implementation.**
 
-### Experience-based case study
-A validated technical reconstruction of a real AI transformation I advised on and helped implement. Everything that runs was built independently; the engagement, my role and the delivery approach are real.
+I advised a major airline's leadership on translating its fuel-efficiency objectives into an AI programme with a prioritised use-case portfolio, a business case and an implementation roadmap. My contribution connected the investment decision to the technical requirements and operating changes needed to turn model outputs into useful recommendations.
 
-### Independent technical notes
-Compact design notes on AI architecture, evaluation and governance, each with a small runnable reference. They are not presented as client work, and they are not presented as more than they are.
+The platform combines fuel prediction, anomaly detection and flight optimisation, with agentic orchestration and reinforcement learning within the engineering scope. The AI and data-science team owns detailed model development and the engineering of agents, training, evaluation, observability and deployment. My role was to make the business requirements precise enough to build, challenge whether the proposed solution could support the operating decision, and coordinate the dependencies implementation required.
 
----
+### The question that shaped everything else
 
-## 00 — Airline AI Value & Operations Platform
+Fuel consumption reflects a mixture of operating conditions and decisions. A flight that burns more than expected is a reason to investigate; the difference cannot automatically be treated as recoverable fuel. So the investment question was specific:
 
-**Flagship experience-based case study** · [![CI](https://github.com/monganeeraj1/ai-strategy-transformation/actions/workflows/aviation-ai-ci.yml/badge.svg)](https://github.com/monganeeraj1/ai-strategy-transformation/actions/workflows/aviation-ai-ci.yml)
+> Could the airline **identify** a material opportunity, **connect** it to an action within an operator's control, **deliver** the recommendation at the right time, and **measure** the incremental benefit?
 
-How do you move from an operational AI opportunity to a model, a decision-support workflow, an implementation program and measurable value — and how do you know each step is working?
+### Read it
 
-Client data is confidential, so the prototype runs on a **disclosed simulator with known ground truth**. That is a deliberate choice, not a compromise: it makes the method testable in ways real data would not allow offline.
+| | |
+|---|---|
+| **[The case study](https://monganeeraj1.github.io/ai-strategy-transformation/cases/aviation-ai.html)** | The investment logic, the use-case portfolio, the production architecture, the technical review questions and the path to production |
+| **[Engagement walkthrough](https://monganeeraj1.github.io/ai-strategy-transformation/cases/inside-the-airline-engagement.html)** | What I owned, the artefact trail, the hard decisions and how the thinking evolved |
+| **[Delivery standards](https://monganeeraj1.github.io/ai-strategy-transformation/cases/delivery-standards.html)** | Pilot KPIs, model and agent release criteria, non-functional requirements, guardrails and monitoring thresholds |
 
-What the pipeline does, and what the 42 tests check:
+### Supporting documents
 
-| Step | Implementation | Validated against |
-|---|---|---|
-| Model | Gradient boosting, **temporal** split, mean and ridge baselines | The simulator's noise floor — the model closes 84% of the gap between linear and ceiling |
-| Uncertainty | p10/p90 quantile models + **split-conformal** calibration | Coverage on the later window: 71% raw → 80% calibrated (nominal 80%) |
-| Attribution | Counterfactual controllable excess, **exact Shapley** by lever | Ground truth: r = 0.97, dominant lever right 85%, bias −3 pp and explained |
-| Decision layer | Abstain → filter → rank on controllable kg → explain | Oracle, naive-total and random policies on the same review capacity |
-| Monitoring | PSI on features and predictions, residual z-test, season-matched reference | Two injected drift scenarios with distinct signatures |
-| Value | Annual range with adoption and realisation explicit | One row informed by the actual queue |
-
-```bash
-cd projects/00_aviation_ai_value_platform && python -m pytest && python -m fuelops
-```
-
-### Implementation view
-
-![Airline AI steering implementation view](docs/assets/airline_executive_dashboard.svg)
-
-*The engagement is real. Actual client data and the airline's internal materials are confidential; this view recreates the implementation work without reproducing client content.*
-
-![AI implementation roadmap](docs/assets/implementation_roadmap.svg)
-
-*The roadmap reflects the implementation workstreams I worked across; client-specific dates, owners and internal materials are omitted.*
-
-### Deep dive
-
-- [Inside the airline AI engagement — work-sample walkthrough](docs/cases/inside-the-airline-engagement.html)
-- [Project README — design decisions a reviewer should challenge](projects/00_aviation_ai_value_platform/)
-- [Results — every number the pipeline produces](projects/00_aviation_ai_value_platform/RESULTS.md)
-- [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
-- [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
-- [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
-- [AI Investment & Value Model](projects/00_aviation_ai_value_platform/VALUE_MODEL.md)
-- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)
-- [Code: `fuelops/`](projects/00_aviation_ai_value_platform/fuelops/) · [Tests: `tests/`](projects/00_aviation_ai_value_platform/tests/)
-
----
-
-## 01 — RAG Evaluation
-
-**Design notes + minimal reference**
-
-Why a RAG system fails even when the model is strong, and how to evaluate retrieval separately from generation.
-
-- *Notes cover:* Recall@K and MRR, lexical vs dense vs hybrid retrieval, chunking and reranking, groundedness and citation checks, abstention, adversarial and multilingual stress tests, latency and cost.
-- *Reference code:* a dependency-free TF-IDF retriever over a small visitor-information corpus with Recall@K and MRR — enough to show the metric mechanics, no more.
-
-[Open →](projects/01_rag_evaluation_lab/)
-
----
-
-## 02 — Predictive Operations AI
-
-**Single-file entry point**
-
-The prediction-to-prioritisation chain in ~100 lines: synthetic operations data, gradient boosting, permutation importance, top-decile capture. It is the compact version of the argument that project 00 makes in full — read this first if you want the shape, read 00 if you want the validation.
-
-[Open →](projects/02_predictive_operations_ai/)
-
----
-
-## 03 — Agentic AI Control Plane
-
-**Design notes + minimal reference**
-
-How an enterprise should govern an AI system that can select tools and take actions.
-
-- *Notes cover:* tool allowlists, least privilege, risk-tiered approval gates, structured schemas, idempotency, audit logging, timeout and rollback policy, prompt-injection defence, spend limits, and what to evaluate.
-- *Reference code:* the risk-tier → policy → human-approval primitive as a runnable stub, with an audit record per request. Routing is keyword-based on purpose; the control logic is the point.
-
-[Open →](projects/03_agentic_ai_control_plane/)
-
----
-
-## 04 — AI Transformation Operating Model
-
-**Operating-model framework**
-
-A reusable framework for moving AI initiatives from opportunity discovery to scaled ownership: use-case prioritisation, technical and value theses, pilot design, stage gates, model-risk review, governance, benefits realisation, transition to permanent ownership.
-
-[Open →](projects/04_ai_transformation_operating_model/)
+- [Model card](projects/00_aviation_ai_value_platform/MODEL_CARD.md) — intended use, validation design, limits, risks and go-live conditions
+- [Failure analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md) — how this class of system fails, and what each failure mode requires
+- [Value model](projects/00_aviation_ai_value_platform/VALUE_MODEL.md) — how prediction quality converts, or fails to convert, into realised value
+- [Implementation playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md) — delivery sequence, governance cadence and stage gates
+- [Architecture](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md) — responsibilities across data, models, orchestration and the decision layer
+- [AI transformation operating model](projects/04_ai_transformation_operating_model/) — the reusable framework behind the above
 
 ---
 
@@ -175,9 +93,9 @@ For each initiative, I separate six questions:
 
 | Layer | Question |
 |---|---|
-| **Outcome** | What decision, behavior or operating outcome needs to improve? |
+| **Outcome** | What decision, behaviour or operating outcome needs to improve? |
 | **Data** | What signals exist, and are they reliable and available at decision time? |
-| **Model** | Prediction, retrieval, generation, optimization or hybrid? |
+| **Model** | Prediction, retrieval, generation, optimisation or hybrid? |
 | **Evaluation** | What does “good” mean offline, online and by operating segment? |
 | **Workflow** | How does model output change a real process or decision? |
 | **Governance** | What needs to be monitored, overridden, approved or stopped? |
@@ -191,7 +109,7 @@ A technically strong model can still fail if the workflow, intervention design, 
 ### 2025–Present · Abu Dhabi
 **Associate Director — Transformation & Restructuring work for ADQ via Contango**
 
-AI-enabled aviation initiative, strategic initiative mobilization and enterprise transformation.
+AI-enabled aviation initiative, strategic initiative mobilisation and enterprise transformation.
 
 ### 2023–2025 · Dubai / GCC
 **Senior Engagement Manager / SME — Strategy&**
@@ -231,6 +149,6 @@ Exchange — MIT Sloan
 
 ## Disclosure
 
-The aviation case is based on real professional experience. **Actual client data, production results, proprietary algorithms and internal implementation materials remain confidential and are not shown.** The code, data, model outputs, dashboards and implementation visuals in this portfolio are reconstructed to demonstrate the analytical and delivery approach.
+The airline case is based on real professional experience. **Client data, internal architecture, implementation status, production results and proprietary methods remain confidential and are not shown.** The technical and delivery examples — the architecture views, readiness framework, pilot KPIs, non-functional requirements, guardrails and monitoring thresholds — are portfolio reconstructions that demonstrate the analytical and delivery approach rather than describing any client's environment.
 
-The other technical labs are independent portfolio builds intended to demonstrate how I think about AI systems. They are not presented as client work.
+Proposed targets are design targets for an advisory pilot. They are not achieved airline results and not industry benchmarks.

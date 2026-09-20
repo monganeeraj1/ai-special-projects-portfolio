@@ -48,14 +48,14 @@ A useful portfolio distinction is:
 
 **Prediction** — identify where excess consumption is likely  
 **Recommendation** — identify controllable levers  
-**Optimization** — choose the best feasible intervention  
+**Optimisation** — choose the best feasible intervention  
 **Automation** — determine whether any action can be safely automated
 
 ---
 
-# 3. Prioritize use cases
+# 3. Prioritise use cases
 
-Use cases should not be prioritized by AI novelty.
+Use cases should not be prioritised by AI novelty.
 
 A practical scoring framework considers:
 
@@ -64,7 +64,7 @@ A practical scoring framework considers:
 | Strategic value | Does this matter materially to operational performance? |
 | AI advantage | Does AI improve the decision versus existing rules / reporting? |
 | Data readiness | Is relevant data available at the right granularity and time? |
-| Model feasibility | Can the outcome be predicted / optimized with acceptable confidence? |
+| Model feasibility | Can the outcome be predicted / optimised with acceptable confidence? |
 | Actionability | Can an operator act on the output? |
 | Adoption | Will the recommendation fit the operating workflow? |
 | Economic value | Is the value pool large enough to justify the build? |
@@ -138,7 +138,7 @@ Eligible operations
 × identified opportunity
 × actionable share
 × adoption
-× realization
+× realisation
 × unit economics
 − run cost
 = net value
@@ -150,7 +150,7 @@ The business case therefore needs assumptions for:
 - model precision at the selected operating threshold
 - expected intervention rate
 - adoption
-- realized impact
+- realised impact
 - implementation and run cost
 - benefit persistence
 
@@ -236,7 +236,7 @@ Implementation is managed as a cross-functional transformation rather than a dat
 - baseline
 - recommendation adoption
 - actions taken
-- realized value
+- realised value
 - benefit attribution
 
 ---
@@ -248,7 +248,7 @@ Scale decisions should consider:
 - technical generalization
 - data-pipeline stability
 - user adoption
-- realized economics
+- realised economics
 - operational capacity
 - governance readiness
 - owner for BAU
@@ -266,10 +266,10 @@ It is:
 The website includes reconstructed PowerPoint-style views covering:
 
 1. end-to-end delivery sequence
-2. AI use-case funnel and prioritization
+2. AI use-case funnel and prioritisation
 3. executive implementation dashboard
 4. weekly workstream / sprint tracking
 5. RAID and decision governance
-6. adoption and benefits realization
+6. adoption and benefits realisation
 
-These are not client slides. They reconstruct the type of implementation management required for an enterprise AI program.
+These are not client slides. They reconstruct the type of implementation management required for an enterprise AI programme.

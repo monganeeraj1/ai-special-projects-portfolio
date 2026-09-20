@@ -94,4 +94,4 @@ Track:
 - top risks
 - unresolved decisions
 - time to next stage gate
-- realized benefits
+- realised benefits

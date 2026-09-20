@@ -72,9 +72,9 @@ This analysis often identifies product and data improvements faster than generic
 
 False negatives represent missed fuel opportunity.
 
-Prioritize analysis of:
+Prioritise analysis of:
 
-- highest realized excess missed by the model
+- highest realised excess missed by the model
 - recurring missed route patterns
 - recurring airport / taxi patterns
 - changes in operational procedures
@@ -96,7 +96,7 @@ Mitigation:
 - validate intervention hypotheses with domain experts
 - use controlled pilots where practical
 - measure incremental impact
-- introduce uplift / causal modeling only when the data and intervention design support it
+- introduce uplift / causal modelling only when the data and intervention design support it
 
 ---
 
@@ -139,7 +139,7 @@ Can the platform distinguish true intervention impact from natural regression to
 ## Monthly
 - segment performance
 - drift
-- realized vs modeled value
+- realised vs modeled value
 - model / rule changes
 
 ## Quarterly / major change

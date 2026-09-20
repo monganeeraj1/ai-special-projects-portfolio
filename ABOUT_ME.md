@@ -6,20 +6,20 @@ My career combines three perspectives that are increasingly important for AI-led
 
 1. **Strategy** — identifying where AI can create material advantage and building the value case.
 2. **Technology** — understanding the data, model, architecture, evaluation, and governance choices behind the solution.
-3. **Execution** — mobilizing cross-functional teams, vendors, governance, adoption, and operating-model change.
+3. **Execution** — mobilising cross-functional teams, vendors, governance, adoption, and operating-model change.
 
 ## Current focus
 
 I currently work in a Transformation & Restructuring practice supporting a major Abu Dhabi sovereign investor.
 
 Recent work includes an AI-enabled aviation initiative spanning:
-- AI use-case identification and prioritization
+- AI use-case identification and prioritisation
 - operational value-case development
 - data, technology, and analytics requirements
 - AI-enabled decision support
 - implementation roadmap
 - governance and operating processes
-- adoption and organizational requirements
+- adoption and organisational requirements
 
 ## Previous experience
 
@@ -29,7 +29,7 @@ Recent work includes an AI-enabled aviation initiative spanning:
 - **Asteri Partners** — Engagement Manager, North America
 - **Robert Bosch** — Innovation & Advisory Lead, North America
 
-My broader transformation experience includes GCC government operating-model redesign, national utility transformation, enterprise technology programs, and a US$20B telecom integration.
+My broader transformation experience includes GCC government operating-model redesign, national utility transformation, enterprise technology programmes, and a US$20B telecom integration.
 
 ## Education
 
@@ -43,7 +43,7 @@ My broader transformation experience includes GCC government operating-model red
 - LLM evaluation and groundedness
 - agentic systems and tool use
 - predictive AI
-- decision optimization
+- decision optimisation
 - AI governance
 - AI operating models
 - translating model performance into business value

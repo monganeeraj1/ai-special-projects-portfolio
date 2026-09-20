@@ -2,8 +2,8 @@
 <html>
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Airline AI Transformation | Neeraj Monga</title>
-<meta name="description" content="Experience-based case study of an AI initiative for a major airline spanning opportunity identification, value case, AI design, implementation governance and adoption.">
+<title>Leading an airline fuel-efficiency AI programme | Neeraj Monga</title>
+<meta name="description" content="How a management consultant structured an airline's fuel-efficiency AI programme: the investment logic, the use-case portfolio, the production architecture, the technical review questions and the path to production.">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -11,178 +11,288 @@
 <nav><div class="wrap">
   <div class="brand"><a href="../index.html">← Neeraj Monga</a></div>
   <div class="navlinks">
-    <a href="inside-the-airline-engagement.html">Inside the engagement</a><a href="#role">My role</a>
-    <a href="#journey">Delivery journey</a>
-    <a href="#steering">Steering pack</a>
-    <a href="#technical">Technical depth</a>
+    <a href="#investment">Investment</a>
+    <a href="#architecture">Architecture</a>
+    <a href="#judgment">Technical judgment</a>
+    <a href="#production">Path to production</a>
     <a href="#value">Value</a>
-    <a href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Code</a>
+    <a href="delivery-standards.html">Delivery standards</a>
   </div>
 </div></nav>
 
 <header class="hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow">Experience-based AI case study · Aviation</div>
-      <h1>A major airline — AI-enabled fuel-efficiency transformation</h1>
-      <p class="lead">I supported the leadership of a major airline on an AI initiative focused on operational and fuel-efficiency priorities — structuring the opportunity, developing the value case, translating priority use cases into data / technology / analytics requirements, shaping the operating model, and supporting implementation.</p>
+      <div class="eyebrow">Experience-based case study · Aviation</div>
+      <h1>Leading an airline fuel-efficiency AI programme.</h1>
+      <p class="lead">I advised a major airline's leadership on translating its fuel-efficiency objectives into an AI programme with a prioritised use-case portfolio, a business case and an implementation roadmap. My contribution connected the investment decision to the technical requirements and operating changes needed to turn model outputs into useful recommendations.</p>
+      <p>The platform combines fuel prediction, anomaly detection and flight optimisation, with agentic orchestration and reinforcement learning within the engineering scope. The business objective is to identify credible opportunities to reduce fuel consumption, assess feasible interventions and help operational teams decide where to act.</p>
       <div class="cta">
-        <a class="button primary" href="inside-the-airline-engagement.html">Inside the engagement</a>
-        <a class="button" href="#journey">Case overview</a>
+        <a class="button primary" href="#investment">Read the case</a>
+        <a class="button" href="inside-the-airline-engagement.html">Engagement walkthrough</a>
       </div>
     </div>
     <div class="hero-note">
-      <strong>About the material shown here</strong>
-      The engagement was real. The airline's actual data, results and internal project materials are confidential and are not shown. I have recreated the work products below from my own engagement experience, removing client-specific data, dates, names and proprietary content.
+      <strong>What is experience and what is reconstruction</strong>
+      The engagement and consulting scope are experience based. The technical and delivery examples on this page are portfolio reconstructions. Client data, internal architecture, implementation status and production results remain confidential.
     </div>
   </div>
 </header>
 
-<section id="role">
+<section id="problem">
 <div class="wrap">
-  <div class="eyebrow">My contribution</div><p class="case-jump"><a href="inside-the-airline-engagement.html">For the full work-sample walkthrough — including what I owned, artifact trail, key trade-offs and how the thinking evolved — open <strong>Inside the airline AI engagement →</strong></a></p>
-  <h2>Connecting AI opportunity, technical feasibility and implementation.</h2>
-  <div class="grid">
-    <div class="card"><h3>Opportunity & prioritization</h3><p>Structured the initiative from use-case identification and prioritization, focusing attention on where AI could create a meaningful operational decision advantage.</p></div>
-    <div class="card"><h3>Business & value case</h3><p>Developed the business and value case for priority AI-enabled fuel-efficiency opportunities, linking AI performance to actionability, adoption and realized economics.</p></div>
-    <div class="card"><h3>Data, technology & analytics</h3><p>Translated operational opportunities into the data, technology, analytics and integration requirements needed to build a scalable capability.</p></div>
-    <div class="card"><h3>Decision support</h3><p>Shaped how model outputs would need to enter real operating workflows: who sees the recommendation, when it is actionable, how it is explained and how feedback is captured.</p></div>
-    <div class="card"><h3>Governance & operating model</h3><p>Defined governance, operating processes, decision rights, model-risk considerations and the cross-functional mechanisms required to move from prototype to implementation.</p></div>
-    <div class="card"><h3>Implementation & adoption</h3><p>Supported end-to-end implementation across technical, operational and organizational workstreams, including roadmap, dependencies, stakeholder alignment and adoption.</p></div>
-  </div>
-</div>
-</section>
+  <div class="eyebrow">The business problem</div>
+  <h2>A flight that burns more than expected is a reason to investigate, not a saving.</h2>
+  <p class="standfirst">Fuel consumption reflects a mixture of operating conditions and decisions. Route length, payload, weather, aircraft condition, air-traffic restrictions and ground operations can all affect performance. The difference between actual and expected burn cannot automatically be treated as recoverable fuel.</p>
+  <p class="standfirst" style="margin-top:20px">The investment question was therefore specific: could the airline <strong>identify</strong> a material opportunity, <strong>connect</strong> it to an action within an operator's control, <strong>deliver</strong> the recommendation at the right time and <strong>measure</strong> the incremental benefit? That question shaped the use cases, the solution design and the delivery plan.</p>
 
-<section id="journey">
-<div class="wrap">
-  <div class="eyebrow">How the work unfolded</div>
-  <h2>From an AI mandate to a program that could actually be implemented.</h2>
-  <p class="lead" style="font-size:19px">Rather than starting with a model, the work started with the airline's operating priorities and moved progressively toward an implementable AI capability.</p>
-
-  <div class="steps">
-    <div class="step"><div class="step-n">01</div><div><h3>Align on operational and fuel-efficiency priorities</h3><p>Worked with airline leadership to frame where AI could materially improve operating performance and which decisions were worth addressing.</p></div></div>
-    <div class="step"><div class="step-n">02</div><div><h3>Identify and prioritize AI use cases</h3><p>Structured the opportunity set and narrowed it using value, AI advantage, data readiness, actionability and implementation feasibility.</p></div></div>
-    <div class="step"><div class="step-n">03</div><div><h3>Translate priority opportunities into requirements</h3><p>Converted the business opportunity into the data, technology, analytics and organizational requirements needed to make each use case real.</p></div></div>
-    <div class="step"><div class="step-n">04</div><div><h3>Develop the fuel-efficiency business and value case</h3><p>Linked addressable opportunity to actionability, adoption, realized fuel impact and economics rather than treating model accuracy as the value case.</p></div></div>
-    <div class="step"><div class="step-n">05</div><div><h3>Shape the AI-enabled decision-support solution</h3><p>Defined how model outputs would translate into operating recommendations, including explainability, controllable levers, human review and workflow integration.</p></div></div>
-    <div class="step"><div class="step-n">06</div><div><h3>Define the scalable implementation roadmap</h3><p>Connected data integration, analytics, technology architecture, governance, operating processes and adoption into one delivery roadmap.</p></div></div>
-    <div class="step"><div class="step-n">07</div><div><h3>Support implementation and adoption</h3><p>Worked across the cross-functional implementation required to move the initiative beyond design and into an operational capability.</p></div></div>
-  </div>
-
-  <div class="visual consulting-slide" style="margin-top:38px"><img class="slide-art" src="../assets/airline_delivery_sequence.svg" alt="Airline AI engagement overview"></div>
-  <p class="note">Recreated from my engagement experience; the airline's actual project materials and client-specific information are not reproduced.</p>
-</div>
-</section>
-
-<section id="steering">
-<div class="wrap">
-  <div class="eyebrow">Implementation management</div>
-  <h2>The working pages behind the implementation.</h2>
-  <p class="lead" style="font-size:19px">The pages below recreate the work products and management views behind the engagement. Their structure reflects the work I did; confidential client data, dates, individual names and internal materials have been removed.</p>
-
-  <div class="slide-gallery">
-    <div class="slide-card">
-      <div class="slide-title">Use-case prioritization working page</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/airline_use_case_funnel.svg" alt="Airline AI use-case prioritization funnel"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to move the conversation from a long list of AI ideas to a small number of investable opportunities with clear value and implementation logic.</div>
-    </div>
-
-    <div class="slide-card">
-      <div class="slide-title">Steering committee implementation view</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/airline_executive_dashboard.svg" alt="Airline AI executive steering dashboard"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to align leadership on what had been established, what implementation still had to make real, and which decisions needed escalation.</div>
-    </div>
-
-    <div class="slide-card">
-      <div class="slide-title">Cross-functional delivery tracker</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/airline_weekly_delivery.svg" alt="Airline AI weekly delivery tracking"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to connect each work product to the operational dependency and evidence required to close it.</div>
-    </div>
-
-    <div class="slide-card">
-      <div class="slide-title">Risk and decision log</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/airline_raid_governance.svg" alt="Airline AI RAID and governance dashboard"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to keep implementation risks visible and separate working-team issues from decisions that required management attention.</div>
-    </div>
-
-    <div class="slide-card">
-      <div class="slide-title">Benefits-realization logic</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/airline_adoption_value.svg" alt="Airline AI adoption and benefits dashboard"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to connect the model to the business case — from eligible opportunity through actionability and adoption to measurable fuel impact.</div>
-    </div>
-
-    <div class="slide-card">
-      <div class="slide-title">Implementation roadmap</div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/implementation_roadmap.svg" alt="AI implementation roadmap"></div>
-      <div class="slide-caption"><strong>How this page was used:</strong> to sequence business, data, AI, technology, governance and adoption workstreams around shared readiness gates.</div>
-    </div>
-  </div>
-</div>
-</section>
-
-<section id="technical">
-<div class="wrap">
-  <div class="eyebrow">Technical depth</div>
-  <h2>The model is one component of a larger decision system.</h2>
-  <div class="two">
+  <div class="points">
     <div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/model_monitoring_dashboard.svg" alt="Model performance and monitoring dashboard"></div>
-      <p class="note">Actual production metrics are confidential; this monitoring view is reconstructed to demonstrate the evaluation and model-governance approach.</p>
+      <h4>My remit</h4>
+      <p>Opportunity identification and prioritisation, the business and value case, data and technology requirements, decision-support design, governance, the operating model and implementation support — connecting specialist work to executive choices about scope, investment, readiness and ownership.</p>
+    </div>
+    <div>
+      <h4>The AI and data-science team's remit</h4>
+      <p>Detailed model development and the engineering of agents, training, evaluation, observability and deployment. My role was to make the business requirements precise enough to build, challenge whether the proposed solution could support the operating decision, and coordinate the dependencies implementation required.</p>
+    </div>
+  </div>
+
+  <div class="worked" style="margin-top:34px">
+    <h3>The product the programme is trying to produce</h3>
+    <p>An operational user receives a prioritised opportunity with supporting flight context, likely drivers, a feasible action, estimated fuel impact, uncertainty, and the conditions under which the recommendation applies.</p>
+    <p>Leadership receives a view of adoption, verified benefits and the decisions needed to extend or revise the programme.</p>
+  </div>
+
+  <div class="visual consulting-slide" style="margin-top:34px"><img class="slide-art" src="../assets/airline_role_scope.svg" alt="Scope of my contribution across the programme"></div>
+</div>
+</section>
+
+<section id="investment">
+<div class="wrap">
+  <div class="eyebrow">Defining the investment and the operating decision</div>
+  <h2>Each use case was framed around the decision it would improve.</h2>
+  <p class="standfirst">That made it possible to compare value, data readiness, technical feasibility and adoption requirements on the same basis. It also exposed dependencies: reliable prediction and a usable review process underpin many of the optimisation opportunities.</p>
+
+  <table class="tbl">
+    <caption>Use-case portfolio, framed by decision rather than by technique.</caption>
+    <thead><tr><th>Use case</th><th>Business decision</th><th>Requirement that shapes delivery</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Fuel prediction</td>
+        <td data-label="Business decision">What consumption is reasonable under the relevant operating conditions?</td>
+        <td data-label="Requirement">Agree the fuel measure and the decision time; compare against the existing planning or analytical baseline.</td>
+      </tr>
+      <tr>
+        <td>Anomaly detection</td>
+        <td data-label="Business decision">Which flights or recurring patterns justify investigation?</td>
+        <td data-label="Requirement">Manage uncertainty and exceptions; prioritise useful cases within the team's review capacity.</td>
+      </tr>
+      <tr>
+        <td>Flight optimisation</td>
+        <td data-label="Business decision">Which permitted alternative offers a credible improvement?</td>
+        <td data-label="Requirement">Define controllable variables, feasible combinations and constraints with operations specialists.</td>
+      </tr>
+      <tr>
+        <td>Agent-assisted investigation</td>
+        <td data-label="Business decision">What evidence and analysis does the reviewer need?</td>
+        <td data-label="Requirement">Use authorised data and validated tools; preserve evidence and provide a clear human handoff.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3 style="margin-top:46px;font-family:Georgia,serif;font-weight:500;font-size:28px">Prioritisation and the value case</h3>
+  <p class="standfirst">I assessed opportunities against business value, AI advantage, data readiness, actionability, feasibility, adoption and scalability. A high potential saving required scrutiny of the practical route to realisation: who could act, whether the data arrived in time, how often the situation occurred, and what operating change was needed.</p>
+  <p class="standfirst" style="margin-top:20px">This kept foundational capabilities and direct benefit claims distinct. A better prediction can <em>enable</em> a valuable decision; its accuracy improvement alone is not a fuel-saving outcome. Similarly, reinforcement learning belongs where sequential decisions justify the additional modelling, evaluation and support effort — not wherever it would be interesting to apply.</p>
+
+  <div class="visual consulting-slide" style="margin-top:32px"><img class="slide-art" src="../assets/airline_use_case_funnel.svg" alt="Use-case prioritisation funnel"></div>
+  <p class="note">Recreated from my engagement experience; client-specific data, dates and internal materials are not reproduced.</p>
+
+  <div class="worked">
+    <h3>An illustrative design review</h3>
+    <p>Suppose a completed flight burns <span class="figure">42.1 tonnes</span> against a forecast of <span class="figure">41.2 tonnes</span>. The 0.9-tonne difference is a forecast residual.</p>
+    <p>I would first ask whether the comparison uses the same fuel definition, and whether changed weather, routing or operating conditions explain the difference.</p>
+    <p>The next question is whether a feasible intervention remains. Post-flight findings may support decisions on future comparable flights. A pre-flight recommendation must use information available before dispatch and respect the constraints of that flight. Any counterfactual saving needs validation; a model explanation alone does not establish it.</p>
+    <p>The output of that review is a defined user, a decision window, an evidence requirement and an escalation path. <strong>That is the point at which a broad analytics use case becomes a product the delivery team can implement.</strong></p>
+  </div>
+</div>
+</section>
+
+<section id="architecture">
+<div class="wrap">
+  <div class="eyebrow">Translating use cases into a production architecture</div>
+  <h2>Specialist numerical models, agent orchestration and operational authority are separate responsibilities.</h2>
+  <p class="standfirst">I translated the priority use cases into requirements across data, analytics, technology and workflow. The design keeps those responsibilities apart so each component has an explicit purpose and can be evaluated independently.</p>
+
+  <div class="grid" style="margin-top:34px">
+    <div class="card">
+      <h3>Data that is valid at the point of use</h3>
+      <p>The specification needs a flight identifier, aligned time references, consistent fuel units and a defined target. For each feature it records the source, owner, arrival time, transformation, missing-data tolerance and lineage.</p>
+      <p><strong>A field available after landing may support diagnosis but cannot enter a pre-flight model as though it were already known.</strong></p>
     </div>
     <div class="card">
-      <h3>Technical questions I expect the team to answer — and how the prototype answers them</h3>
-      <p><strong>Target:</strong> What are we predicting, and is it measurable without leakage? <em>An explicit feature contract; a test fails if ground truth ever enters it.</em></p>
-      <p><strong>Validation:</strong> Does performance hold over time and by segment? <em>Temporal split, baselines, a known noise floor, metrics by route family, fleet and station.</em></p>
-      <p><strong>Uncertainty:</strong> When should the system abstain? <em>Quantile models, conformally calibrated on held-out data; wide intervals and out-of-range inputs go to review, not into the ranking.</em></p>
-      <p><strong>Causality:</strong> Which signals are actually levers? <em>Counterfactual against benchmark operations, split by exact Shapley values, scored against the simulator's truth — including its bias.</em></p>
-      <p><strong>Explainability:</strong> Can an operator see why? <em>Each queued flight names its dominant levers and the kg attributed to each.</em></p>
-      <p><strong>Drift:</strong> What changes performance? <em>Feature, prediction and residual monitors with a season-matched reference; two injected scenarios with different signatures.</em></p>
+      <h3>Models with defined inputs and outputs</h3>
+      <p>Prediction services return estimates <em>and</em> uncertainty. Optimisation services return feasible candidate actions, their objective values and constraint results.</p>
+      <p>An agent can select tools and summarise evidence; fuel calculations and operational constraints require validated numerical services and explicit checks outside the language model.</p>
+    </div>
+    <div class="card">
+      <h3>Model flexibility with controlled change</h3>
+      <p>A model-agnostic design needs stable interfaces, versioned inputs and outputs, and regression evaluations. Replacing a predictor, optimiser or language model must preserve the behaviour downstream users expect.</p>
+      <p>Development and deployment remain separate steps, with approval, rollback and an auditable record of the version behind each recommendation.</p>
+    </div>
+    <div class="card">
+      <h3>Observability tied to the decision</h3>
+      <p>A useful trace links the data snapshot, the model and agent versions, tool responses, constraint checks, the recommendation, the reviewer's action and the later outcome.</p>
+      <p>That is what lets the team distinguish a data failure from a model error, an agent failure, or a recommendation that simply arrived too late to use.</p>
     </div>
   </div>
 
-  <div class="grid" style="margin-top:26px">
-    <div class="card"><h3>Model</h3><p>Gradient boosting on a temporal split, reported as lift over mean and ridge baselines against the simulator's noise floor — it closes 84% of the achievable gap. p10/p90 quantile models, calibrated from 71% to 80% coverage with a split-conformal margin.</p></div>
-    <div class="card"><h3>Attribution</h3><p>Controllable excess = f(x) − f(x at benchmark). Exact Shapley over five levers; credits sum to the total to 1e-6. Correlation with truth 0.97; the conservative bias (−3 pp) is measured and explained rather than hidden.</p></div>
-    <div class="card"><h3>Decision layer</h3><p>Abstain → filter → rank on controllable kg → explain. On the same review capacity it reaches 98% of the oracle's capture with 100% actionable precision; ranking on the total prediction wastes 58% of operator effort on excess nobody can recover.</p></div>
-    <div class="card"><h3>Monitoring &amp; risk</h3><p>A measurement-definition change barely moves feature PSI but shows up in residuals; a real operational shift does the opposite. Leakage, drift, automation bias, causal misreading and value misattribution each map to a control in the model card.</p></div>
+  <div class="visual consulting-slide" style="margin-top:34px"><img class="slide-art" src="../assets/airline_decision_workflow.svg" alt="Decision workflow from signal to operator action"></div>
+  <p class="note">Conceptual target design reconstructed for the portfolio. The diagram describes responsibilities rather than client infrastructure or a confirmed deployment.</p>
+</div>
+</section>
+
+<section id="judgment">
+<div class="wrap">
+  <div class="eyebrow">Technical judgment behind the recommendations</div>
+  <h2>The consequential technical arguments are about whether evidence supports an operating action.</h2>
+  <p class="standfirst">These are the review questions that connect the platform design to the airline's decision and its value case. They are also, in my experience, where a programme is either made rigorous or quietly allowed to drift.</p>
+
+  <div class="artifact-trail" style="margin-top:40px">
+    <article class="artifact-item">
+      <div class="artifact-index">01</div>
+      <div class="artifact-copy">
+        <h3>A strong average score can hide an unusable model</h3>
+        <p>Evaluation should compare the model with a meaningful existing baseline on later, unseen data. I look for error in fuel units, systematic bias, and performance by route, fleet, airport and operating regime. Where generalisation to new routes or aircraft is claimed, the evaluation must test that claim explicitly.</p>
+        <div class="artifact-answer">Uncertainty also needs a test. An interval labelled as 80 percent should be assessed for observed coverage, including on material segments. Temporal shift can undermine calibration. When inputs fall outside the validated population, or uncertainty is too wide, the workflow needs a review or abstention path.</div>
+      </div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">02</div>
+      <div class="artifact-copy">
+        <h3>An explanation is not proof that an action will save fuel</h3>
+        <p>Feature importance and Shapley attribution explain a fitted model. They do not establish that changing a variable will cause the predicted saving. A counterfactual must preserve operating context, change only feasible levers, and avoid combinations unsupported by the data.</p>
+        <div class="artifact-answer">My decision-support framing therefore separates a likely driver, a proposed intervention, and evidence of incremental impact. Operational review tests feasibility; a designed pilot tests the intervention. Taxi delays caused by external congestion, for example, cannot simply be converted into an action owned by the crew.</div>
+      </div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">03</div>
+      <div class="artifact-copy">
+        <h3>Optimisation and reinforcement learning need distinct tests</h3>
+        <p>A constraint-based optimiser needs an agreed objective, permitted decision variables and hard operating limits. Its recommendations should be compared with existing policies and tested for sensitivity to uncertain inputs. Improving the objective while violating a hard constraint is a failed recommendation, not a marginal one.</p>
+        <div class="artifact-answer">For reinforcement learning the additional questions concern the state, action space, reward, time horizon and evaluation environment. A policy that scores well in simulation can exploit simulator weaknesses or fail under a different operating distribution. Offline and simulation evidence, domain validation and comparison with simpler approaches must precede any operational use.</div>
+      </div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">04</div>
+      <div class="artifact-copy">
+        <h3>Agent quality must be assessed across the full task</h3>
+        <p>A fluent explanation can conceal an incorrect tool call or an unsupported claim. Agent evaluation should test tool selection, parameter correctness, grounding in returned evidence, handling of missing data, and completion within the decision window. Repeated calls, tool failures and stale results also need bounded behaviour.</p>
+        <div class="artifact-answer">The acceptance condition is a recommendation with valid evidence and permitted actions, or a clear escalation. That gives engineering a testable requirement and gives operations an understandable reason to accept, challenge or decline the output.</div>
+      </div>
+    </article>
   </div>
 
-  <p style="margin-top:28px"><a href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Model card, results, failure analysis, 42 tests and the runnable pipeline →</a></p>
-  <p class="note">Every figure above comes from the disclosed simulator; none describes the airline's actual fuel performance.</p>
+  <p style="margin-top:34px"><a href="delivery-standards.html"><strong>The release criteria, non-functional requirements, guardrails and monitoring thresholds these questions imply →</strong></a></p>
+</div>
+</section>
+
+<section id="production">
+<div class="wrap">
+  <div class="eyebrow">Managing the path to production</div>
+  <h2>The central dependency is an end-to-end operating decision.</h2>
+  <p class="standfirst">Data must arrive, the model must perform, the recommendation must be feasible, and the intended user must be able to act. I connected business, data, AI, technology, governance and adoption into one implementation roadmap around that dependency.</p>
+  <p class="standfirst" style="margin-top:20px">The delivery model builds a complete slice for a bounded use case before extending scope. The same slice carries data validation, model evaluation, integration, user review, outcome capture and support requirements — which exposes integration and adoption problems while they can still change the design.</p>
+
+  <table class="tbl">
+    <caption>Reconstructed readiness framework. It describes the conditions for progression, not a claim that these releases have already occurred.</caption>
+    <thead><tr><th>Stage</th><th>Evidence required to progress</th><th>Decision ownership</th></tr></thead>
+    <tbody>
+      <tr>
+        <td>Offline validation</td>
+        <td data-label="Evidence">Consistent target and data timing; performance against baselines; segment and uncertainty analysis; documented limitations.</td>
+        <td data-label="Ownership">Data science and data owners, reviewed with operations.</td>
+      </tr>
+      <tr>
+        <td>Shadow operation</td>
+        <td data-label="Evidence">Outputs tested against live conditions without directing action; pipeline reliability, exception handling and review burden assessed.</td>
+        <td data-label="Ownership">Engineering and the operational owner.</td>
+      </tr>
+      <tr>
+        <td>Controlled pilot</td>
+        <td data-label="Evidence">Approved use and constraints; reviewer training; intervention and rejection records; an agreed benefits comparison.</td>
+        <td data-label="Ownership">Operational owner, with model-risk and Finance input.</td>
+      </tr>
+      <tr>
+        <td>Scale and service transfer</td>
+        <td data-label="Evidence">Repeatable usefulness and economics; supported segments; monitoring, rollback, incident routes, capacity and named service owners.</td>
+        <td data-label="Ownership">Business sponsor, operations and service owners.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="two" style="margin-top:44px">
+    <div class="card">
+      <h3>Working level and executive decisions</h3>
+      <p>Working-team delivery tracking connects each output to its owner, dependency, acceptance evidence and next decision. Technical reviews examine model behaviour, data quality, failure cases and change risk. Executive steering addresses only the choices that change value, scope, cost, timing or long-term ownership.</p>
+    </div>
+    <div class="card">
+      <h3>An escalation, done properly</h3>
+      <p>If a critical data feed arrives after the required decision time, the issue is larger than a delayed integration task. The choices are to improve the feed, narrow the feature set, move the decision window, or change the use case. The escalation should quantify the implications of each and recommend a path.</p>
+    </div>
+  </div>
+
+  <div class="visual consulting-slide" style="margin-top:34px"><img class="slide-art" src="../assets/implementation_roadmap.svg" alt="Implementation roadmap across workstreams"></div>
+
+  <div class="worked">
+    <h3>Ownership after deployment</h3>
+    <p>The operating model needs clear responsibility for source data, models, orchestration, infrastructure, user support and benefits measurement.</p>
+    <p>A monitoring alert must lead to an action: investigate the feed, restrict recommendations, revert a release, or assess retraining. Retraining should pass evaluation and release approval before it changes production behaviour.</p>
+  </div>
 </div>
 </section>
 
 <section id="value">
 <div class="wrap">
-  <div class="eyebrow">Value realization</div>
-  <h2>A technically successful model can still be a failed AI investment.</h2>
-  <div class="two">
+  <div class="eyebrow">Measuring value</div>
+  <h2>Benefits that can support an investment decision.</h2>
+  <p class="standfirst">I developed the value case around the share of opportunity the airline could identify, act on and realise. The assumptions need to remain visible: eligible operations, fuel opportunity, actionable share, adoption, persistence of effect, fuel price, and implementation and operating costs.</p>
+  <p class="standfirst" style="margin-top:20px">Realised benefits require an agreed comparison with what would otherwise have happened. Weather, payload, route mix, aircraft changes and regression to the mean can all distort a simple before-and-after comparison. The pilot should capture accepted and rejected recommendations, the reasons, and subsequent outcomes, with Finance validating the attribution method. Overlapping use cases must not count the same saving twice.</p>
+
+  <div class="visual consulting-slide" style="margin-top:32px"><img class="slide-art" src="../assets/airline_adoption_value.svg" alt="Adoption and benefits realisation logic"></div>
+  <p class="note">Actual client economics are confidential; the view reconstructs the investment logic.</p>
+
+  <h3 style="margin-top:46px;font-family:Georgia,serif;font-weight:500;font-size:28px">Engagement outputs</h3>
+  <div class="points">
     <div>
-      <div class="visual consulting-slide"><img class="slide-art" src="../assets/value_dashboard.svg" alt="AI value realization dashboard"></div>
-      <p class="note">Actual client economics are confidential; the value view reconstructs the investment logic.</p>
+      <h4>A prioritised opportunity portfolio and value case</h4>
+      <p>Linking investment to addressable operating decisions rather than to model performance.</p>
     </div>
-    <div class="card">
-      <p class="quote" style="margin-top:0">Value = eligible opportunity × identification × actionability × adoption × realization × unit economics − run cost.</p>
-      <p>The important management question is not only whether the model predicts well. It is whether the organization can act on the signal and whether that action creates incremental, measurable value.</p>
-      <p>That is why benefits measurement, Finance validation and adoption belong inside the AI program — not after it.</p>
+    <div>
+      <h4>Data, technology and analytics requirements</h4>
+      <p>Connected to user workflows, decision rights and review needs.</p>
+    </div>
+    <div>
+      <h4>An integrated roadmap and governance</h4>
+      <p>Covering dependencies, adoption, risks and operating ownership, with the delivery mechanisms to run it.</p>
+    </div>
+    <div>
+      <h4>The evidence standards for release</h4>
+      <p>Pilot KPIs, model and agent acceptance criteria, guardrails and monitoring — <a href="delivery-standards.html">set out in full here</a>.</p>
     </div>
   </div>
+
+  <div class="case-reflection" style="margin-top:40px">This is how I lead an AI engagement: make the investment logic explicit, connect technical decisions to the operating workflow, and require evidence before expanding the commitment.</div>
+
+  <p style="margin-top:34px"><a href="inside-the-airline-engagement.html">Engagement walkthrough →</a> &nbsp;·&nbsp; <a href="delivery-standards.html">Delivery standards →</a> &nbsp;·&nbsp; <a href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Supporting documents →</a></p>
 </div>
 </section>
 
-<section>
-<div class="wrap">
-  <div class="eyebrow">What this case demonstrates</div>
-  <h2>The work sits between strategy, AI and operating execution.</h2>
-  <div class="grid">
-    <div class="card"><h3>Strategy</h3><p>Frame the opportunity, choose where to invest, define the value thesis and make explicit scale / stop decisions.</p></div>
-    <div class="card"><h3>AI literacy</h3><p>Engage credibly on target design, features, model class, validation, explainability, uncertainty, drift and causal limitations.</p></div>
-    <div class="card"><h3>Transformation</h3><p>Coordinate operations, data, technology, governance, vendors, change, Finance and executive stakeholders around one delivery plan.</p></div>
-    <div class="card"><h3>Implementation</h3><p>Turn model output into a real operating workflow with decision rights, adoption, monitoring, feedback and measurable benefits.</p></div>
-  </div>
-</div>
-</section>
+<footer><div class="wrap">
+The engagement and consulting scope are experience based; the technical and delivery examples are portfolio reconstructions. Client data, internal architecture, implementation status and production results remain confidential. <a href="../index.html">Back to the portfolio →</a>
+</div></footer>
 
-<footer><div class="wrap"><a href="../index.html">← Back to portfolio</a></div></footer>
 </body>
 </html>

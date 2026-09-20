@@ -2,7 +2,26 @@
 
 ## Design objective
 
-Build an AI decision-support capability that can identify fuel-efficiency opportunity, explain why it is being flagged, propose only feasible interventions, measure realized value, and remain governable as conditions change.
+Build an AI decision-support capability that can identify fuel-efficiency opportunity, explain why it is being flagged, propose only feasible interventions, measure realised value, and remain governable as conditions change.
+
+## The platform this document describes
+
+The programme is building an end-to-end fuel-efficiency platform, not a single
+model. At the level of its architecture it has four kinds of component, and
+keeping their responsibilities apart is what makes each one separately
+evaluable:
+
+| Layer | Responsibility | Why it is separate |
+|---|---|---|
+| **Predictive** | Fuel prediction; anomaly detection on flight-level consumption | Returns an estimate *and* its uncertainty. Downstream logic needs both; a point estimate alone cannot support an abstention rule. |
+| **Optimisation** | Flight optimisation combining classical ML with reinforcement-learning methods | Returns feasible candidate actions with objective values and constraint results. Improving the objective while breaching a hard limit is a failed recommendation, and only a separate constraint check can catch it. |
+| **Agentic** | Agentic reasoning combined with the ML and RL components in the production system — composing evidence, routing recommendations to the people who act | An agent may select tools and summarise evidence. Fuel calculations and operational constraints stay in validated numerical services, outside the language model. |
+| **Platform machinery** | Training, experimentation, evaluation, observability and deployment, on a model-agnostic design | Stable interfaces and versioned inputs and outputs are what allow a predictor, optimiser or language model to be replaced without changing what downstream users experience. |
+
+This document describes responsibilities and the evidence each component owes,
+not client infrastructure or a confirmed deployment. The release criteria,
+guardrails and monitoring thresholds that follow from it are in
+[delivery standards](https://monganeeraj1.github.io/ai-strategy-transformation/cases/delivery-standards.html).
 
 ## Logical architecture
 
@@ -27,7 +46,7 @@ flowchart TD
 
     M --> N{Actionable?}
     N -- No --> O[Observe / No Action]
-    N -- Yes --> P[Prioritized Recommendation]
+    N -- Yes --> P[Prioritised Recommendation]
 
     P --> Q[Human Operational Review]
     Q --> R{Accept?}
@@ -177,7 +196,7 @@ That feedback becomes part of the product-learning loop.
 ### Value
 - modeled opportunity
 - acted opportunity
-- realized savings
+- realised savings
 - benefit persistence
 
 ---
@@ -205,4 +224,4 @@ Lower thresholds capture more opportunity but increase operator burden.
 More autonomy can reduce friction but increases operational and governance risk.
 
 ## Central platform vs use-case-specific stack
-Reusable capabilities create scale, but over-standardization can constrain use cases with different latency, risk, or data requirements.
+Reusable capabilities create scale, but over-standardisation can constrain use cases with different latency, risk, or data requirements.

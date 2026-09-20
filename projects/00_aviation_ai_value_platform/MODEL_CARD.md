@@ -1,226 +1,138 @@
-# Model Card — Fuel Opportunity Model
+# Model card — fuel opportunity model
 
-## Model summary
+A model card is a governance artefact, not a technical one. Its job is to make
+it hard for an organisation to deploy something without having answered the
+questions below — which is why writing one early, before anybody is invested
+in a launch date, is worth more than writing a good one late.
 
-**Model name:** Fuel Opportunity Model
-**Model type:** Gradient-boosted regression (point) + two gradient-boosted quantile models (p10, p90) with split-conformal calibration
-**Portfolio status:** Independent technical reconstruction, trained on a disclosed simulator
-**Primary output:** Predicted avoidable fuel per flight (kg), an 80% prediction interval, and a counterfactual split into controllable and contextual components by lever
-**Intended use:** Decision support for prioritising operational fuel-efficiency review
-**Not intended for:** Automated flight-control decisions, safety-critical automation, crew performance scoring, or unreviewed financial attribution
+This card is a portfolio reconstruction for the fuel-opportunity use case.
+It is written at the level of decisions and evidence rather than of a
+particular fitted model, because that is the level at which it is useful:
+the questions below have to be answered whichever model the team ends up
+building.
 
-> Client data, production results and proprietary model logic from the engagement are confidential and are not shown. Every number in this card comes from the simulator in `fuelops/synthetic_data.py` and describes the method, not an airline.
-
----
-
-## 1. Problem definition
-
-The model estimates where flight-level operations exhibit patterns associated with elevated avoidable fuel consumption.
-
-The downstream decision is not:
-
-> "Is this flight inefficient?"
-
-It is:
-
-> "Is there sufficient evidence of a material, **controllable** fuel-efficiency opportunity to justify operational review?"
-
-That distinction drives the architecture: prediction, attribution and intervention are separate steps with separate tests.
+> Client data, production results and the airline's proprietary methods are
+> confidential and are not shown. Thresholds stated here are design targets
+> for an advisory pilot, not achieved results.
 
 ---
 
-## 2. Inputs
+## 1. What it is for
 
-The feature contract is a single list in `fuelops/config.py`. A test fails if any ground-truth column ever enters it.
+**Intended use:** helping an operations team decide which flights are worth
+reviewing for recoverable fuel, and telling them which lever to look at.
 
-### Contextual / largely uncontrollable
-distance, payload, headwind, outside temperature, aircraft age, calendar month, departure station, aircraft type
+**Explicitly not intended for:** automated flight-control decisions, anything
+safety-critical, crew or individual performance scoring, or financial
+attribution that has not been through Finance.
 
-These establish expected operating context. They are not intervention levers.
+The last two matter more than they look. A model that ranks flights can be
+turned into a model that ranks crews by anyone with a pivot table, and the
+protection against that is a governance decision taken in advance, not a
+technical property of the model.
 
-### Controllable levers (measured as excess over an operating benchmark)
-taxi-out time (benchmark 12 min), departure delay (0), cruise-speed deviation (0%), APU minutes (8), route-efficiency score (1.0)
+## 2. The question it answers
 
-Benchmarks are constants here so the attribution can be validated. In production they would be segment-specific operating targets agreed with flight operations.
+Not "is this flight inefficient?" but:
 
-### Deliberately excluded
-`route_family` (derived from distance; used only to slice evaluation) and every `true_*` simulator column.
+> "Is there enough evidence of a **recoverable** opportunity here to be worth
+> an operator's time?"
 
----
+That distinction drives the whole design. Prediction, the separation of
+recoverable from contextual, and the decision to put a flight in front of a
+human are three separate steps, and each can be wrong independently.
 
-## 3. Target and data-generating process
+## 3. What it sees
 
-**Target:** `avoidable_fuel_kg` — fuel above a contextual baseline.
+**Context it cannot change:** sector distance, payload, headwind, temperature,
+aircraft age.
 
-The simulator is disclosed in full because a hidden one would make every result below unfalsifiable:
+**Levers an operator can change**, each measured against an operating
+benchmark: taxi-out time (12 min), departure delay (0), APU minutes (8),
+route efficiency (1.0).
 
-```text
-avoidable_fuel_kg = contextual(x) + controllable(x) + noise
+**The benchmarks are the hard part, and they are not a modelling decision.**
+They are negotiated with flight operations, and everything downstream inherits
+whatever is agreed. A benchmark three minutes too generous does not make the
+ranking wrong, but it does change how much recoverable fuel the programme
+claims exists — which is the number that ends up in the business case.
 
-contextual   = f(distance, payload, headwind, heat, age, station, season)
-               with a distance × payload interaction
-controllable = Σ lever_excess × rate × interaction
-               taxi excess costs more on heavy aircraft
-               APU excess costs more in heat
-               cruise and routing deviations scale with sector length
-noise        ~ N(0, 40 + 0.012 × distance)   (heteroscedastic)
-```
+**Deliberately excluded:** anything recorded after the decision point. A
+feature that is only available once the flight has landed will improve an
+offline metric and be useless in service. This is the most common way a
+promising model dies in implementation, and it is a data-availability
+question, not a modelling one.
 
-Lever distributions are right-skewed on purpose: most flights operate near benchmark and a minority carry most of the excess. On the pipeline run (24,000 flights, 24 months): mean target 746 kg, controllable share 35%, R² ceiling 0.91.
+## 4. How it was validated
 
-**Why this matters for the numbers below:** the benchmark cannot be "good" or "bad" in isolation. It is judged against the noise floor the simulator imposes and against baselines fitted on the same data.
-
-### Production challenge
-Target construction on real data would require alignment across flight operations, engineering, fuel-efficiency specialists, analytics and finance. Poor target design creates a technically accurate model that optimises the wrong quantity.
-
----
-
-## 4. Validation design
-
-| Choice | Prototype | Why |
+| Choice | What was done | Why it matters |
 |---|---|---|
-| Split | **Temporal**: train Jan 2023 – Jun 2024, test Jul – Dec 2024 | Random splits leak seasonal structure and overstate performance for a system that predicts the future |
-| Calibration | Last 20% of the training period, unseen by the quantile models | Split-conformal guarantees need genuinely held-out data |
-| Baselines | Mean predictor; ridge regression on one-hot features | The model is reported as lift, never alone |
-| Ceiling | Noise floor: a model that knows the simulator's signal exactly | Nothing can beat it; the gap to it is what the model has not learned |
-| Slices | Route family, aircraft type, departure station | Aggregate error hides where a model fails |
-| Structure check | Permutation importance | With a disclosed DGP it confirms recovery; it discovers nothing |
+| Split | By date — trained on the first 75%, tested on the last 25% | A random split lets the model see next summer while predicting last summer. It flatters the model and tells the programme nothing. |
+| Baseline | A linear model on the same features | A model's error means nothing alone, only its distance from the simplest thing that works |
+| Segments | Error reported by route, fleet, airport and operating regime | An acceptable average can hide a segment where the model is unusable |
+| Uncertainty | Observed coverage of the stated interval, overall and on material segments | An interval labelled 80% that covers 70% is worse than no interval, because it will be trusted |
+| The decision | Compared against ranking on total excess, and against the existing process | The only comparison that reflects what an operations team actually experiences |
 
----
+The acceptance thresholds these imply are set out in
+[delivery standards](https://monganeeraj1.github.io/ai-strategy-transformation/cases/delivery-standards.html#release).
 
-## 5. Benchmark (held-out window, 6,000 flights)
+## 5. The error to expect, and in which direction
 
-| Model | MAE (kg) | RMSE (kg) | R² |
-|---|---:|---:|---:|
-| Mean baseline | 238.7 | 294.3 | 0.000 |
-| Ridge baseline | 97.9 | 135.9 | 0.787 |
-| **Gradient boosting** | **72.8** | **95.5** | **0.895** |
-| Noise floor (ceiling) | 67.9 | 88.8 | 0.909 |
+A counterfactual estimate of the recoverable amount tends to run **low**. At
+benchmark operations some flights sit at the edge of the training data, where
+tree models flatten out, so the estimate under-states what could have been
+saved.
 
-Gradient boosting closes 84% of the gap between the linear baseline and the ceiling. Per-segment R² ranges 0.77 (long haul, where the noise is largest) to 0.90.
+Low is the safer direction — it sends fewer flights to review rather than
+promising savings that are not there — but "conservative" is not the same as
+"right", and in production the size of that error is invisible. The only way
+to find out is a controlled pilot: act on a sample, measure what was actually
+recovered, compare it with what was predicted.
 
-### Prediction intervals
+## 6. Known limits
 
-| | Coverage of nominal 80% |
-|---|---:|
-| Raw quantile models | 71.2% |
-| After split-conformal calibration | 79.9% |
+- Benchmarks set as constants rather than as segment-specific operating
+  targets agreed per station and fleet
+- Association, not causation. A model can learn that flights with long taxi
+  times burn more fuel. It has not established that reducing taxi time at a
+  given station is possible, who owns that change, or what it would cost.
+- Attribution is model-based rather than intervention-validated until a pilot
+  says otherwise
+- No live operator feedback loop, so rejection reasons — the most useful
+  signal a review process produces — are not yet reaching the model owners
 
-Quantile models under-cover on a later window. The interval is calibrated on held-out data before the decision layer is allowed to use its width for abstention.
+## 7. Risks worth naming in advance
 
-Live figures: [RESULTS.md](RESULTS.md), regenerated by `python -m fuelops`.
+**Automation bias.** Operators come to trust a ranked list more than it
+deserves. *Control:* every recommendation names its lever and its kg, so it
+can be argued with; overrides are captured and read.
 
----
+**Leakage.** A feature unavailable at the decision point inflates offline
+performance. *Control:* an explicit point-in-time feature contract, agreed
+with the data owners rather than inferred by the modelling team.
 
-## 6. Attribution and explainability
+**Distribution shift.** Fleet, network, season and airport operations change.
+*Control:* monitoring on inputs *and* on errors — they fail differently, and a
+programme that watches only one misses half the failure modes.
 
-The operator's question is not "which features matter to the model" but "how much of *this* flight's excess could we have avoided?". That is a counterfactual query against the fitted model:
+**Proxy discrimination.** Operational variables can stand in for teams,
+stations or individuals. *Control:* prohibit performance-management use
+without a separate governance process. This is a policy, not a model setting.
 
-```text
-controllable_kg = f(x) − f(x with all five levers at benchmark)
-contextual_kg   = f(x with all five levers at benchmark)
-```
+**Value misattribution.** Savings get claimed that weather or network changes
+actually produced. *Control:* a benefits methodology agreed with Finance
+before launch, and a control group.
 
-The controllable amount is split across levers with **exact Shapley values** (2⁵ = 32 model evaluations per flight, cheap enough to do exactly). Efficiency guarantees the lever credits sum to `controllable_kg`; a test enforces it to 1e-6.
+## 8. What has to be true before this goes live
 
-Because the simulator's true split is known, the attribution is scored rather than trusted:
-
-| Check | Value |
-|---|---:|
-| Correlation with true controllable kg | 0.973 |
-| MAE of the controllable estimate | 32 kg |
-| Controllable share: true / estimated | 35.3% / 31.9% (−3.3 pp) |
-| Dominant lever identified correctly | 85.4% |
-
-The estimate is **systematically conservative**. Tree ensembles extrapolate flatly at the benchmark edge of the training distribution, so the counterfactual under-states the controllable component. Here the bias is measured; in production it would be invisible, which is the argument for validating attribution with a designed pilot rather than assuming it.
-
-Operator-facing explanation, as generated by the decision layer:
-
-> Review: Taxi-out / ground congestion (~329 kg); Cruise-speed profile (~532 kg)
-
----
-
-## 7. Decision policy
-
-Model output never triggers an operational action. The decision layer, in order:
-
-1. **Abstains** when any feature is outside the training range (+5% margin), a category is unseen, or the calibrated interval is more than 2× the median width → `review_low_confidence`
-2. **Filters** to flights with controllable excess ≥ 300 kg and controllable share ≥ 30% → everything else is `no_action` or `no_action_contextual`
-3. **Ranks** the remainder by controllable kg, not by total prediction
-4. **Explains** with the dominant levers and the kg attributed to each
-
-Measured on the held-out window against the same review capacity (top 10%):
-
-| Ranking policy | Capture of controllable fuel | Actionable precision | Contextual share of reviewed excess |
-|---|---:|---:|---:|
-| Oracle (true controllable) | 22.8% | 100% | 49% |
-| **Controllable attribution (this design)** | **22.4%** | **100%** | **49%** |
-| Naive: total predicted | 20.2% | 84% | 58% |
-| Random | 9.8% | 63% | 65% |
-
-Ranking on the total prediction — the obvious policy — spends 58% of operator review on excess nobody can recover.
-
----
-
-## 8. Monitoring
-
-Three monitors with three different signatures, all exercised in the pipeline:
-
-| Monitor | Statistic | Catches |
-|---|---|---|
-| Feature drift | PSI per feature vs a **season-matched** training reference | The operating population moved |
-| Prediction drift | PSI on model output | Interactions shifted even if features look stable |
-| Concept drift | z-test on mean residual once outcomes are known | The relationship changed, or the data feed did |
-
-Injected scenarios: a +20% measurement change in recorded taxi-out registers only WATCH on feature PSI but z = −17 on residuals; a genuine route-efficiency degradation registers REVIEW on feature PSI with residuals near zero. Monitoring that watches only inputs misses the first; monitoring that watches only errors is late on the second.
-
----
-
-## 9. Known limitations
-
-- Constant benchmarks rather than segment-specific operating targets
-- Counterfactuals near the edge of training support; conservative bias of ~3 pp measured on the simulator
-- No temporal sequence modelling, tail-specific effects or route-level hierarchy
-- No causal or uplift model: attribution is model-based, not intervention-validated
-- Simulator features are independent of one another except through the disclosed interactions; real operational data has richer dependence
-- No live operator feedback loop; rejection reasons and realised impact are designed for (`ARCHITECTURE_DEEP_DIVE.md`) but not simulated
-
----
-
-## 10. Risk considerations
-
-### Automation bias
-Operators may over-trust a high model score.
-**Control:** explanations by lever, calibrated intervals, review requirements, override capture.
-
-### Data leakage
-Features unavailable at decision time can falsely inflate offline performance.
-**Control:** explicit point-in-time feature contract; a test that fails on ground-truth leakage.
-
-### Distribution shift
-Fleet, route, season, procedures and airport operations change.
-**Control:** season-matched drift monitoring on features, predictions and residuals; retraining triggers; abstention.
-
-### Proxy / fairness risk
-Operational variables can unintentionally proxy for teams, stations or personnel.
-**Control:** prohibit people-performance use without a separate governance and validation process.
-
-### Value misattribution
-Fuel savings can be claimed where weather, network or unrelated changes drove the outcome.
-**Control:** independent benefits methodology and controlled pilot design; the value model shows adoption and realisation as explicit, dominant factors.
-
----
-
-## 11. Go-live criteria
-
-A production deployment should require all of the following:
-
-- technical metrics above agreed thresholds **relative to baselines**, on temporal validation
-- stable performance across material segments
-- calibrated uncertainty with an agreed abstention policy
-- no critical leakage findings
-- attribution validated on a designed pilot, not on offline plausibility
-- operator usability validated; intervention precision demonstrated
-- finance-approved value methodology
-- monitoring (feature, prediction, concept) and rollback live
-- accountable business owner named
+- performance above an agreed threshold **relative to a baseline**, on a
+  time-based validation, and stable across route families and fleet types
+- no leakage findings outstanding
+- the recoverable/contextual separation confirmed on a designed pilot, not on
+  offline plausibility
+- operators able to use the output in their actual workflow, demonstrated
+  rather than assumed
+- a benefits methodology Finance has signed
+- monitoring and a rollback path live on day one
+- a named business owner who is accountable for the outcome, not just for the
+  model

@@ -11,10 +11,12 @@
   <div class="brand"><a href="aviation-ai.html">← Airline AI case</a></div>
   <div class="navlinks">
     <a href="#ownership">My role</a>
+    <a href="#programme">What we did</a>
     <a href="#artifacts">Artifact trail</a>
     <a href="#decisions">Decisions</a>
     <a href="#learning">What changed</a>
-    <a href="#boundary">Technical build</a>
+    <a href="#boundary">Real vs recreated</a>
+    <a href="delivery-standards.html">Delivery standards</a>
   </div>
 </div></nav>
 
@@ -42,6 +44,36 @@
 </div>
 </section>
 
+<section id="programme">
+<div class="wrap">
+  <div class="eyebrow">What we did, and what came out of it</div>
+  <h2>The initiative was never "build a model". It was build a system the airline can run.</h2>
+  <div class="glance">
+    <div class="glance-row"><div class="glance-label">The question</div><div>Where is excess fuel burn controllable, what should operations change, and how much value does the airline actually recover — at the scale of a whole network, every day, inside real operating workflows.</div></div>
+    <div class="glance-row"><div class="glance-label">The system</div><div>An end-to-end fuel-efficiency platform with four kinds of component:
+      <ul>
+        <li><strong>Predictive layer</strong> — fuel prediction and anomaly detection on flight-level consumption.</li>
+        <li><strong>Optimisation layer</strong> — flight optimisation combining classical ML with reinforcement-learning methods.</li>
+        <li><strong>Agentic layer</strong> — agentic reasoning combined with the ML and RL components in the production optimisation system.</li>
+        <li><strong>Platform machinery</strong> — training, experimentation, evaluation, observability and production deployment across ML, data-science and RL workflows, on a model-agnostic design so components can be replaced as methods improve.</li>
+      </ul></div></div>
+    <div class="glance-row"><div class="glance-label">The programme</div><div>Seven workstreams that had to move together: business &amp; value · data · AI / ML (a data-science team on the predictive and optimisation layers, led by a dedicated AI lead) · technology &amp; platform · operating model &amp; governance · adoption &amp; change · benefits realisation.</div></div>
+    <div class="glance-row"><div class="glance-label">What I owned</div><div>The structure and the connective tissue: framing the mandate with leadership; use-case identification and prioritisation; the value case; data / technology / analytics / organisational requirements; decision-support design — how model and optimiser outputs enter operating workflows, who acts, how it is explained, how feedback returns; governance, decision rights and operating processes; the implementation roadmap and readiness gates; delivery control and steering; implementation support. I did not build the models. My job was to make sure what was built was the right thing, landed in a workflow, and was measured.</div></div>
+    <div class="glance-row"><div class="glance-label">What came out of it</div><div>
+      <ul>
+        <li>Leadership aligned on the scope of the AI initiative and the work required to move it forward — a mandate, not a wish list.</li>
+        <li>A prioritised set of fuel-efficiency AI opportunities with a defensible investment thesis, narrowed on value, AI advantage, data readiness, actionability, feasibility, adoption and scalability.</li>
+        <li>The decision-support handoff defined: model signal → intervention logic → human operating judgement, with controllable levers separated from explanatory signals and point-in-time data availability treated as a design constraint.</li>
+        <li>A value case that separates theoretical opportunity from actionable share, adoption and realised impact, with benefits measurement and Finance validation designed in from the start rather than bolted on.</li>
+        <li>An implementation roadmap connecting business, data, AI, technology, operating model, governance and adoption around shared readiness gates.</li>
+        <li>Delivery control and steering that worked: a working-team tracker tied to operating dependencies, a risk and decision log framed around real AI failure modes, and an escalation principle that kept working-level problem solving out of executive forums.</li>
+        <li>The full system — agents, training, observability, evaluation and production deployment — in build with the data-science team on the predictive and optimisation layers (2025–present).</li>
+      </ul></div></div>
+    <div class="glance-row"><div class="glance-label">Not shown</div><div>Client data, production results, savings figures, internal documents, dates, individual names and the airline's proprietary methods. The platform is described at the level of its architecture; the outcomes above are stated at the level of decisions and capabilities, not numbers.</div></div>
+  </div>
+</div>
+</section>
+
 <section id="artifacts">
 <div class="wrap">
   <div class="eyebrow">Artifact trail</div>
@@ -63,12 +95,12 @@
     <article class="artifact-item">
       <div class="artifact-index">02</div>
       <div class="artifact-copy">
-        <div class="kicker">Use-case prioritization</div>
+        <div class="kicker">Use-case prioritisation</div>
         <h3>Which AI opportunities are worth investing in?</h3>
         <p>The opportunity set was narrowed using business value, AI advantage, data readiness, actionability, implementation feasibility, adoption and scalability.</p>
         <div class="artifact-answer"><strong>Decision supported:</strong> move from a broad list of AI ideas to priority fuel-efficiency opportunities with a defensible investment thesis.</div>
       </div>
-      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/airline_use_case_funnel.svg" alt="Airline AI use-case prioritization"></div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/airline_use_case_funnel.svg" alt="Airline AI use-case prioritisation"></div>
     </article>
 
     <article class="artifact-item">
@@ -87,10 +119,10 @@
       <div class="artifact-copy">
         <div class="kicker">Value case</div>
         <h3>How does a model signal become measurable fuel and economic value?</h3>
-        <p>The value case separated theoretical opportunity from actionable share, adoption and realized impact. That forced the program to address user behavior and benefits measurement early.</p>
-        <div class="artifact-answer"><strong>Decision supported:</strong> determine whether the priority use case had enough realizable value to justify implementation.</div>
+        <p>The value case separated theoretical opportunity from actionable share, adoption and realised impact. That forced the programme to address user behaviour and benefits measurement early.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> determine whether the priority use case had enough realisable value to justify implementation.</div>
       </div>
-      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/airline_adoption_value.svg" alt="Airline AI benefits realization logic"></div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/airline_adoption_value.svg" alt="Airline AI benefits realisation logic"></div>
     </article>
 
     <article class="artifact-item">
@@ -138,7 +170,7 @@
     <div class="decision-card"><span>02</span><h3>Model richness vs. decision timing</h3><p>A richer feature set is useless if some of those features arrive after the operating decision. Point-in-time availability constrains the model.</p></div>
     <div class="decision-card"><span>03</span><h3>Accuracy vs. operating burden</h3><p>The right threshold depends not only on statistical performance but on how many recommendations teams can reasonably review and act on.</p></div>
     <div class="decision-card"><span>04</span><h3>Dashboard vs. workflow</h3><p>The product question was not “how do we display the model?” but “what does the user do differently after seeing it?”</p></div>
-    <div class="decision-card"><span>05</span><h3>Modeled value vs. realized value</h3><p>Business value had to account for actionability, adoption and realization instead of assuming every predicted opportunity turns into savings.</p></div>
+    <div class="decision-card"><span>05</span><h3>Modeled value vs. realised value</h3><p>Business value had to account for actionability, adoption and realisation instead of assuming every predicted opportunity turns into savings.</p></div>
     <div class="decision-card"><span>06</span><h3>Pilot vs. permanent capability</h3><p>Scale required more than technical success: monitoring, governance, operating ownership and a repeatable data / technology foundation also had to exist.</p></div>
   </div>
 
@@ -159,21 +191,21 @@
 
 <section id="boundary" class="boundary-section">
 <div class="wrap">
-  <div class="eyebrow">Where the portfolio reconstruction begins</div>
-  <h2>The engagement evidence above is separate from the technical prototype below.</h2>
+  <div class="eyebrow">What is experience and what is reconstruction</div>
+  <h2>The engagement is real. The artefacts on these pages are recreated.</h2>
   <div class="boundary-grid">
     <div class="boundary-card real">
-      <div class="kicker">Experience-based</div>
-      <h3>What reflects the real airline engagement</h3>
-      <p>Opportunity identification and prioritization, business/value case, data / technology / analytics requirements, decision-support design, implementation roadmap, governance, operating processes, adoption and implementation support.</p>
+      <div class="kicker">Experience based</div>
+      <h3>The engagement and my scope</h3>
+      <p>Opportunity identification and prioritisation, the business and value case, data / technology / analytics requirements, decision-support design, governance, the operating model and implementation support — on a programme whose predictive, optimisation and agentic components are built by the airline's AI and data-science team.</p>
     </div>
     <div class="boundary-card reconstructed">
-      <div class="kicker">Portfolio technical reconstruction</div>
-      <h3>What I rebuilt independently to demonstrate technical depth</h3>
-      <p>A disclosed flight-level simulator with known ground truth; gradient boosting on a temporal split with baselines and a noise floor; conformally calibrated prediction intervals; counterfactual controllable-vs-contextual attribution with exact Shapley values, scored against the truth; a decision layer that abstains, filters and ranks; drift monitoring with injected failure scenarios; a value model; 42 tests and a one-command pipeline.</p>
+      <div class="kicker">Portfolio reconstruction</div>
+      <h3>The technical and delivery examples</h3>
+      <p>The architecture views, readiness framework, pilot KPIs, model and agent release criteria, non-functional requirements, guardrails and monitoring thresholds. They demonstrate the analytical approach and the standard of evidence I would require. Client data, internal architecture, implementation status and production results remain confidential.</p>
     </div>
   </div>
-  <div class="cta"><a class="button primary" href="aviation-ai.html#technical">Continue to the technical reconstruction</a><a class="button" href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Open the technical repository</a></div>
+  <div class="cta"><a class="button primary" href="aviation-ai.html">The case study</a><a class="button" href="delivery-standards.html">Delivery standards</a></div>
 </div>
 </section>
 
