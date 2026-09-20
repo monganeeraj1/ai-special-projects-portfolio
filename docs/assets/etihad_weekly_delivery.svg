@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Cross-workstream dependencies—not model development—are the primary delivery risk</text>
-
-
-<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">Weekly delivery management ties every output to an owner, dependency, decision and next milestone</text>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect width="1600" height="92" fill="#ffffff"/>
+<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Cross-workstream dependencies—not model development—are the primary delivery risk</text>
+<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">Weekly delivery management ties every output to an owner, dependency, decision and next milestone</text>
 <rect x="58" y="172" width="1484" height="520" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <g font-family="Arial" font-size="14">
 <text x="82" y="212" font-weight="700" fill="#66727c">WORKSTREAM</text><text x="348" y="212" font-weight="700" fill="#66727c">LAST WEEK</text><text x="690" y="212" font-weight="700" fill="#66727c">THIS WEEK</text><text x="1042" y="212" font-weight="700" fill="#66727c">BLOCKER / DEPENDENCY</text><text x="1390" y="212" font-weight="700" fill="#66727c">RAG</text>
