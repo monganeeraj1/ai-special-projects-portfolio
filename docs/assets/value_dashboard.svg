@@ -25,7 +25,7 @@
 <text x="935" y="585">Run cost</text><text x="1270" y="585" text-anchor="end" font-weight="700">AED 2.50M</text>
 <text x="935" y="625" font-weight="700">Net value</text><text x="1270" y="625" text-anchor="end" font-weight="700" fill="#1e6c61">AED 3.80M</text>
 </g>
-<text x="55" y="112" font-family="Arial" font-size="14" fill="#626b72">Scenario model demonstrates the value mechanics; Etihad economics and realized benefits are not shown.</text>
+<text x="55" y="112" font-family="Arial" font-size="14" fill="#626b72">Scenario model demonstrates the value mechanics; the airline's economics and realized benefits are not shown.</text>
 
 <line x1="55" y1="760" x2="1385" y2="760" stroke="#c9ced2" stroke-width="1"/>
 <text x="55" y="789" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>

@@ -32,9 +32,9 @@ Outside the formal CV, **culture and travel are a major part of my life**. I hav
 
 # Selected Work
 
-## Etihad Airways — AI Transformation
+## A major airline — AI transformation
 
-Supported an **Etihad Airways AI initiative** focused on operational and fuel-efficiency priorities.
+Supported an **AI initiative for a major airline** focused on operational and fuel-efficiency priorities.
 
 My role included:
 - identifying and prioritizing AI use cases
@@ -69,148 +69,103 @@ At Robert Bosch, I worked across business and digital transformation and helped 
 The work below is split deliberately into two categories:
 
 ### Experience-based case study
-A technical reconstruction of a real AI transformation context I worked on.
+A validated technical reconstruction of a real AI transformation I advised on and helped implement. Everything that runs was built independently; the engagement, my role and the delivery approach are real.
 
-### Independent technical labs
-Compact builds used to explore AI architecture, evaluation, governance and operating implications. These are not presented as client engagements.
+### Independent technical notes
+Compact design notes on AI architecture, evaluation and governance, each with a small runnable reference. They are not presented as client work, and they are not presented as more than they are.
 
 ---
 
-## 00 — Etihad Airways AI Value & Operations Platform
+## 00 — Airline AI Value & Operations Platform
 
-**Flagship experience-based case study**
+**Flagship experience-based case study** · [![CI](https://github.com/monganeeraj1/ai-strategy-transformation/actions/workflows/aviation-ai-ci.yml/badge.svg)](https://github.com/monganeeraj1/ai-strategy-transformation/actions/workflows/aviation-ai-ci.yml)
 
-How do you move from an operational AI opportunity to a model, decision-support workflow, implementation program and measurable value?
+How do you move from an operational AI opportunity to a model, a decision-support workflow, an implementation program and measurable value — and how do you know each step is working?
 
-This case is based on **real professional engagement experience**. Actual client data and production outputs are confidential, so the technical implementation shown here has been reconstructed for portfolio demonstration.
+Client data is confidential, so the prototype runs on a **disclosed simulator with known ground truth**. That is a deliberate choice, not a compromise: it makes the method testable in ways real data would not allow offline.
 
-It covers:
-- AI problem formulation
-- recreated flight-level data for the technical prototype
-- feature engineering
-- gradient-boosted regression
-- model evaluation and explainability
-- controllable vs contextual driver separation
-- intervention prioritization
-- human-in-the-loop decision support
-- drift monitoring and MLOps
-- implementation governance
-- benefits realization and investment economics
+What the pipeline does, and what the 42 tests check:
+
+| Step | Implementation | Validated against |
+|---|---|---|
+| Model | Gradient boosting, **temporal** split, mean and ridge baselines | The simulator's noise floor — the model closes 84% of the gap between linear and ceiling |
+| Uncertainty | p10/p90 quantile models + **split-conformal** calibration | Coverage on the later window: 71% raw → 80% calibrated (nominal 80%) |
+| Attribution | Counterfactual controllable excess, **exact Shapley** by lever | Ground truth: r = 0.97, dominant lever right 85%, bias −3 pp and explained |
+| Decision layer | Abstain → filter → rank on controllable kg → explain | Oracle, naive-total and random policies on the same review capacity |
+| Monitoring | PSI on features and predictions, residual z-test, season-matched reference | Two injected drift scenarios with distinct signatures |
+| Value | Annual range with adoption and realisation explicit | One row informed by the actual queue |
+
+```bash
+cd projects/00_aviation_ai_value_platform && python -m pytest && python -m fuelops
+```
 
 ### Implementation view
 
-![Etihad AI steering implementation view](docs/assets/etihad_executive_dashboard.svg)
+![Airline AI steering implementation view](docs/assets/airline_executive_dashboard.svg)
 
-*The engagement is real. Actual client data and internal Etihad materials are confidential; this view recreates the implementation work without reproducing client content.*
+*The engagement is real. Actual client data and the airline's internal materials are confidential; this view recreates the implementation work without reproducing client content.*
 
 ![AI implementation roadmap](docs/assets/implementation_roadmap.svg)
 
 *The roadmap reflects the implementation workstreams I worked across; client-specific dates, owners and internal materials are omitted.*
 
-### Model & value view
-
-![Model monitoring dashboard](docs/assets/model_monitoring_dashboard.svg)
-
-![Value realization dashboard](docs/assets/value_dashboard.svg)
-
-*Actual client data and production results are confidential and are not shown; displayed metrics are reconstructed for portfolio demonstration.*
-
 ### Deep dive
 
-- [Inside the Etihad AI engagement — work-sample walkthrough](docs/cases/inside-etihad-ai.html)
-
-- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)
-- [Case overview](projects/00_aviation_ai_value_platform/)
+- [Inside the airline AI engagement — work-sample walkthrough](docs/cases/inside-the-airline-engagement.html)
+- [Project README — design decisions a reviewer should challenge](projects/00_aviation_ai_value_platform/)
+- [Results — every number the pipeline produces](projects/00_aviation_ai_value_platform/RESULTS.md)
 - [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
 - [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
 - [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
 - [AI Investment & Value Model](projects/00_aviation_ai_value_platform/VALUE_MODEL.md)
-- [Reconstructed Benchmark Results](projects/00_aviation_ai_value_platform/RESULTS.md)
-- [Runnable Python](projects/00_aviation_ai_value_platform/src/)
+- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)
+- [Code: `fuelops/`](projects/00_aviation_ai_value_platform/fuelops/) · [Tests: `tests/`](projects/00_aviation_ai_value_platform/tests/)
 
 ---
 
-## 01 — RAG Evaluation Lab
+## 01 — RAG Evaluation
 
-**Independent technical lab**
+**Design notes + minimal reference**
 
-A retrieval-first exploration of enterprise GenAI reliability.
+Why a RAG system fails even when the model is strong, and how to evaluate retrieval separately from generation.
 
-Topics:
-- Recall@K and MRR
-- lexical vs dense retrieval
-- chunking and reranking
-- groundedness and citation quality
-- abstention behavior
-- hallucination controls
-- multilingual / adversarial stress tests
-- latency and cost trade-offs
+- *Notes cover:* Recall@K and MRR, lexical vs dense vs hybrid retrieval, chunking and reranking, groundedness and citation checks, abstention, adversarial and multilingual stress tests, latency and cost.
+- *Reference code:* a dependency-free TF-IDF retriever over a small visitor-information corpus with Recall@K and MRR — enough to show the metric mechanics, no more.
 
-[Open lab →](projects/01_rag_evaluation_lab/)
+[Open →](projects/01_rag_evaluation_lab/)
 
 ---
 
 ## 02 — Predictive Operations AI
 
-**Independent technical lab**
+**Single-file entry point**
 
-A compact ML example focused on the transition from prediction to operational action.
+The prediction-to-prioritisation chain in ~100 lines: synthetic operations data, gradient boosting, permutation importance, top-decile capture. It is the compact version of the argument that project 00 makes in full — read this first if you want the shape, read 00 if you want the validation.
 
-Topics:
-- feature engineering
-- supervised ML
-- train / test discipline
-- gradient boosting
-- MAE / RMSE / R²
-- permutation importance
-- top-k prioritization
-- prediction vs causality
-- controllable vs contextual variables
-
-[Open lab →](projects/02_predictive_operations_ai/)
+[Open →](projects/02_predictive_operations_ai/)
 
 ---
 
 ## 03 — Agentic AI Control Plane
 
-**Independent technical lab**
+**Design notes + minimal reference**
 
-An exploration of how tool-using AI systems should be controlled when they can take actions.
+How an enterprise should govern an AI system that can select tools and take actions.
 
-Topics:
-- agent / tool architecture
-- routing
-- permission boundaries
-- human approval gates
-- least privilege
-- audit logging
-- failure handling
-- prompt-injection considerations
-- agent evaluation
+- *Notes cover:* tool allowlists, least privilege, risk-tiered approval gates, structured schemas, idempotency, audit logging, timeout and rollback policy, prompt-injection defence, spend limits, and what to evaluate.
+- *Reference code:* the risk-tier → policy → human-approval primitive as a runnable stub, with an audit record per request. Routing is keyword-based on purpose; the control logic is the point.
 
-[Open lab →](projects/03_agentic_ai_control_plane/)
+[Open →](projects/03_agentic_ai_control_plane/)
 
 ---
 
 ## 04 — AI Transformation Operating Model
 
-**Independent operating-model framework**
+**Operating-model framework**
 
-A reusable framework for moving AI initiatives from opportunity discovery to scaled ownership.
+A reusable framework for moving AI initiatives from opportunity discovery to scaled ownership: use-case prioritisation, technical and value theses, pilot design, stage gates, model-risk review, governance, benefits realisation, transition to permanent ownership.
 
-Topics:
-- opportunity discovery
-- use-case prioritization
-- technical thesis
-- business / value thesis
-- pilot design
-- stage gates
-- model-risk review
-- governance
-- benefits realization
-- transition to permanent ownership
-
-[Open framework →](projects/04_ai_transformation_operating_model/)
+[Open →](projects/04_ai_transformation_operating_model/)
 
 ---
 

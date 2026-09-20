@@ -160,14 +160,13 @@ footer{padding:42px 0 55px;border-top:1px solid var(--line);color:var(--muted);f
 /* Executive consulting-slide treatment */
 .consulting-slide{position:relative;background:#fff;border:1px solid #cfd4d8;border-radius:2px;overflow:hidden;box-shadow:0 10px 28px rgba(25,35,45,.08)}
 .consulting-slide .slide-art{display:block;width:100%}
-.consulting-slide .client-logo{position:absolute;top:10px;right:18px;width:92px;height:auto;z-index:3;object-fit:contain}
 .slide-caption{max-width:920px;margin-top:14px;color:#495761;font-size:15px}
 .slide-caption strong{color:#18232d}
 .slide-points{margin:8px 0 0 18px;padding:0}
 .slide-points li{margin:4px 0}
 .slide-card{padding-bottom:42px}
 .slide-title{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:13px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase;color:#6a737b;margin-bottom:12px}
-@media(max-width:850px){.consulting-slide .client-logo{width:66px;top:7px;right:10px}.slide-caption{font-size:14px}}
+@media(max-width:850px){.slide-caption{font-size:14px}}
 
 /* Inside-the-engagement work sample */
 .inside-hero{padding-bottom:74px}
