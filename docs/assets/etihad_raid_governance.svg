@@ -1,48 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
 <rect width="1600" height="900" fill="#ffffff"/>
-<rect width="1600" height="92" fill="#ffffff"/>
-<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Stage gates and explicit decision rights keep delivery risk visible and actionable</text>
-<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">RAID governance separates risks, assumptions, issues and dependencies while preserving decision accountability</text>
-<rect x="58" y="172" width="950" height="520" rx="2" fill="#fff" stroke="#d7d8d2"/>
-<text x="84" y="214" font-family="Arial" font-size="18" font-weight="700" fill="#152635">RAID log — executive cut</text>
-<g font-family="Arial" font-size="14">
-<text x="84" y="253" font-weight="700" fill="#66727c">TYPE</text><text x="190" y="253" font-weight="700" fill="#66727c">ITEM</text><text x="610" y="253" font-weight="700" fill="#66727c">OWNER</text><text x="760" y="253" font-weight="700" fill="#66727c">MITIGATION / ACTION</text>
-<text x="84" y="305" font-weight="700" fill="#a44343">Risk</text><text x="190" y="305" fill="#1f3344">Data timing reduces decision window</text><text x="610" y="305" fill="#52606c">Data lead</text><text x="760" y="305" fill="#52606c">Stage fields + fallback rule</text>
-<text x="84" y="365" font-weight="700" fill="#607f96">Dependency</text><text x="190" y="365" fill="#1f3344">Operational workflow decision</text><text x="610" y="365" fill="#52606c">Ops owner</text><text x="760" y="365" fill="#52606c">Decision at weekly forum</text>
-<text x="84" y="425" font-weight="700" fill="#b08a4a">Assumption</text><text x="190" y="425" fill="#1f3344">Recommendation adoption threshold</text><text x="610" y="425" fill="#52606c">Change lead</text><text x="760" y="425" fill="#52606c">Validate in pilot</text>
-<text x="84" y="485" font-weight="700" fill="#315f73">Issue</text><text x="190" y="485" fill="#1f3344">Feature completeness below target</text><text x="610" y="485" fill="#52606c">Data / AI</text><text x="760" y="485" fill="#52606c">Profile + imputation policy</text>
-<text x="84" y="545" font-weight="700" fill="#a44343">Risk</text><text x="190" y="545" fill="#1f3344">Benefit over-attribution</text><text x="610" y="545" fill="#52606c">Finance</text><text x="760" y="545" fill="#52606c">Agree counterfactual design</text>
-<text x="84" y="605" font-weight="700" fill="#607f96">Dependency</text><text x="190" y="605" fill="#1f3344">Pilot access / environment</text><text x="610" y="605" fill="#52606c">Technology</text><text x="760" y="605" fill="#52606c">Pre-book readiness window</text>
-</g>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | GOVERNANCE &amp; RISK</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">The critical implementation risks sat at the intersection of data timing, causal interpretation, workflow integration and benefits attribution</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
 
-<rect x="1040" y="172" width="502" height="240" rx="2" fill="#fff" stroke="#d7d8d2"/>
-<text x="1068" y="214" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Decision log</text>
-<g font-family="Arial"><text x="1068" y="255" font-size="13" font-weight="700" fill="#b08a4a">D-01</text><text x="1120" y="255" font-size="15" fill="#1f3344">Pilot operating scope</text><text x="1068" y="296" font-size="13" font-weight="700" fill="#b08a4a">D-02</text><text x="1120" y="296" font-size="15" fill="#1f3344">Recommendation threshold</text><text x="1068" y="337" font-size="13" font-weight="700" fill="#b08a4a">D-03</text><text x="1120" y="337" font-size="15" fill="#1f3344">Benefits methodology</text><text x="1068" y="378" font-size="13" font-weight="700" fill="#b08a4a">D-04</text><text x="1120" y="378" font-size="15" fill="#1f3344">Scale / redesign / stop gate</text></g>
-
-<rect x="1040" y="436" width="502" height="256" rx="2" fill="#fff" stroke="#d7d8d2"/>
-<text x="1068" y="478" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Governance cadence</text>
 <g font-family="Arial">
-<text x="1068" y="522" font-size="14" font-weight="700" fill="#315f73">WEEKLY</text><text x="1160" y="522" font-size="15" fill="#1f3344">Delivery / blockers / decisions</text>
-<text x="1068" y="565" font-size="14" font-weight="700" fill="#607f96">BIWEEKLY</text><text x="1160" y="565" font-size="15" fill="#1f3344">Model risk / architecture / data</text>
-<text x="1068" y="608" font-size="14" font-weight="700" fill="#b08a4a">MONTHLY</text><text x="1160" y="608" font-size="15" fill="#1f3344">Executive value / investment gate</text>
-<text x="1068" y="651" font-size="14" font-weight="700" fill="#68737c">PILOT END</text><text x="1160" y="651" font-size="15" fill="#1f3344">Scale / redesign / stop</text>
+<text x="58" y="132" font-size="14" font-weight="700" fill="#4e555b">RISK / DECISION LOG — EXECUTIVE CUT</text>
+<rect x="58" y="158" width="1484" height="544" fill="#ffffff" stroke="#cfd3d6"/>
+<rect x="58" y="158" width="1484" height="48" fill="#f3f2ef"/>
+<text x="82" y="189" font-size="12" font-weight="700" fill="#6a7075">THEME</text>
+<text x="310" y="189" font-size="12" font-weight="700" fill="#6a7075">MANAGEMENT QUESTION</text>
+<text x="830" y="189" font-size="12" font-weight="700" fill="#6a7075">WHY IT MATTERS</text>
+<text x="1240" y="189" font-size="12" font-weight="700" fill="#6a7075">CONTROL / DECISION</text>
+
+<g font-size="14" fill="#37434b">
+<text x="82" y="250" font-weight="700">Data timing</text>
+<text x="310" y="250">Is the signal available before the decision?</text>
+<text x="830" y="250">Post-event data creates leakage / no action window</text>
+<text x="1240" y="250">Point-in-time feature contract</text>
+<line x1="82" y1="278" x2="1515" y2="278" stroke="#e2e4e6"/>
+
+<text x="82" y="331" font-weight="700">Causality</text>
+<text x="310" y="331">Is the model surfacing a controllable lever?</text>
+<text x="830" y="331">Prediction alone cannot justify intervention</text>
+<text x="1240" y="331">Human review + intervention logic</text>
+<line x1="82" y1="359" x2="1515" y2="359" stroke="#e2e4e6"/>
+
+<text x="82" y="412" font-weight="700">Workflow</text>
+<text x="310" y="412">Who receives the output and when?</text>
+<text x="830" y="412">Late / unclear recommendations will not be adopted</text>
+<text x="1240" y="412">Decision point + action owner</text>
+<line x1="82" y1="440" x2="1515" y2="440" stroke="#e2e4e6"/>
+
+<text x="82" y="493" font-weight="700">User burden</text>
+<text x="310" y="493">How many recommendations can operations absorb?</text>
+<text x="830" y="493">False positives create alert fatigue</text>
+<text x="1240" y="493">Threshold + prioritization policy</text>
+<line x1="82" y1="521" x2="1515" y2="521" stroke="#e2e4e6"/>
+
+<text x="82" y="574" font-weight="700">Benefits</text>
+<text x="310" y="574">How will incremental savings be attributed?</text>
+<text x="830" y="574">Modelled opportunity can overstate realized value</text>
+<text x="1240" y="574">Baseline + benefits methodology</text>
+<line x1="82" y1="602" x2="1515" y2="602" stroke="#e2e4e6"/>
+
+<text x="82" y="655" font-weight="700">Ownership</text>
+<text x="310" y="655">Who owns the capability after implementation?</text>
+<text x="830" y="655">No BAU owner means value decays after launch</text>
+<text x="1240" y="655">Operating model + monitoring owner</text>
 </g>
 
-<text x="58" y="750" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Stage-gate logic</text>
-<g font-family="Arial" font-size="15" font-weight="700">
-<rect x="58" y="775" width="270" height="55" rx="2" fill="#dcebe7"/><text x="122" y="809" fill="#153947">Discovery</text>
-<text x="340" y="809" fill="#8c989f">→</text>
-<rect x="380" y="775" width="270" height="55" rx="2" fill="#e6edf6"/><text x="440" y="809" fill="#153947">Feasibility</text>
-<text x="662" y="809" fill="#8c989f">→</text>
-<rect x="702" y="775" width="270" height="55" rx="2" fill="#f3e7dc"/><text x="790" y="809" fill="#153947">Pilot</text>
-<text x="984" y="809" fill="#8c989f">→</text>
-<rect x="1024" y="775" width="270" height="55" rx="2" fill="#dcebe7"/><text x="1115" y="809" fill="#153947">Scale</text>
-<text x="1306" y="809" fill="#8c989f">→</text>
-<rect x="1346" y="775" width="196" height="55" rx="2" fill="#1a2632"/><text x="1390" y="809" fill="#fff">BAU owner</text>
+<text x="58" y="752" font-size="14" font-weight="700" fill="#4e555b">GOVERNANCE PRINCIPLE</text>
+<rect x="58" y="776" width="1484" height="62" fill="#f5f4f1" stroke="#dad7d1"/>
+<text x="82" y="813" font-size="15" font-weight="700" fill="#1d252b">Escalate decisions that change value, risk or implementation readiness; keep working-level problem solving out of executive forums.</text>
 </g>
-<text x="58" y="876" font-family="Arial" font-size="12" fill="#7b8791">Actual Etihad RAID items, owners and decisions are confidential. This view reconstructs the governance mechanics only.</text>
-<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
-<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
-<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
+
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2" stroke-width="1"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">5</text>
 </svg>
