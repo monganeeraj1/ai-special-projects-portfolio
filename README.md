@@ -117,6 +117,8 @@ It covers:
 
 ### Deep dive
 
+- [Inside the Etihad AI engagement — work-sample walkthrough](docs/cases/inside-etihad-ai.html)
+
 - [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)
 - [Case overview](projects/00_aviation_ai_value_platform/)
 - [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
