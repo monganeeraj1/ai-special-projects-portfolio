@@ -44,7 +44,7 @@ Cross-functional PMO spanning Abu Dhabi and Al Ain across customer-system modern
 Established the Integration Management Office with **54 consultants and operations specialists** and led wireless integration across **1,200+ retail locations**, coordinating operations, backend technology, retail-store systems, vendors and customer migration. Rogers publicly reported **C$20.5B** of consideration for the Shaw transaction at closing.[^rogers]
 
 ## [Robert Bosch — blockchain & digital transformation](docs/cases/bosch-blockchain.html)
-Business and digital transformation across manufacturing environments; helped pioneer a blockchain team and authored thought leadership on blockchain-enabled agricultural ecosystems. Bosch Research publicly documents its broader distributed-ledger / “Economy of Things” work during this period.[^bosch]
+Business and digital transformation across manufacturing environments; helped pioneer a blockchain team, authored thought leadership on blockchain-enabled agricultural ecosystems, and delivered a public keynote talk on the topic.[^keynote] Bosch Research publicly documents its broader distributed-ledger / “Economy of Things” work during this period.[^bosch]
 
 ## [GCC government & utility transformation](docs/cases/gcc-transformation.html)
 Saudi ministry operating-model redesign, national utility privatisation / restructuring, and mobilisation of **9 strategic initiatives** for wastewater-network resilience and future expansion.
@@ -161,6 +161,8 @@ Exchange — MIT Sloan
 [^rogers]: Rogers Communications, 2023 Annual Report — the company reports total consideration of **C$20.5B** for the Shaw transaction at closing: https://about.rogers.com/wp-content/uploads/Rogers-2023-Annual-Report.pdf
 
 [^bosch]: Bosch Research, **Economy of Things** and blockchain / distributed-ledger research context: https://www.bosch.com/research/research-fields/digitalization-and-connectivity/economy-of-things/ and https://www.bosch.com/research/research-fields/digitalization-and-connectivity/economy-of-things/use-cases-prototypes/
+
+[^keynote]: Public keynote talk from my Bosch-era blockchain / emerging-technology work: https://www.youtube.com/watch?v=h-V5ISfTPEE
 
 ---
 
