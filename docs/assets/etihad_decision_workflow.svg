@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | DECISION-SUPPORT DESIGN</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">The design challenge was to turn model output into an explainable, actionable recommendation at the point an operator could still act</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
+<g font-family="Arial">
+<text x="58" y="132" font-size="14" font-weight="700" fill="#4e555b">DECISION FLOW BEING ENABLED</text>
+
+<rect x="58" y="170" width="205" height="116" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="80" y="201" font-size="11" font-weight="700" fill="#6a7075">OPERATING CONTEXT</text>
+<text x="80" y="235" font-size="16" font-weight="700" fill="#1d252b">Flight / route / fleet</text>
+<text x="80" y="260" font-size="13" fill="#465159">Weather · payload · timing</text>
+<text x="278" y="237" font-size="28" fill="#9aa1a6">→</text>
+
+<rect x="310" y="170" width="205" height="116" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="332" y="201" font-size="11" font-weight="700" fill="#6a7075">AI SIGNAL</text>
+<text x="332" y="235" font-size="16" font-weight="700" fill="#1d252b">Opportunity estimate</text>
+<text x="332" y="260" font-size="13" fill="#465159">Prediction + confidence</text>
+<text x="530" y="237" font-size="28" fill="#9aa1a6">→</text>
+
+<rect x="562" y="170" width="205" height="116" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="584" y="201" font-size="11" font-weight="700" fill="#6a7075">EXPLANATION</text>
+<text x="584" y="235" font-size="16" font-weight="700" fill="#1d252b">Why is it surfaced?</text>
+<text x="584" y="260" font-size="13" fill="#465159">Drivers + uncertainty</text>
+<text x="782" y="237" font-size="28" fill="#9aa1a6">→</text>
+
+<rect x="814" y="170" width="205" height="116" fill="#f2eee7" stroke="#b2915f"/>
+<text x="836" y="201" font-size="11" font-weight="700" fill="#7b6a4b">CONTROLLABILITY</text>
+<text x="836" y="235" font-size="16" font-weight="700" fill="#1d252b">What can change?</text>
+<text x="836" y="260" font-size="13" fill="#465159">Feasible operating lever</text>
+<text x="1034" y="237" font-size="28" fill="#9aa1a6">→</text>
+
+<rect x="1066" y="170" width="205" height="116" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="1088" y="201" font-size="11" font-weight="700" fill="#6a7075">RECOMMENDATION</text>
+<text x="1088" y="235" font-size="16" font-weight="700" fill="#1d252b">What should be done?</text>
+<text x="1088" y="260" font-size="13" fill="#465159">Action + expected value</text>
+<text x="1286" y="237" font-size="28" fill="#9aa1a6">→</text>
+
+<rect x="1318" y="170" width="224" height="116" fill="#f1f5f1" stroke="#8a9a81"/>
+<text x="1340" y="201" font-size="11" font-weight="700" fill="#61745a">HUMAN DECISION</text>
+<text x="1340" y="235" font-size="16" font-weight="700" fill="#1d252b">Accept / modify / reject</text>
+<text x="1340" y="260" font-size="13" fill="#465159">Reason captured</text>
+
+<text x="58" y="350" font-size="14" font-weight="700" fill="#4e555b">DESIGN QUESTIONS THAT HAD TO BE RESOLVED</text>
+<rect x="58" y="376" width="1484" height="348" fill="#ffffff" stroke="#cfd3d6"/>
+<rect x="58" y="376" width="1484" height="46" fill="#f3f2ef"/>
+<text x="82" y="406" font-size="12" font-weight="700" fill="#6a7075">QUESTION</text>
+<text x="670" y="406" font-size="12" font-weight="700" fill="#6a7075">WHY IT MATTERS</text>
+<text x="1180" y="406" font-size="12" font-weight="700" fill="#6a7075">DESIGN RESPONSE</text>
+
+<g font-size="14" fill="#37434b">
+<text x="82" y="468" font-weight="700">When is the recommendation still actionable?</text><text x="670" y="468">A late signal has no operational value</text><text x="1180" y="468">Point-in-time data design</text>
+<line x1="82" y1="492" x2="1515" y2="492" stroke="#e2e4e6"/>
+<text x="82" y="538" font-weight="700">Is the driver predictive or controllable?</text><text x="670" y="538">Correlation is not an intervention</text><text x="1180" y="538">Controllability layer</text>
+<line x1="82" y1="562" x2="1515" y2="562" stroke="#e2e4e6"/>
+<text x="82" y="608" font-weight="700">How much explanation does the user need?</text><text x="670" y="608">Trust depends on understanding the signal</text><text x="1180" y="608">Drivers + confidence</text>
+<line x1="82" y1="632" x2="1515" y2="632" stroke="#e2e4e6"/>
+<text x="82" y="678" font-weight="700">What happens when the user disagrees?</text><text x="670" y="678">Override data is a learning signal</text><text x="1180" y="678">Human-in-the-loop feedback</text>
+</g>
+
+<text x="58" y="778" font-size="14" font-weight="700" fill="#4e555b">DESIGN PRINCIPLE</text>
+<text x="58" y="811" font-size="16" font-weight="700" fill="#1d252b">The model predicts; the decision layer determines whether the signal is actionable; the operator retains the appropriate decision authority.</text>
+</g>
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">11</text>
+</svg>
