@@ -1,29 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
-<rect width="1440" height="810" fill="#ffffff"/>
-<rect width="1440" height="84" fill="#ffffff"/>
-<line x1="55" y1="80" x2="1385" y2="80" stroke="#b08a4a" stroke-width="3"/>
-<text x="55" y="44" font-family="Arial" font-size="22" font-weight="700" fill="#1b2530">A 16-week pilot can validate technical, operational and economic viability before scale</text>
-<text x="55" y="110" font-family="Arial" font-size="15" fill="#5d6872">Data, model, product, governance, change and benefits workstreams progress through common stage gates</text>
-<g font-family="Arial" font-size="14" fill="#52677e">
-<text x="360" y="142">W1</text><text x="430" y="142">W2</text><text x="500" y="142">W3</text><text x="570" y="142">W4</text><text x="640" y="142">W5</text><text x="710" y="142">W6</text><text x="780" y="142">W7</text><text x="850" y="142">W8</text><text x="920" y="142">W9</text><text x="985" y="142">W10</text><text x="1055" y="142">W11</text><text x="1125" y="142">W12</text><text x="1195" y="142">W13</text><text x="1265" y="142">W14</text><text x="1335" y="142">W15+</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | IMPLEMENTATION ROADMAP</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">Implementation sequenced business, data, AI, technology, governance and adoption workstreams around shared readiness gates</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
+
+<g font-family="Arial">
+<text x="58" y="136" font-size="12" font-weight="700" fill="#6a7075">WORKSTREAM</text>
+<text x="410" y="136" font-size="12" font-weight="700" fill="#6a7075">1  PRIORITIZE</text>
+<text x="705" y="136" font-size="12" font-weight="700" fill="#6a7075">2  DEFINE</text>
+<text x="1000" y="136" font-size="12" font-weight="700" fill="#6a7075">3  BUILD / VALIDATE</text>
+<text x="1320" y="136" font-size="12" font-weight="700" fill="#6a7075">4  EMBED / SCALE</text>
+
+<line x1="360" y1="152" x2="360" y2="734" stroke="#d8dbde"/>
+<line x1="655" y1="152" x2="655" y2="734" stroke="#d8dbde"/>
+<line x1="950" y1="152" x2="950" y2="734" stroke="#d8dbde"/>
+<line x1="1270" y1="152" x2="1270" y2="734" stroke="#d8dbde"/>
+<line x1="1542" y1="152" x2="1542" y2="734" stroke="#d8dbde"/>
+
+<text x="58" y="205" font-size="14" font-weight="700" fill="#37434b">Use case &amp; value</text>
+<rect x="380" y="180" width="250" height="38" fill="#efe7da"/><text x="399" y="205" font-size="13" fill="#3f464b">Prioritize opportunities</text>
+<rect x="675" y="180" width="250" height="38" fill="#efe7da"/><text x="694" y="205" font-size="13" fill="#3f464b">Build value case</text>
+<rect x="970" y="180" width="280" height="38" fill="#efe7da"/><text x="989" y="205" font-size="13" fill="#3f464b">Validate pilot economics</text>
+<rect x="1290" y="180" width="230" height="38" fill="#efe7da"/><text x="1309" y="205" font-size="13" fill="#3f464b">Track realized value</text>
+
+<text x="58" y="285" font-size="14" font-weight="700" fill="#37434b">Data &amp; features</text>
+<rect x="380" y="260" width="250" height="38" fill="#e5ebee"/><text x="399" y="285" font-size="13" fill="#3f464b">Map data requirements</text>
+<rect x="675" y="260" width="250" height="38" fill="#e5ebee"/><text x="694" y="285" font-size="13" fill="#3f464b">Define feature contract</text>
+<rect x="970" y="260" width="280" height="38" fill="#e5ebee"/><text x="989" y="285" font-size="13" fill="#3f464b">Integrate + validate data</text>
+<rect x="1290" y="260" width="230" height="38" fill="#e5ebee"/><text x="1309" y="285" font-size="13" fill="#3f464b">Monitor quality / drift</text>
+
+<text x="58" y="365" font-size="14" font-weight="700" fill="#37434b">AI / analytics</text>
+<rect x="675" y="340" width="250" height="38" fill="#e5ece2"/><text x="694" y="365" font-size="13" fill="#3f464b">Define model / decisions</text>
+<rect x="970" y="340" width="280" height="38" fill="#e5ece2"/><text x="989" y="365" font-size="13" fill="#3f464b">Build, test, explain</text>
+<rect x="1290" y="340" width="230" height="38" fill="#e5ece2"/><text x="1309" y="365" font-size="13" fill="#3f464b">Monitor + improve</text>
+
+<text x="58" y="445" font-size="14" font-weight="700" fill="#37434b">Technology</text>
+<rect x="675" y="420" width="250" height="38" fill="#eee7e2"/><text x="694" y="445" font-size="13" fill="#3f464b">Define architecture</text>
+<rect x="970" y="420" width="280" height="38" fill="#eee7e2"/><text x="989" y="445" font-size="13" fill="#3f464b">Integrate decision support</text>
+<rect x="1290" y="420" width="230" height="38" fill="#eee7e2"/><text x="1309" y="445" font-size="13" fill="#3f464b">Scale / operate platform</text>
+
+<text x="58" y="525" font-size="14" font-weight="700" fill="#37434b">Operating model</text>
+<rect x="675" y="500" width="250" height="38" fill="#f1ece4"/><text x="694" y="525" font-size="13" fill="#3f464b">Design workflow / roles</text>
+<rect x="970" y="500" width="280" height="38" fill="#f1ece4"/><text x="989" y="525" font-size="13" fill="#3f464b">Pilot operating process</text>
+<rect x="1290" y="500" width="230" height="38" fill="#f1ece4"/><text x="1309" y="525" font-size="13" fill="#3f464b">Transfer BAU ownership</text>
+
+<text x="58" y="605" font-size="14" font-weight="700" fill="#37434b">Governance</text>
+<rect x="675" y="580" width="250" height="38" fill="#e8e8e7"/><text x="694" y="605" font-size="13" fill="#3f464b">Define controls / decisions</text>
+<rect x="970" y="580" width="280" height="38" fill="#e8e8e7"/><text x="989" y="605" font-size="13" fill="#3f464b">Run pilot governance</text>
+<rect x="1290" y="580" width="230" height="38" fill="#e8e8e7"/><text x="1309" y="605" font-size="13" fill="#3f464b">Monitor performance / risk</text>
+
+<text x="58" y="685" font-size="14" font-weight="700" fill="#37434b">Change &amp; adoption</text>
+<rect x="675" y="660" width="250" height="38" fill="#eee8dc"/><text x="694" y="685" font-size="13" fill="#3f464b">Stakeholders / adoption plan</text>
+<rect x="970" y="660" width="280" height="38" fill="#eee8dc"/><text x="989" y="685" font-size="13" fill="#3f464b">Train, test, capture feedback</text>
+<rect x="1290" y="660" width="230" height="38" fill="#eee8dc"/><text x="1309" y="685" font-size="13" fill="#3f464b">Embed in normal operations</text>
+
+<line x1="655" y1="154" x2="655" y2="734" stroke="#b2915f" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="950" y1="154" x2="950" y2="734" stroke="#b2915f" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="1270" y1="154" x2="1270" y2="734" stroke="#b2915f" stroke-width="2" stroke-dasharray="6 6"/>
+
+<text x="58" y="784" font-size="14" font-weight="700" fill="#4e555b">READINESS GATES</text>
+<text x="380" y="812" font-size="13" fill="#37434b">Use case + value case agreed</text>
+<text x="675" y="812" font-size="13" fill="#37434b">Data / technology / operating design ready</text>
+<text x="1000" y="812" font-size="13" fill="#37434b">Pilot evidence supports scale</text>
 </g>
-<g font-family="Arial" font-size="17" fill="#12263d">
-<text x="55" y="190">Use-case & value case</text><text x="55" y="260">Data & feature pipeline</text><text x="55" y="330">Model / analytics</text><text x="55" y="400">Decision-support product</text><text x="55" y="470">Governance & risk</text><text x="55" y="540">Change & adoption</text><text x="55" y="610">Benefits measurement</text>
-</g>
-<g>
-<rect x="345" y="164" width="210" height="34" rx="8" fill="#65d6c6"/><rect x="555" y="234" width="350" height="34" rx="8" fill="#7aa7ff"/>
-<rect x="625" y="304" width="350" height="34" rx="8" fill="#7aa7ff"/><rect x="765" y="374" width="350" height="34" rx="8" fill="#65d6c6"/>
-<rect x="555" y="444" width="560" height="34" rx="8" fill="#f3c969"/><rect x="835" y="514" width="420" height="34" rx="8" fill="#65d6c6"/>
-<rect x="905" y="584" width="420" height="34" rx="8" fill="#7aa7ff"/>
-</g>
-<g fill="#10233b" font-family="Arial" font-size="14" font-weight="700">
-<text x="370" y="187">Prioritize + baseline</text><text x="590" y="257">Ingest → validate → feature contract</text><text x="665" y="327">Train → explain → validate</text><text x="810" y="397">UX → workflow → pilot integration</text><text x="620" y="467">Controls → review → approval → monitoring</text><text x="875" y="537">Training → champions → adoption</text><text x="940" y="607">Pilot measurement → scale decision</text>
-</g>
-<line x1="555" y1="148" x2="555" y2="650" stroke="#d97706" stroke-width="2" stroke-dasharray="6 6"/><text x="565" y="680" font-family="Arial" font-size="13" fill="#d97706">Gate 1: scope / value</text>
-<line x1="905" y1="148" x2="905" y2="650" stroke="#d97706" stroke-width="2" stroke-dasharray="6 6"/><text x="915" y="700" font-family="Arial" font-size="13" fill="#d97706">Gate 2: technical readiness</text>
-<line x1="1255" y1="148" x2="1255" y2="650" stroke="#d97706" stroke-width="2" stroke-dasharray="6 6"/><text x="1135" y="730" font-family="Arial" font-size="13" fill="#d97706">Gate 3: pilot → scale / redesign / stop</text>
-<text x="55" y="770" font-family="Arial" font-size="13" fill="#718398">Reconstructed roadmap. Actual client plans and implementation details remain confidential.</text>
-<rect x="0" y="764" width="1440" height="46" fill="#1b2530"/>
-<text x="55" y="793" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
-<text x="185" y="793" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
+
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2" stroke-width="1"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">7</text>
 </svg>
