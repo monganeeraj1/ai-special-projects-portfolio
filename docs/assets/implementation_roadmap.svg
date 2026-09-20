@@ -1,9 +1,10 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
-<rect width="1440" height="810" fill="#f7f9fc"/><rect width="1440" height="84" fill="#10233b"/>
-<text x="55" y="52" font-family="Arial" font-size="28" font-weight="700" fill="#fff">AI Initiative — 16-Week Pilot Mobilization Roadmap</text><text x="1120" y="50" font-family="Arial" font-size="16" fill="#a9bed4">CONFIDENTIAL CLIENT PLAN NOT SHOWN</text>
+<rect width="1440" height="810" fill="#ffffff"/><rect width="1440" height="84" fill="#ffffff"/><line x1="55" y1="80" x2="1385" y2="80" stroke="#b08a4a" stroke-width="3"/>
+<text x="55" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">A 16-week pilot can validate technical, operational and economic viability before scale</text>" font-weight="700" fill="#fff">AI Initiative — 16-Week Pilot Mobilization Roadmap</text>
+<text x="55" y="112" font-family="Arial" font-size="15" fill="#5d6872">Data, model, product, governance, change and benefits workstreams progress through common stage gates</text>
 <g font-family="Arial" font-size="14" fill="#52677e">
-<text x="360" y="132">W1</text><text x="430" y="132">W2</text><text x="500" y="132">W3</text><text x="570" y="132">W4</text><text x="640" y="132">W5</text><text x="710" y="132">W6</text><text x="780" y="132">W7</text><text x="850" y="132">W8</text><text x="920" y="132">W9</text><text x="985" y="132">W10</text><text x="1055" y="132">W11</text><text x="1125" y="132">W12</text><text x="1195" y="132">W13</text><text x="1265" y="132">W14</text><text x="1335" y="132">W15+</text>
+<text x="360" y="142">W1</text><text x="430" y="142">W2</text><text x="500" y="142">W3</text><text x="570" y="142">W4</text><text x="640" y="142">W5</text><text x="710" y="142">W6</text><text x="780" y="142">W7</text><text x="850" y="142">W8</text><text x="920" y="142">W9</text><text x="985" y="142">W10</text><text x="1055" y="142">W11</text><text x="1125" y="142">W12</text><text x="1195" y="142">W13</text><text x="1265" y="142">W14</text><text x="1335" y="142">W15+</text>
 </g>
 <g font-family="Arial" font-size="17" fill="#12263d">
 <text x="55" y="190">Use-case & value case</text><text x="55" y="260">Data & feature pipeline</text><text x="55" y="330">Model / analytics</text><text x="55" y="400">Decision-support product</text><text x="55" y="470">Governance & risk</text><text x="55" y="540">Change & adoption</text><text x="55" y="610">Benefits measurement</text>
@@ -21,4 +22,7 @@
 <line x1="905" y1="148" x2="905" y2="650" stroke="#d97706" stroke-width="2" stroke-dasharray="6 6"/><text x="915" y="700" font-family="Arial" font-size="13" fill="#d97706">Gate 2: technical readiness</text>
 <line x1="1255" y1="148" x2="1255" y2="650" stroke="#d97706" stroke-width="2" stroke-dasharray="6 6"/><text x="1135" y="730" font-family="Arial" font-size="13" fill="#d97706">Gate 3: pilot → scale / redesign / stop</text>
 <text x="55" y="770" font-family="Arial" font-size="13" fill="#718398">Reconstructed roadmap. Actual client plans and implementation details remain confidential.</text>
+<rect x="0" y="764" width="1440" height="46" fill="#1b2530"/>
+<text x="55" y="793" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
+<text x="185" y="793" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
 </svg>
