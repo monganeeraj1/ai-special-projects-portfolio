@@ -18,39 +18,48 @@ Outside the formal CV, **culture and travel are a major part of my life**. I hav
 
 | Experience | Evidence |
 |---|---|
-| **15+ years** | Strategy, transformation and operations |
+| **15+ years** | Strategy, technology-enabled transformation and operations |
 | **9 years** | Strategy consulting |
 | **Strategy& · Bain · Kearney** | Top-tier consulting experience |
-| **GCC leadership** | Abu Dhabi, Dubai and Saudi engagements |
-| **AI programme leadership** | Airline fuel-efficiency AI programme, from opportunity identification through implementation |
-| **US$20B transaction** | Integration Management Office experience |
-| **1,200+ locations** | Cross-functional telecom integration scope |
-| **9 initiatives** | Strategic portfolio mobilisation for a major utility |
-| **3 promotions in 3 years** | Kearney career progression |
+| **GCC + North America** | Government, sovereign portfolio, aviation, utilities, telecom and industrials |
+| **AI transformation** | Airline AI initiative from use-case prioritisation through implementation |
+| **54-person IMO** | Rogers–Shaw integration management office |
+| **1,200+ locations** | Wireless / retail integration scope |
+| **9 initiatives** | Strategic portfolio mobilisation for utility resilience |
+| **Canadian** | Based in Abu Dhabi, UAE |
 
 ---
 
 # Selected Work
 
-## A major airline — AI fuel-efficiency programme
+The portfolio is organised around project evidence rather than a standalone skills list.
 
-Advised the airline's leadership on translating fuel-efficiency objectives into an AI programme: a prioritised use-case portfolio, a business case, decision-support design, governance and an implementation roadmap. Set out in full below.
+## [Etihad / airline AI transformation](docs/cases/aviation-ai.html)
+AI use-case prioritisation, business/value case, data / technology / analytics requirements, decision-support design, governance, implementation roadmap and adoption.
 
-## Sovereign Portfolio Transformation
+## [TAQA Distribution — business & technology transformation PMO](docs/cases/taqa-distribution.html)
+Cross-functional PMO spanning Abu Dhabi and Al Ain across customer-system modernisation, business-process redesign, enterprise change, internal functions and a multi-vendor ecosystem including Core42, TCS, Coforge and Oracle. The case shows how integrated dashboards, PMO automation and technology-dependency mapping helped bring structure to a fragmented transformation.
 
-As an Associate Director in Abu Dhabi, I support transformation and restructuring programmes across portfolio companies, including strategic initiative mobilisation, cross-functional PMO and enterprise change.
+## [Rogers–Shaw — wireless technology integration](docs/cases/rogers-shaw.html)
+Established the Integration Management Office with **54 consultants and operations specialists** and led wireless integration across **1,200+ retail locations**, coordinating operations, backend technology, retail-store systems, vendors and customer migration. Rogers publicly reported **C$20.5B** of consideration for the Shaw transaction at closing.[^rogers]
 
-## GCC Government Strategy
+## [Robert Bosch — blockchain & digital transformation](docs/cases/bosch-blockchain.html)
+Business and digital transformation across manufacturing environments; helped pioneer a blockchain team and authored thought leadership on blockchain-enabled agricultural ecosystems. Bosch Research publicly documents its broader distributed-ledger / “Economy of Things” work during this period.[^bosch]
 
-At Strategy&, I led operating-model redesign and national-sector transformation engagements for government entities in Saudi Arabia.
+## [GCC government & utility transformation](docs/cases/gcc-transformation.html)
+Saudi ministry operating-model redesign, national utility privatisation / restructuring, and mobilisation of **9 strategic initiatives** for wastewater-network resilience and future expansion.
 
-## Large-Scale Integration
+---
 
-Helped establish an Integration Management Office for a **US$20B telecom transaction**, coordinating a 54-person consulting / operations team and integration across more than **1,200 retail locations**.
+# Technology proficiency — demonstrated through delivery
 
-## Innovation & Emerging Technology
-
-At Robert Bosch, I worked across business and digital transformation and helped pioneer a blockchain team, including thought leadership on blockchain-enabled agricultural ecosystems.
+| Capability | Project evidence |
+|---|---|
+| **AI & decision systems** | Airline AI: opportunity → value case → decision support → implementation |
+| **Enterprise systems & integration** | TAQA Distribution; Rogers–Shaw backend + retail technology integration |
+| **Digital transformation & PMO automation** | TAQA Distribution integrated dashboards and automated tracking |
+| **Blockchain / distributed systems** | Bosch emerging-tech capability and business-use-case work |
+| **Operating-model / governance design** | GCC government, utilities and large transformation programmes |
 
 ---
 
@@ -119,7 +128,7 @@ Government operating-model redesign and national utility-sector transformation.
 ### 2020–2023 · North America
 **Engagement Manager — Asteri Partners**
 
-Integration Management Office and wireless integration supporting a US$20B telecom transaction.
+Integration Management Office and wireless integration supporting a Rogers–Shaw integration.
 
 ### 2018–2020 · North America
 **Innovation & Advisory Lead — Robert Bosch**
@@ -144,6 +153,14 @@ Promoted three levels in three years with an “Exceeding All” rating each yea
 Exchange — MIT Sloan
 
 **Computer Science Engineering — Panjab University**
+
+---
+
+## Public references
+
+[^rogers]: Rogers Communications, 2023 Annual Report — the company reports total consideration of **C$20.5B** for the Shaw transaction at closing: https://about.rogers.com/wp-content/uploads/Rogers-2023-Annual-Report.pdf
+
+[^bosch]: Bosch Research, **Economy of Things** and blockchain / distributed-ledger research context: https://www.bosch.com/research/research-fields/digitalization-and-connectivity/economy-of-things/ and https://www.bosch.com/research/research-fields/digitalization-and-connectivity/economy-of-things/use-cases-prototypes/
 
 ---
 
