@@ -122,7 +122,7 @@ It covers:
 - [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
 - [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
 - [AI Investment & Value Model](projects/00_aviation_ai_value_platform/VALUE_MODEL.md)
-- [Synthetic Benchmark Results](projects/00_aviation_ai_value_platform/RESULTS.md)
+- [Reconstructed Benchmark Results](projects/00_aviation_ai_value_platform/RESULTS.md)
 - [Runnable Python](projects/00_aviation_ai_value_platform/src/)
 
 ---
