@@ -32,9 +32,9 @@ Outside the formal CV, **culture and travel are a major part of my life**. I hav
 
 # Selected Work
 
-## Aviation AI Transformation
+## Etihad Airways — AI Transformation
 
-Supported a **GCC airline AI initiative** focused on operational and fuel-efficiency priorities.
+Supported an **Etihad Airways AI initiative** focused on operational and fuel-efficiency priorities.
 
 My role included:
 - identifying and prioritizing AI use cases
@@ -76,7 +76,7 @@ Compact builds used to explore AI architecture, evaluation, governance and opera
 
 ---
 
-## 00 — Aviation AI Value & Operations Platform
+## 00 — Etihad Airways AI Value & Operations Platform
 
 **Flagship experience-based case study**
 
@@ -117,7 +117,7 @@ It covers:
 
 ### Deep dive
 
-- [Case overview](projects/00_aviation_ai_value_platform/)
+- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)\n- [Case overview](projects/00_aviation_ai_value_platform/)
 - [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
 - [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
 - [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
