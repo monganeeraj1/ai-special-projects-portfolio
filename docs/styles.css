@@ -356,3 +356,28 @@ footer{padding:42px 0 55px;border-top:1px solid var(--line);color:var(--muted);f
   .control-stack,.tech-layers{grid-template-columns:1fr}
   .useful-item{grid-template-columns:48px 1fr}
 }
+
+/* Technology capability profile — distinct from Selected Work */
+.tech-capabilities-section{background:#eef1ef}
+.capability-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:38px}
+.capability-card{background:#fff;border:1px solid #d5d9d7;border-top:4px solid #233844;padding:28px;min-height:390px}
+.capability-card.capability-primary{grid-column:1 / -1;border-top-color:#0f6b62;background:linear-gradient(135deg,#ffffff 0%,#f2f7f5 100%);min-height:auto}
+.capability-head{display:grid;grid-template-columns:46px 1fr;gap:14px;align-items:start}
+.capability-num{font-family:Georgia,"Times New Roman",serif;font-size:30px;color:var(--warm);line-height:1}
+.capability-level{text-transform:uppercase;letter-spacing:1.3px;font-size:10px;font-weight:800;color:var(--accent);margin-bottom:5px}
+.capability-card h3{font-family:Georgia,"Times New Roman",serif;font-size:27px;font-weight:500;line-height:1.18;margin:0}
+.capability-summary{font-size:16px;color:#465561;margin:20px 0}
+.capability-tags{display:flex;flex-wrap:wrap;gap:7px;margin:18px 0 24px}
+.capability-tags span{font-size:11px;font-weight:700;color:#43515b;background:#f1f2f1;border:1px solid #dadddb;padding:5px 8px;border-radius:999px}
+.capability-primary .capability-tags span{background:#e3eeea;border-color:#c5ddd4;color:#245d53}
+.capability-proof{border-top:1px solid var(--line);padding-top:16px;display:flex;gap:12px 18px;flex-wrap:wrap;font-size:13px}
+.capability-proof strong{text-transform:uppercase;letter-spacing:1px;color:var(--muted);font-size:10px;padding-top:3px}
+.tech-foundation{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:28px}
+.tech-foundation>div{background:#102633;color:white;padding:26px}
+.tech-foundation .kicker{color:#70d8d0}
+.tech-foundation h3{font-family:Georgia,serif;font-size:24px;font-weight:500}
+.tech-foundation p{color:#c5d1d6;margin-bottom:0}
+@media(max-width:800px){
+  .capability-grid,.tech-foundation{grid-template-columns:1fr}
+  .capability-card.capability-primary{grid-column:auto}
+}
