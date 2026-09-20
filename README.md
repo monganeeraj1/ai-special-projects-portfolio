@@ -51,15 +51,71 @@ Saudi ministry operating-model redesign, national utility privatisation / restru
 
 ---
 
-# Technology proficiency — demonstrated through delivery
+# Technology Capabilities
 
-| Capability | Project evidence |
-|---|---|
-| **AI & decision systems** | Airline AI: opportunity → value case → decision support → implementation |
-| **Enterprise systems & integration** | TAQA Distribution; Rogers–Shaw backend + retail technology integration |
-| **Digital transformation & PMO automation** | TAQA Distribution integrated dashboards and automated tracking |
-| **Blockchain / distributed systems** | Bosch emerging-tech capability and business-use-case work |
-| **Operating-model / governance design** | GCC government, utilities and large transformation programmes |
+These are separate from **Selected Work**. The capabilities describe what I can work across; the case studies are linked as evidence.
+
+## 1. Deep AI / Machine Learning & Decision Systems
+- AI use-case strategy and prioritisation
+- predictive ML and model evaluation
+- explainability and feature attribution
+- controllable-vs-contextual driver separation
+- human-in-the-loop decision support
+- MLOps, monitoring and drift
+- AI governance and value realisation
+
+**Evidence:** [Airline AI transformation](docs/cases/aviation-ai.html) · [technical reconstruction](projects/00_aviation_ai_value_platform/)
+
+## 2. GenAI, RAG & Agentic Systems
+- retrieval and grounding
+- RAG evaluation
+- hallucination controls
+- agent orchestration and tool use
+- permissions, human approval and auditability
+- failure handling and production controls
+
+**Evidence:** [RAG evaluation](docs/cases/rag.html) · [Agentic AI controls](docs/cases/agentic.html)
+
+## 3. Enterprise Systems & Technology Integration
+- backend systems and customer platforms
+- retail technology
+- integration dependencies
+- vendor coordination
+- customer / platform migration
+- cross-functional technology readiness
+
+**Evidence:** [TAQA Distribution](docs/cases/taqa-distribution.html) · [Rogers–Shaw](docs/cases/rogers-shaw.html)
+
+## 4. Digital Transformation, Automation & PMO Technology
+- integrated executive dashboards
+- automated PMO tracking
+- process redesign
+- customer-system modernisation
+- common delivery taxonomy
+- dependency and decision management
+
+**Evidence:** [TAQA Distribution](docs/cases/taqa-distribution.html)
+
+## 5. Blockchain & Distributed-Ledger Technology
+- blockchain / DLT business cases
+- distributed trust and provenance
+- multi-party ecosystems
+- smart-contract logic
+- emerging-technology strategy
+
+**Evidence:** [Bosch blockchain case](docs/cases/bosch-blockchain.html) · [public keynote](https://www.youtube.com/watch?v=h-V5ISfTPEE)
+
+## 6. Technology Strategy, Architecture & Operating Model
+- technology requirements and roadmaps
+- architecture trade-offs
+- vendor strategy
+- implementation sequencing
+- technology governance
+- operating-model design and permanent ownership
+
+**Evidence:** [Airline AI](docs/cases/aviation-ai.html) · [TAQA Distribution](docs/cases/taqa-distribution.html) · [GCC transformation](docs/cases/gcc-transformation.html)
+
+**Foundation:** Computer Science Engineering. I position myself as technically credible enough to challenge architecture, model, integration and implementation choices without pretending to be the production engineer who owns every build.
 
 ---
 
