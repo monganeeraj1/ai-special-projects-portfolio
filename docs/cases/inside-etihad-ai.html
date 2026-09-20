@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Inside the Etihad AI Engagement | Neeraj Monga</title>
+<meta name="description" content="A work-sample walkthrough of Neeraj Monga's Etihad Airways AI fuel-efficiency engagement, from opportunity framing through implementation.">
+<link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+<nav><div class="wrap">
+  <div class="brand"><a href="aviation-ai.html">← Etihad AI case</a></div>
+  <div class="navlinks">
+    <a href="#ownership">My role</a>
+    <a href="#artifacts">Artifact trail</a>
+    <a href="#decisions">Decisions</a>
+    <a href="#learning">What changed</a>
+    <a href="#boundary">Technical build</a>
+  </div>
+</div></nav>
+
+<header class="hero inside-hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Work sample · inside the engagement</div>
+      <h1>Inside the Etihad AI engagement.</h1>
+      <p class="lead">A chronological walkthrough of the work behind the fuel-efficiency AI initiative: what I owned, the artifacts that moved the project forward, the implementation decisions that mattered, and how the thinking evolved as the work became more concrete.</p>
+      <div class="cta"><a class="button primary" href="#artifacts">Walk through the work</a><a class="button" href="aviation-ai.html">Executive case overview</a></div>
+    </div>
+    <div class="hero-note">
+      <strong>What is real vs. recreated</strong>
+      The engagement and my role are real. The pages below are recreated from my engagement experience because Etihad data, internal decks, dates, individual names, results and proprietary materials are confidential.
+    </div>
+  </div>
+</header>
+
+<section id="ownership">
+<div class="wrap">
+  <div class="eyebrow">My role in the room</div>
+  <h2>I sat between the strategic question and the machinery required to implement it.</h2>
+  <p class="lead" style="font-size:19px">My role was not to present myself as the individual ML engineer. It was to structure the AI initiative, make the value and implementation logic explicit, go deep enough with technical teams to challenge the design, and connect specialist work back to operating decisions and executive choices.</p>
+  <div class="visual consulting-slide"><img class="slide-art" src="../assets/etihad_role_scope.svg" alt="Etihad AI role and contribution scope"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+</div>
+</section>
+
+<section id="artifacts">
+<div class="wrap">
+  <div class="eyebrow">Artifact trail</div>
+  <h2>The project becomes easier to understand when you follow the work products in sequence.</h2>
+  <p class="lead" style="font-size:19px">Each artifact answered a different management question. Together they moved the work from an AI ambition toward an implementable operating capability.</p>
+
+  <div class="artifact-trail">
+    <article class="artifact-item">
+      <div class="artifact-index">01</div>
+      <div class="artifact-copy">
+        <div class="kicker">Engagement framing</div>
+        <h3>What problem are we solving—and what must the engagement produce?</h3>
+        <p>We started with the airline's operational and fuel-efficiency priorities, not with a model. The first job was to structure the work into opportunity, value, solution requirements and implementation.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> align leadership on the scope of the AI initiative and the work required to move it forward.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_delivery_sequence.svg" alt="Etihad engagement overview"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">02</div>
+      <div class="artifact-copy">
+        <div class="kicker">Use-case prioritization</div>
+        <h3>Which AI opportunities are worth investing in?</h3>
+        <p>The opportunity set was narrowed using business value, AI advantage, data readiness, actionability, implementation feasibility, adoption and scalability.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> move from a broad list of AI ideas to priority fuel-efficiency opportunities with a defensible investment thesis.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_use_case_funnel.svg" alt="Etihad AI use-case prioritization"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">03</div>
+      <div class="artifact-copy">
+        <div class="kicker">Decision-support design</div>
+        <h3>Where does AI enter the operating decision?</h3>
+        <p>The important shift was from “predict excess fuel” to “surface an explainable opportunity tied to a controllable lever while there is still time to act.”</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> define the handoff between model signal, intervention logic and human operating judgment.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_decision_workflow.svg" alt="Etihad AI decision workflow"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">04</div>
+      <div class="artifact-copy">
+        <div class="kicker">Value case</div>
+        <h3>How does a model signal become measurable fuel and economic value?</h3>
+        <p>The value case separated theoretical opportunity from actionable share, adoption and realized impact. That forced the program to address user behavior and benefits measurement early.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> determine whether the priority use case had enough realizable value to justify implementation.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_adoption_value.svg" alt="Etihad AI benefits realization logic"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">05</div>
+      <div class="artifact-copy">
+        <div class="kicker">Implementation design</div>
+        <h3>What has to move together for the use case to become operational?</h3>
+        <p>The roadmap connected business/value, data, AI, technology, operating model, governance and adoption rather than treating model development as the project plan.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> sequence dependencies and establish the readiness evidence required before moving toward scale.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/implementation_roadmap.svg" alt="Etihad AI implementation roadmap"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">06</div>
+      <div class="artifact-copy">
+        <div class="kicker">Delivery control</div>
+        <h3>What is blocking the next implementable output?</h3>
+        <p>The working-team tracker connected each deliverable to its operating dependency and the evidence needed to close it—data timing, validation, architecture, workflow, ownership and adoption.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> keep cross-functional implementation moving without reducing progress to a generic percentage-complete dashboard.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_weekly_delivery.svg" alt="Etihad AI cross-functional delivery tracker"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+
+    <article class="artifact-item">
+      <div class="artifact-index">07</div>
+      <div class="artifact-copy">
+        <div class="kicker">Steering & governance</div>
+        <h3>Which issues need leadership attention—and which belong with the working team?</h3>
+        <p>Steering focused on choices affecting value, implementation readiness and long-term ownership. Risks were framed around actual AI failure modes: timing, actionability, causal interpretation, user burden and benefits attribution.</p>
+        <div class="artifact-answer"><strong>Decision supported:</strong> escalate the few choices that materially change value, risk or the implementation path.</div>
+      </div>
+      <div class="artifact-visual visual consulting-slide"><img class="slide-art" src="../assets/etihad_executive_dashboard.svg" alt="Etihad AI steering committee implementation view"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+    </article>
+  </div>
+</div>
+</section>
+
+<section id="decisions">
+<div class="wrap">
+  <div class="eyebrow">The hard decisions</div>
+  <h2>The work became real at the points where strategy, data science and operations disagreed.</h2>
+  <div class="decision-grid">
+    <div class="decision-card"><span>01</span><h3>Prediction vs. intervention</h3><p>A variable can predict excess fuel without being something an operator should change. We had to separate explanatory signal from controllable levers.</p></div>
+    <div class="decision-card"><span>02</span><h3>Model richness vs. decision timing</h3><p>A richer feature set is useless if some of those features arrive after the operating decision. Point-in-time availability constrains the model.</p></div>
+    <div class="decision-card"><span>03</span><h3>Accuracy vs. operating burden</h3><p>The right threshold depends not only on statistical performance but on how many recommendations teams can reasonably review and act on.</p></div>
+    <div class="decision-card"><span>04</span><h3>Dashboard vs. workflow</h3><p>The product question was not “how do we display the model?” but “what does the user do differently after seeing it?”</p></div>
+    <div class="decision-card"><span>05</span><h3>Modeled value vs. realized value</h3><p>Business value had to account for actionability, adoption and realization instead of assuming every predicted opportunity turns into savings.</p></div>
+    <div class="decision-card"><span>06</span><h3>Pilot vs. permanent capability</h3><p>Scale required more than technical success: monitoring, governance, operating ownership and a repeatable data / technology foundation also had to exist.</p></div>
+  </div>
+
+  <div class="visual consulting-slide" style="margin-top:36px"><img class="slide-art" src="../assets/etihad_raid_governance.svg" alt="Etihad AI risk and decision log"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+</div>
+</section>
+
+<section id="learning">
+<div class="wrap">
+  <div class="eyebrow">How the thinking evolved</div>
+  <h2>The project got stronger as the question changed from “can we predict?” to “can the airline act and measure value?”</h2>
+  <div class="visual consulting-slide"><img class="slide-art" src="../assets/etihad_project_learnings.svg" alt="How the Etihad AI design thinking evolved"><img class="client-logo" src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Etihad-airways-logo.svg" alt="Etihad Airways logo"></div>
+  <div class="case-reflection">
+    <p>This is the part of the engagement that most shaped how I now think about enterprise AI. I do not separate “the model” from the decision, operating workflow, adoption mechanism or value case. They are one intervention system.</p>
+  </div>
+</div>
+</section>
+
+<section id="boundary" class="boundary-section">
+<div class="wrap">
+  <div class="eyebrow">Where the portfolio reconstruction begins</div>
+  <h2>The engagement evidence above is separate from the technical prototype below.</h2>
+  <div class="boundary-grid">
+    <div class="boundary-card real">
+      <div class="kicker">Experience-based</div>
+      <h3>What reflects the real Etihad engagement</h3>
+      <p>Opportunity identification and prioritization, business/value case, data / technology / analytics requirements, decision-support design, implementation roadmap, governance, operating processes, adoption and implementation support.</p>
+    </div>
+    <div class="boundary-card reconstructed">
+      <div class="kicker">Portfolio technical reconstruction</div>
+      <h3>What I rebuilt independently to demonstrate technical depth</h3>
+      <p>Flight-level sample data, gradient-boosted model, benchmark metrics, feature importance, drift monitoring, reconstructed value scenarios and runnable Python.</p>
+    </div>
+  </div>
+  <div class="cta"><a class="button primary" href="aviation-ai.html#technical">Continue to the technical reconstruction</a><a class="button" href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Open the technical repository</a></div>
+</div>
+</section>
+
+<footer><div class="wrap">Actual Etihad data, production results, internal documents, individual names, dates and proprietary materials are not reproduced. <a href="aviation-ai.html">Back to the Etihad AI case →</a></div></footer>
+</body>
+</html>
