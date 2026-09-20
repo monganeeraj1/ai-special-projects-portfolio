@@ -1,8 +1,8 @@
-# 00 — Aviation AI Value & Operations Platform
+# 00 — Etihad Airways AI Value & Operations Platform
 
 ## Flagship case: real engagement experience + confidential-client reconstruction
 
-This project is based on my professional experience supporting a **GCC airline AI initiative** focused on operational and fuel-efficiency priorities.
+This project is based on my professional experience supporting an **Etihad Airways AI initiative** focused on operational and fuel-efficiency priorities.
 
 ### What reflects my actual engagement experience
 
@@ -169,9 +169,9 @@ A model can perform well while business value fails because the intervention is 
 
 ---
 
-# Recommended review path
+# Implementation deep dive\n\nStart with **[IMPLEMENTATION_PLAYBOOK.md](IMPLEMENTATION_PLAYBOOK.md)** for the reconstructed end-to-end delivery sequence, governance cadence, stage gates and implementation-management approach.\n\n---\n\n# Technical review path
 
-For a technical / hiring review, I suggest this sequence:
+For the technical deep dive:
 
 1. **[Model Card](MODEL_CARD.md)** — intended use, target, training approach, benchmark, limitations, risks, and go-live criteria.
 2. **[Failure Analysis](FAILURE_ANALYSIS.md)** — leakage, OOD cases, false positives, false negatives, causal failure, and red-team scenarios.
