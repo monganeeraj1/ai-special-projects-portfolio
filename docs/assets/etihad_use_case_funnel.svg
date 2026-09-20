@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Only high-value, feasible and actionable AI use cases should advance to pilot</text>
-
-<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">Start broad, then narrow aggressively using value, AI advantage, data readiness and intervention feasibility</text>
-
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect width="1600" height="92" fill="#ffffff"/>
+<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Only high-value, feasible and actionable AI use cases should advance to pilot</text>
+<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">Start broad, then narrow aggressively using value, AI advantage, data readiness and intervention feasibility</text>
 <g font-family="Arial">
 <polygon points="80,195 770,195 690,300 160,300" fill="#dcebe7"/><text x="220" y="245" font-size="26" font-weight="700" fill="#153947">Opportunity landscape</text><text x="270" y="275" font-size="14" fill="#52606c">Operational pain points · value pools · decision gaps</text>
 <polygon points="160,320 690,320 620,425 230,425" fill="#e6edf6"/><text x="275" y="370" font-size="24" font-weight="700" fill="#153947">AI fit screen</text><text x="285" y="399" font-size="14" fill="#52606c">Data · model class · decision timing</text>
