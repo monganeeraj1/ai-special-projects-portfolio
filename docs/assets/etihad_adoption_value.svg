@@ -1,40 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#f7f7f5"/><rect width="1600" height="92" fill="#1a2632"/>
-<text x="58" y="55" font-family="Arial" font-size="31" font-weight="700" fill="#fff">Pilot Adoption & Benefits — From Recommendation to Realized Value</text>
-<text x="1150" y="54" font-family="Arial" font-size="14" fill="#b9c4ce">RECONSTRUCTED PORTFOLIO VIEW</text>
+<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Scale only when operator adoption and realized economics are proven</text>
 
-<text x="58" y="137" font-family="Arial" font-size="17" fill="#52606c">The value chain is measured beyond model accuracy</text>
+
+<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">Model accuracy is necessary but insufficient: the value chain must hold from recommendation to operator action</text>
 <g font-family="Arial">
-<rect x="58" y="180" width="250" height="118" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="82" y="213" font-size="13" fill="#66727c">01 · ELIGIBLE</text><text x="82" y="253" font-size="26" font-weight="700" fill="#152635">Operations</text><text x="82" y="280" font-size="14" fill="#52606c">Where intervention is possible</text>
+<rect x="58" y="180" width="250" height="118" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="82" y="213" font-size="13" fill="#66727c">01 · ELIGIBLE</text><text x="82" y="253" font-size="26" font-weight="700" fill="#152635">Operations</text><text x="82" y="280" font-size="14" fill="#52606c">Where intervention is possible</text>
 <text x="325" y="245" font-size="28" fill="#98a2aa">→</text>
-<rect x="355" y="180" width="250" height="118" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="379" y="213" font-size="13" fill="#66727c">02 · IDENTIFIED</text><text x="379" y="253" font-size="26" font-weight="700" fill="#152635">AI opportunity</text><text x="379" y="280" font-size="14" fill="#52606c">Model + decision threshold</text>
+<rect x="355" y="180" width="250" height="118" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="379" y="213" font-size="13" fill="#66727c">02 · IDENTIFIED</text><text x="379" y="253" font-size="26" font-weight="700" fill="#152635">AI opportunity</text><text x="379" y="280" font-size="14" fill="#52606c">Model + decision threshold</text>
 <text x="622" y="245" font-size="28" fill="#98a2aa">→</text>
-<rect x="652" y="180" width="250" height="118" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="676" y="213" font-size="13" fill="#66727c">03 · ACTIONABLE</text><text x="676" y="253" font-size="26" font-weight="700" fill="#152635">Controllable lever</text><text x="676" y="280" font-size="14" fill="#52606c">Feasible operational action</text>
+<rect x="652" y="180" width="250" height="118" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="676" y="213" font-size="13" fill="#66727c">03 · ACTIONABLE</text><text x="676" y="253" font-size="26" font-weight="700" fill="#152635">Controllable lever</text><text x="676" y="280" font-size="14" fill="#52606c">Feasible operational action</text>
 <text x="919" y="245" font-size="28" fill="#98a2aa">→</text>
-<rect x="949" y="180" width="250" height="118" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="973" y="213" font-size="13" fill="#66727c">04 · ADOPTED</text><text x="973" y="253" font-size="26" font-weight="700" fill="#152635">Operator action</text><text x="973" y="280" font-size="14" fill="#52606c">Accept / modify / reject</text>
+<rect x="949" y="180" width="250" height="118" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="973" y="213" font-size="13" fill="#66727c">04 · ADOPTED</text><text x="973" y="253" font-size="26" font-weight="700" fill="#152635">Operator action</text><text x="973" y="280" font-size="14" fill="#52606c">Accept / modify / reject</text>
 <text x="1216" y="245" font-size="28" fill="#98a2aa">→</text>
-<rect x="1246" y="180" width="296" height="118" rx="14" fill="#1f6b62"/><text x="1270" y="213" font-size="13" fill="#cce5df">05 · REALIZED</text><text x="1270" y="253" font-size="26" font-weight="700" fill="#fff">Measured value</text><text x="1270" y="280" font-size="14" fill="#d9ece8">Finance-validated outcome</text>
+<rect x="1246" y="180" width="296" height="118" rx="2" fill="#315f73"/><text x="1270" y="213" font-size="13" fill="#cce5df">05 · REALIZED</text><text x="1270" y="253" font-size="26" font-weight="700" fill="#fff">Measured value</text><text x="1270" y="280" font-size="14" fill="#d9ece8">Finance-validated outcome</text>
 </g>
 
 <text x="58" y="360" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Pilot dashboard</text>
-<rect x="58" y="385" width="920" height="350" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<rect x="58" y="385" width="920" height="350" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <g font-family="Arial">
 <text x="84" y="430" font-size="13" fill="#66727c">METRIC</text><text x="410" y="430" font-size="13" fill="#66727c">TREND</text><text x="760" y="430" font-size="13" fill="#66727c">MANAGEMENT QUESTION</text>
-<text x="84" y="482" font-size="15" font-weight="700" fill="#152635">Recommendation acceptance</text><polyline points="410,486 450,478 490,470 530,455 570,447 610,432" fill="none" stroke="#2e8b72" stroke-width="4"/><text x="760" y="482" font-size="14" fill="#52606c">Do users trust the recommendation?</text>
-<text x="84" y="544" font-size="15" font-weight="700" fill="#152635">Override / rejection rate</text><polyline points="410,548 450,553 490,540 530,535 570,520 610,512" fill="none" stroke="#b96d3b" stroke-width="4"/><text x="760" y="544" font-size="14" fill="#52606c">What reasons repeat?</text>
-<text x="84" y="606" font-size="15" font-weight="700" fill="#152635">Actionable opportunity</text><polyline points="410,610 450,598 490,601 530,585 570,572 610,566" fill="none" stroke="#315b89" stroke-width="4"/><text x="760" y="606" font-size="14" fill="#52606c">Is top-k precision improving?</text>
-<text x="84" y="668" font-size="15" font-weight="700" fill="#152635">Realized vs modeled value</text><polyline points="410,672 450,664 490,650 530,646 570,628 610,616" fill="none" stroke="#0f6b62" stroke-width="4"/><text x="760" y="668" font-size="14" fill="#52606c">Is the intervention causal?</text>
+<text x="84" y="482" font-size="15" font-weight="700" fill="#152635">Recommendation acceptance</text><polyline points="410,486 450,478 490,470 530,455 570,447 610,432" fill="none" stroke="#315f73" stroke-width="4"/><text x="760" y="482" font-size="14" fill="#52606c">Do users trust the recommendation?</text>
+<text x="84" y="544" font-size="15" font-weight="700" fill="#152635">Override / rejection rate</text><polyline points="410,548 450,553 490,540 530,535 570,520 610,512" fill="none" stroke="#b08a4a" stroke-width="4"/><text x="760" y="544" font-size="14" fill="#52606c">What reasons repeat?</text>
+<text x="84" y="606" font-size="15" font-weight="700" fill="#152635">Actionable opportunity</text><polyline points="410,610 450,598 490,601 530,585 570,572 610,566" fill="none" stroke="#607f96" stroke-width="4"/><text x="760" y="606" font-size="14" fill="#52606c">Is top-k precision improving?</text>
+<text x="84" y="668" font-size="15" font-weight="700" fill="#152635">Realized vs modeled value</text><polyline points="410,672 450,664 490,650 530,646 570,628 610,616" fill="none" stroke="#315f73" stroke-width="4"/><text x="760" y="668" font-size="14" fill="#52606c">Is the intervention causal?</text>
 </g>
 
-<rect x="1010" y="385" width="532" height="350" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<rect x="1010" y="385" width="532" height="350" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <text x="1038" y="430" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Scale gate</text>
 <g font-family="Arial">
-<circle cx="1050" cy="477" r="10" fill="#2e8b72"/><text x="1076" y="483" font-size="15" fill="#1f3344">Technical quality acceptable</text>
-<circle cx="1050" cy="526" r="10" fill="#2e8b72"/><text x="1076" y="532" font-size="15" fill="#1f3344">Operational action feasible</text>
-<circle cx="1050" cy="575" r="10" fill="#c89545"/><text x="1076" y="581" font-size="15" fill="#1f3344">Adoption above threshold</text>
-<circle cx="1050" cy="624" r="10" fill="#c89545"/><text x="1076" y="630" font-size="15" fill="#1f3344">Benefits evidence maturing</text>
-<circle cx="1050" cy="673" r="10" fill="#2e8b72"/><text x="1076" y="679" font-size="15" fill="#1f3344">Monitoring / ownership ready</text>
+<circle cx="1050" cy="477" r="10" fill="#315f73"/><text x="1076" y="483" font-size="15" fill="#1f3344">Technical quality acceptable</text>
+<circle cx="1050" cy="526" r="10" fill="#315f73"/><text x="1076" y="532" font-size="15" fill="#1f3344">Operational action feasible</text>
+<circle cx="1050" cy="575" r="10" fill="#b08a4a"/><text x="1076" y="581" font-size="15" fill="#1f3344">Adoption above threshold</text>
+<circle cx="1050" cy="624" r="10" fill="#b08a4a"/><text x="1076" y="630" font-size="15" fill="#1f3344">Benefits evidence maturing</text>
+<circle cx="1050" cy="673" r="10" fill="#315f73"/><text x="1076" y="679" font-size="15" fill="#1f3344">Monitoring / ownership ready</text>
 </g>
-<rect x="1010" y="770" width="532" height="62" rx="12" fill="#1a2632"/><text x="1038" y="808" font-family="Arial" font-size="17" font-weight="700" fill="#fff">Scale only when model + workflow + economics all hold.</text>
+<rect x="1010" y="770" width="532" height="62" rx="2" fill="#1a2632"/><text x="1038" y="808" font-family="Arial" font-size="17" font-weight="700" fill="#fff">Scale only when model + workflow + economics all hold.</text>
 <text x="58" y="876" font-family="Arial" font-size="12" fill="#7b8791">Actual Etihad adoption and benefit metrics are confidential. Trend shapes and gate status are reconstructed for portfolio demonstration.</text>
+<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
+<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
+<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
 </svg>
