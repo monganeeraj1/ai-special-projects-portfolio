@@ -1,42 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
 <rect width="1600" height="900" fill="#ffffff"/>
-<rect width="1600" height="92" fill="#ffffff"/>
-<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">AI value requires managing the full journey from opportunity selection to operating adoption</text>
-<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">A single transformation spine connects business value, data & AI, technology, governance and change</text>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | ENGAGEMENT OVERVIEW</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">The engagement moved from AI opportunity identification to implementation of a scalable fuel-efficiency capability</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
+
 <g font-family="Arial">
-<rect x="58" y="175" width="285" height="112" rx="2" fill="#e2efe9"/><text x="80" y="207" font-size="14" font-weight="700" fill="#315f73">01 · FRAME</text><text x="80" y="237" font-size="20" font-weight="700" fill="#152635">Operational problem</text><text x="80" y="265" font-size="14" fill="#52606c">Decision inventory · KPI baseline</text>
-<rect x="365" y="175" width="285" height="112" rx="2" fill="#e9eef6"/><text x="387" y="207" font-size="14" font-weight="700" fill="#607f96">02 · DISCOVER</text><text x="387" y="237" font-size="20" font-weight="700" fill="#152635">Use-case landscape</text><text x="387" y="265" font-size="14" fill="#52606c">Value pools · users · AI fit</text>
-<rect x="672" y="175" width="285" height="112" rx="2" fill="#f4eadf"/><text x="694" y="207" font-size="14" font-weight="700" fill="#b08a4a">03 · PRIORITIZE</text><text x="694" y="237" font-size="20" font-weight="700" fill="#152635">Investment choices</text><text x="694" y="265" font-size="14" fill="#52606c">Value × feasibility × adoption</text>
-<rect x="979" y="175" width="285" height="112" rx="2" fill="#e2efe9"/><text x="1001" y="207" font-size="14" font-weight="700" fill="#315f73">04 · SPECIFY</text><text x="1001" y="237" font-size="20" font-weight="700" fill="#152635">Data & features</text><text x="1001" y="265" font-size="14" fill="#52606c">Point-in-time feature contract</text>
-<rect x="1286" y="175" width="256" height="112" rx="2" fill="#e9eef6"/><text x="1308" y="207" font-size="14" font-weight="700" fill="#607f96">05 · DESIGN</text><text x="1308" y="237" font-size="20" font-weight="700" fill="#152635">AI architecture</text><text x="1308" y="265" font-size="14" fill="#52606c">Model → decision layer</text>
+<text x="58" y="132" font-size="14" font-weight="700" fill="#4e555b">ENGAGEMENT FLOW</text>
 
-<path d="M200 315 L1400 315" stroke="#bdc7ce" stroke-width="2"/>
-<circle cx="200" cy="315" r="7" fill="#315f73"/><circle cx="500" cy="315" r="7" fill="#607f96"/><circle cx="800" cy="315" r="7" fill="#b08a4a"/><circle cx="1100" cy="315" r="7" fill="#315f73"/><circle cx="1400" cy="315" r="7" fill="#607f96"/>
+<rect x="58" y="158" width="350" height="386" fill="#fbfbfa" stroke="#cfd3d6"/>
+<rect x="58" y="158" width="350" height="7" fill="#b2915f"/>
+<text x="82" y="201" font-size="13" font-weight="700" fill="#8c744f">01  DISCOVER &amp; PRIORITIZE</text>
+<text x="82" y="235" font-size="20" font-weight="700" fill="#1d252b">Where should AI create value?</text>
+<text x="82" y="278" font-size="13" font-weight="700" fill="#4e555b">Work undertaken</text>
+<text x="82" y="306" font-size="14" fill="#465159">• Identify operational AI opportunities</text>
+<text x="82" y="334" font-size="14" fill="#465159">• Define prioritization criteria</text>
+<text x="82" y="362" font-size="14" fill="#465159">• Select priority fuel-efficiency themes</text>
+<text x="82" y="407" font-size="13" font-weight="700" fill="#4e555b">Work products</text>
+<text x="82" y="435" font-size="14" fill="#465159">Use-case inventory and prioritization</text>
+<text x="82" y="463" font-size="14" fill="#465159">Problem statements and decision points</text>
+<text x="82" y="491" font-size="14" fill="#465159">Initial value and feasibility hypotheses</text>
 
-<rect x="58" y="355" width="285" height="112" rx="2" fill="#f4eadf"/><text x="80" y="387" font-size="14" font-weight="700" fill="#b08a4a">06 · VALUE</text><text x="80" y="417" font-size="20" font-weight="700" fill="#152635">Business case</text><text x="80" y="445" font-size="14" fill="#52606c">Opportunity → economics</text>
-<rect x="365" y="355" width="285" height="112" rx="2" fill="#e2efe9"/><text x="387" y="387" font-size="14" font-weight="700" fill="#315f73">07 · BUILD</text><text x="387" y="417" font-size="20" font-weight="700" fill="#152635">Pilot</text><text x="387" y="445" font-size="14" fill="#52606c">Data · model · product</text>
-<rect x="672" y="355" width="285" height="112" rx="2" fill="#e9eef6"/><text x="694" y="387" font-size="14" font-weight="700" fill="#607f96">08 · EMBED</text><text x="694" y="417" font-size="20" font-weight="700" fill="#152635">Workflow integration</text><text x="694" y="445" font-size="14" fill="#52606c">Human decision + feedback</text>
-<rect x="979" y="355" width="285" height="112" rx="2" fill="#f4eadf"/><text x="1001" y="387" font-size="14" font-weight="700" fill="#b08a4a">09 · GOVERN</text><text x="1001" y="417" font-size="20" font-weight="700" fill="#152635">Run the program</text><text x="1001" y="445" font-size="14" fill="#52606c">RAID · steering · model risk</text>
-<rect x="1286" y="355" width="256" height="112" rx="2" fill="#e2efe9"/><text x="1308" y="387" font-size="14" font-weight="700" fill="#315f73">10 · SCALE</text><text x="1308" y="417" font-size="20" font-weight="700" fill="#152635">BAU capability</text><text x="1308" y="445" font-size="14" fill="#52606c">Benefits · monitoring · owner</text>
+<rect x="430" y="158" width="350" height="386" fill="#fbfbfa" stroke="#cfd3d6"/>
+<rect x="430" y="158" width="350" height="7" fill="#6b8392"/>
+<text x="454" y="201" font-size="13" font-weight="700" fill="#5d7483">02  VALUE &amp; REQUIREMENTS</text>
+<text x="454" y="235" font-size="20" font-weight="700" fill="#1d252b">What has to be true?</text>
+<text x="454" y="278" font-size="13" font-weight="700" fill="#4e555b">Work undertaken</text>
+<text x="454" y="306" font-size="14" fill="#465159">• Build the fuel-efficiency value case</text>
+<text x="454" y="334" font-size="14" fill="#465159">• Translate into data requirements</text>
+<text x="454" y="362" font-size="14" fill="#465159">• Define technology / analytics needs</text>
+<text x="454" y="407" font-size="13" font-weight="700" fill="#4e555b">Work products</text>
+<text x="454" y="435" font-size="14" fill="#465159">Business and value case</text>
+<text x="454" y="463" font-size="14" fill="#465159">Data / analytics requirements</text>
+<text x="454" y="491" font-size="14" fill="#465159">Technology and integration requirements</text>
+
+<rect x="802" y="158" width="350" height="386" fill="#fbfbfa" stroke="#cfd3d6"/>
+<rect x="802" y="158" width="350" height="7" fill="#74886c"/>
+<text x="826" y="201" font-size="13" font-weight="700" fill="#61745a">03  DESIGN THE CAPABILITY</text>
+<text x="826" y="235" font-size="20" font-weight="700" fill="#1d252b">How will AI enter the operation?</text>
+<text x="826" y="278" font-size="13" font-weight="700" fill="#4e555b">Work undertaken</text>
+<text x="826" y="306" font-size="14" fill="#465159">• Shape AI-enabled decision support</text>
+<text x="826" y="334" font-size="14" fill="#465159">• Define governance and operating process</text>
+<text x="826" y="362" font-size="14" fill="#465159">• Design scalable implementation roadmap</text>
+<text x="826" y="407" font-size="13" font-weight="700" fill="#4e555b">Work products</text>
+<text x="826" y="435" font-size="14" fill="#465159">Decision-support concept</text>
+<text x="826" y="463" font-size="14" fill="#465159">Governance / process design</text>
+<text x="826" y="491" font-size="14" fill="#465159">Architecture and implementation roadmap</text>
+
+<rect x="1174" y="158" width="368" height="386" fill="#fbfbfa" stroke="#cfd3d6"/>
+<rect x="1174" y="158" width="368" height="7" fill="#9b7657"/>
+<text x="1198" y="201" font-size="13" font-weight="700" fill="#805f45">04  MOBILIZE IMPLEMENTATION</text>
+<text x="1198" y="235" font-size="20" font-weight="700" fill="#1d252b">How does it become real?</text>
+<text x="1198" y="278" font-size="13" font-weight="700" fill="#4e555b">Work undertaken</text>
+<text x="1198" y="306" font-size="14" fill="#465159">• Coordinate cross-functional delivery</text>
+<text x="1198" y="334" font-size="14" fill="#465159">• Track dependencies and decisions</text>
+<text x="1198" y="362" font-size="14" fill="#465159">• Support adoption and implementation</text>
+<text x="1198" y="407" font-size="13" font-weight="700" fill="#4e555b">Work products</text>
+<text x="1198" y="435" font-size="14" fill="#465159">Integrated workplan</text>
+<text x="1198" y="463" font-size="14" fill="#465159">Steering / dependency tracking</text>
+<text x="1198" y="491" font-size="14" fill="#465159">Adoption and benefits mechanisms</text>
+
+<text x="58" y="598" font-size="14" font-weight="700" fill="#4e555b">MY ROLE ACROSS THE PROGRAM</text>
+<rect x="58" y="622" width="1484" height="155" fill="#f5f4f1" stroke="#dad7d1"/>
+<text x="86" y="662" font-size="16" font-weight="700" fill="#1d252b">1</text>
+<text x="120" y="662" font-size="15" fill="#38434b">Structured the initiative from use-case identification and prioritization through solution design and implementation.</text>
+<text x="86" y="705" font-size="16" font-weight="700" fill="#1d252b">2</text>
+<text x="120" y="705" font-size="15" fill="#38434b">Translated operational opportunities into business, data, technology, analytics and organizational requirements.</text>
+<text x="86" y="748" font-size="16" font-weight="700" fill="#1d252b">3</text>
+<text x="120" y="748" font-size="15" fill="#38434b">Connected CXO-level value decisions with the practical delivery mechanisms needed to make the capability work.</text>
 </g>
 
-<text x="58" y="540" font-family="Arial" font-size="19" font-weight="700" fill="#152635">Four workstreams run in parallel</text>
-<g font-family="Arial">
-<rect x="58" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
-<text x="82" y="607" font-size="16" font-weight="700" fill="#152635">Business & operations</text><text x="82" y="638" font-size="14" fill="#52606c">Use cases · workflow · operator feasibility</text><text x="82" y="665" font-size="14" fill="#52606c">Adoption · ownership · operating model</text>
-<rect x="430" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
-<text x="454" y="607" font-size="16" font-weight="700" fill="#152635">Data & AI</text><text x="454" y="638" font-size="14" fill="#52606c">Data contract · model · evaluation</text><text x="454" y="665" font-size="14" fill="#52606c">Explainability · drift · monitoring</text>
-<rect x="802" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
-<text x="826" y="607" font-size="16" font-weight="700" fill="#152635">Technology & integration</text><text x="826" y="638" font-size="14" fill="#52606c">Architecture · interfaces · product</text><text x="826" y="665" font-size="14" fill="#52606c">Security · deployment · environments</text>
-<rect x="1174" y="570" width="368" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
-<text x="1198" y="607" font-size="16" font-weight="700" fill="#152635">Value & governance</text><text x="1198" y="638" font-size="14" fill="#52606c">Business case · benefits · stage gates</text><text x="1198" y="665" font-size="14" fill="#52606c">RAID · steering · decisions</text>
-</g>
-<rect x="58" y="758" width="1484" height="76" rx="2" fill="#1a2632"/>
-<text x="84" y="789" font-family="Arial" font-size="15" fill="#cbd4db">Core principle</text>
-<text x="84" y="816" font-family="Arial" font-size="20" font-weight="700" fill="#fff">Model performance matters — but value is created only when the recommendation changes a real operating decision.</text>
-<text x="58" y="873" font-family="Arial" font-size="12" fill="#7b8791">Actual client data, production results and internal materials remain confidential. This is a reconstructed portfolio view.</text>
-<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
-<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
-<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2" stroke-width="1"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">1</text>
 </svg>
