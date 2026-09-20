@@ -1,39 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#f7f7f5"/><rect width="1600" height="92" fill="#1a2632"/>
-<text x="58" y="55" font-family="Arial" font-size="31" font-weight="700" fill="#fff">AI Program — Executive Steering Dashboard</text>
-<text x="1170" y="54" font-family="Arial" font-size="14" fill="#b9c4ce">RECONSTRUCTED PORTFOLIO VIEW</text>
+<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Pilot is on track; three cross-functional decisions now determine near-term value</text>
+
 <g font-family="Arial">
 <text x="58" y="137" font-size="16" fill="#52606c">Status at a glance</text>
-<rect x="58" y="160" width="280" height="112" rx="14" fill="#fff" stroke="#d7d8d2"/><circle cx="92" cy="200" r="12" fill="#2e8b72"/><text x="118" y="207" font-size="19" font-weight="700" fill="#152635">Overall: Green</text><text x="82" y="242" font-size="14" fill="#52606c">Build on plan · decisions due</text>
-<rect x="358" y="160" width="280" height="112" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="382" y="196" font-size="13" fill="#66727c">WORKSTREAMS GREEN</text><text x="382" y="244" font-size="38" font-weight="700" fill="#152635">4 / 6</text>
-<rect x="658" y="160" width="280" height="112" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="682" y="196" font-size="13" fill="#66727c">OPEN CRITICAL RISKS</text><text x="682" y="244" font-size="38" font-weight="700" fill="#b96d3b">2</text>
-<rect x="958" y="160" width="280" height="112" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="982" y="196" font-size="13" fill="#66727c">DECISIONS REQUIRED</text><text x="982" y="244" font-size="38" font-weight="700" fill="#315b89">3</text>
-<rect x="1258" y="160" width="284" height="112" rx="14" fill="#fff" stroke="#d7d8d2"/><text x="1282" y="196" font-size="13" fill="#66727c">NEXT GATE</text><text x="1282" y="230" font-size="20" font-weight="700" fill="#152635">Pilot readiness</text>
+<rect x="58" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><circle cx="92" cy="200" r="12" fill="#315f73"/><text x="118" y="207" font-size="19" font-weight="700" fill="#152635">Overall: Green</text><text x="82" y="242" font-size="14" fill="#52606c">Build on plan · decisions due</text>
+<rect x="358" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="382" y="196" font-size="13" fill="#66727c">WORKSTREAMS GREEN</text><text x="382" y="244" font-size="38" font-weight="700" fill="#152635">4 / 6</text>
+<rect x="658" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="682" y="196" font-size="13" fill="#66727c">OPEN CRITICAL RISKS</text><text x="682" y="244" font-size="38" font-weight="700" fill="#b08a4a">2</text>
+<rect x="958" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="982" y="196" font-size="13" fill="#66727c">DECISIONS REQUIRED</text><text x="982" y="244" font-size="38" font-weight="700" fill="#607f96">3</text>
+<rect x="1258" y="160" width="284" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="1282" y="196" font-size="13" fill="#66727c">NEXT GATE</text><text x="1282" y="230" font-size="20" font-weight="700" fill="#152635">Pilot readiness</text>
 </g>
 
 <text x="58" y="326" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Workstream progress</text>
-<rect x="58" y="348" width="915" height="405" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<rect x="58" y="348" width="915" height="405" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <g font-family="Arial" font-size="15" fill="#1f3344">
 <text x="88" y="392" font-weight="700" fill="#66727c">WORKSTREAM</text><text x="445" y="392" font-weight="700" fill="#66727c">PROGRESS</text><text x="760" y="392" font-weight="700" fill="#66727c">NEXT OUTPUT</text>
-<text x="88" y="444">Use case & value</text><rect x="445" y="427" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="427" width="225" height="18" rx="9" fill="#2e8b72"/><text x="760" y="444">Value case sign-off</text>
-<text x="88" y="502">Data & feature pipeline</text><rect x="445" y="485" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="485" width="188" height="18" rx="9" fill="#2e8b72"/><text x="760" y="502">Quality / lineage closure</text>
-<text x="88" y="560">Model & analytics</text><rect x="445" y="543" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="543" width="175" height="18" rx="9" fill="#2e8b72"/><text x="760" y="560">Offline validation</text>
-<text x="88" y="618">Decision-support product</text><rect x="445" y="601" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="601" width="150" height="18" rx="9" fill="#c89545"/><text x="760" y="618">Operator UX test</text>
-<text x="88" y="676">Governance & model risk</text><rect x="445" y="659" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="659" width="162" height="18" rx="9" fill="#2e8b72"/><text x="760" y="676">Pilot approval pack</text>
-<text x="88" y="734">Change & adoption</text><rect x="445" y="717" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="717" width="125" height="18" rx="9" fill="#c89545"/><text x="760" y="734">Champion mobilization</text>
+<text x="88" y="444">Use case & value</text><rect x="445" y="427" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="427" width="225" height="18" rx="9" fill="#315f73"/><text x="760" y="444">Value case sign-off</text>
+<text x="88" y="502">Data & feature pipeline</text><rect x="445" y="485" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="485" width="188" height="18" rx="9" fill="#315f73"/><text x="760" y="502">Quality / lineage closure</text>
+<text x="88" y="560">Model & analytics</text><rect x="445" y="543" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="543" width="175" height="18" rx="9" fill="#315f73"/><text x="760" y="560">Offline validation</text>
+<text x="88" y="618">Decision-support product</text><rect x="445" y="601" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="601" width="150" height="18" rx="9" fill="#b08a4a"/><text x="760" y="618">Operator UX test</text>
+<text x="88" y="676">Governance & model risk</text><rect x="445" y="659" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="659" width="162" height="18" rx="9" fill="#315f73"/><text x="760" y="676">Pilot approval pack</text>
+<text x="88" y="734">Change & adoption</text><rect x="445" y="717" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="717" width="125" height="18" rx="9" fill="#b08a4a"/><text x="760" y="734">Champion mobilization</text>
 </g>
 
 <text x="1015" y="326" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Steering agenda</text>
-<rect x="1015" y="348" width="527" height="405" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<rect x="1015" y="348" width="527" height="405" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <g font-family="Arial">
-<text x="1045" y="393" font-size="13" font-weight="700" fill="#b96d3b">DECISION</text><text x="1045" y="421" font-size="16" fill="#1f3344">Approve pilot operating scope and threshold</text>
+<text x="1045" y="393" font-size="13" font-weight="700" fill="#b08a4a">DECISION</text><text x="1045" y="421" font-size="16" fill="#1f3344">Approve pilot operating scope and threshold</text>
 <line x1="1045" y1="448" x2="1508" y2="448" stroke="#e2e5e6"/>
-<text x="1045" y="486" font-size="13" font-weight="700" fill="#b96d3b">DECISION</text><text x="1045" y="514" font-size="16" fill="#1f3344">Confirm benefits attribution method</text>
+<text x="1045" y="486" font-size="13" font-weight="700" fill="#b08a4a">DECISION</text><text x="1045" y="514" font-size="16" fill="#1f3344">Confirm benefits attribution method</text>
 <line x1="1045" y1="541" x2="1508" y2="541" stroke="#e2e5e6"/>
-<text x="1045" y="579" font-size="13" font-weight="700" fill="#315b89">DEPENDENCY</text><text x="1045" y="607" font-size="16" fill="#1f3344">Close remaining data-quality gaps</text>
+<text x="1045" y="579" font-size="13" font-weight="700" fill="#607f96">DEPENDENCY</text><text x="1045" y="607" font-size="16" fill="#1f3344">Close remaining data-quality gaps</text>
 <line x1="1045" y1="634" x2="1508" y2="634" stroke="#e2e5e6"/>
 <text x="1045" y="672" font-size="13" font-weight="700" fill="#a44343">RISK</text><text x="1045" y="700" font-size="16" fill="#1f3344">Pilot window compressed by upstream dependency</text>
 </g>
 <text x="58" y="848" font-family="Arial" font-size="14" fill="#52606c">The dashboard focuses steering time on decisions, risks, dependencies and value — not activity reporting.</text>
 <text x="58" y="876" font-family="Arial" font-size="12" fill="#7b8791">Actual Etihad status, dates and metrics are confidential. Values shown are reconstructed solely to demonstrate the implementation-management approach.</text>
+<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
+<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
+<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
 </svg>
