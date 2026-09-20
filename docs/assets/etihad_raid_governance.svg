@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Stage gates and explicit decision rights keep delivery risk visible and actionable</text>
-
-
-<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">RAID governance separates risks, assumptions, issues and dependencies while preserving decision accountability</text>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect width="1600" height="92" fill="#ffffff"/>
+<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Stage gates and explicit decision rights keep delivery risk visible and actionable</text>
+<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">RAID governance separates risks, assumptions, issues and dependencies while preserving decision accountability</text>
 <rect x="58" y="172" width="950" height="520" rx="2" fill="#fff" stroke="#d7d8d2"/>
 <text x="84" y="214" font-family="Arial" font-size="18" font-weight="700" fill="#152635">RAID log — executive cut</text>
 <g font-family="Arial" font-size="14">
