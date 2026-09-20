@@ -1,44 +1,55 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
 <rect width="1600" height="900" fill="#ffffff"/>
-<rect width="1600" height="92" fill="#ffffff"/>
-<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Pilot is on track; three cross-functional decisions now determine near-term value</text>
-<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">Steering attention is focused on decisions, dependencies and the next stage gate—not activity reporting</text>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | STEERING COMMITTEE</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">SteerCo focused on what had been established, what implementation had to make real, and which decisions required escalation</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
+
 <g font-family="Arial">
-<text x="58" y="137" font-size="16" fill="#52606c">Status at a glance</text>
-<rect x="58" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><circle cx="92" cy="200" r="12" fill="#315f73"/><text x="118" y="207" font-size="19" font-weight="700" fill="#152635">Overall: Green</text><text x="82" y="242" font-size="14" fill="#52606c">Build on plan · decisions due</text>
-<rect x="358" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="382" y="196" font-size="13" fill="#66727c">WORKSTREAMS GREEN</text><text x="382" y="244" font-size="38" font-weight="700" fill="#152635">4 / 6</text>
-<rect x="658" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="682" y="196" font-size="13" fill="#66727c">OPEN CRITICAL RISKS</text><text x="682" y="244" font-size="38" font-weight="700" fill="#b08a4a">2</text>
-<rect x="958" y="160" width="280" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="982" y="196" font-size="13" fill="#66727c">DECISIONS REQUIRED</text><text x="982" y="244" font-size="38" font-weight="700" fill="#607f96">3</text>
-<rect x="1258" y="160" width="284" height="112" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="1282" y="196" font-size="13" fill="#66727c">NEXT GATE</text><text x="1282" y="230" font-size="20" font-weight="700" fill="#152635">Pilot readiness</text>
+<text x="58" y="132" font-size="14" font-weight="700" fill="#4e555b">PROGRAM VIEW</text>
+
+<rect x="58" y="158" width="465" height="210" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="82" y="191" font-size="12" font-weight="700" letter-spacing="1.1" fill="#7c6848">WORK PRODUCTS ESTABLISHED</text>
+<text x="82" y="228" font-size="15" fill="#37434b">✓ AI use-case identification and prioritization</text>
+<text x="82" y="262" font-size="15" fill="#37434b">✓ Fuel-efficiency business / value case</text>
+<text x="82" y="296" font-size="15" fill="#37434b">✓ Data, technology and analytics requirements</text>
+<text x="82" y="330" font-size="15" fill="#37434b">✓ Scalable technology / implementation roadmap</text>
+
+<rect x="544" y="158" width="465" height="210" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="568" y="191" font-size="12" font-weight="700" letter-spacing="1.1" fill="#5d7483">IMPLEMENTATION FOCUS</text>
+<text x="568" y="228" font-size="15" fill="#37434b">• Data integration and feature readiness</text>
+<text x="568" y="262" font-size="15" fill="#37434b">• AI-enabled decision-support build</text>
+<text x="568" y="296" font-size="15" fill="#37434b">• Governance and operating-process integration</text>
+<text x="568" y="330" font-size="15" fill="#37434b">• Adoption, ownership and benefits realization</text>
+
+<rect x="1030" y="158" width="512" height="210" fill="#faf9f7" stroke="#cfd3d6"/>
+<text x="1054" y="191" font-size="12" font-weight="700" letter-spacing="1.1" fill="#805f45">MANAGEMENT DECISIONS</text>
+<text x="1054" y="228" font-size="15" fill="#37434b">1  Where in the operating workflow should AI intervene?</text>
+<text x="1054" y="262" font-size="15" fill="#37434b">2  What data / integration approach is viable at scale?</text>
+<text x="1054" y="296" font-size="15" fill="#37434b">3  How will benefits be measured and attributed?</text>
+<text x="1054" y="330" font-size="15" fill="#37434b">4  Who owns the capability after implementation?</text>
+
+<text x="58" y="420" font-size="14" font-weight="700" fill="#4e555b">CROSS-FUNCTIONAL DELIVERY TRACKER</text>
+<rect x="58" y="444" width="1484" height="348" fill="#ffffff" stroke="#cfd3d6"/>
+<rect x="58" y="444" width="1484" height="46" fill="#f3f2ef"/>
+<text x="82" y="474" font-size="12" font-weight="700" fill="#6a7075">WORKSTREAM</text>
+<text x="350" y="474" font-size="12" font-weight="700" fill="#6a7075">ENGAGEMENT OUTPUT</text>
+<text x="900" y="474" font-size="12" font-weight="700" fill="#6a7075">IMPLEMENTATION QUESTION</text>
+
+<g font-size="14" fill="#37434b">
+<text x="82" y="532" font-weight="700">Use cases &amp; value</text><text x="350" y="532">Prioritized AI opportunities + fuel-efficiency value case</text><text x="900" y="532">Which opportunities move into build first?</text>
+<line x1="82" y1="555" x2="1515" y2="555" stroke="#e2e4e6"/>
+<text x="82" y="600" font-weight="700">Data &amp; analytics</text><text x="350" y="600">Data / feature / analytics requirements</text><text x="900" y="600">Can required signals be available at decision time?</text>
+<line x1="82" y1="623" x2="1515" y2="623" stroke="#e2e4e6"/>
+<text x="82" y="668" font-weight="700">Technology</text><text x="350" y="668">Scalable technology and integration roadmap</text><text x="900" y="668">How will the capability fit the existing stack?</text>
+<line x1="82" y1="691" x2="1515" y2="691" stroke="#e2e4e6"/>
+<text x="82" y="736" font-weight="700">Operating model</text><text x="350" y="736">Decision support, governance and operating processes</text><text x="900" y="736">Who acts, approves, overrides and monitors?</text>
+<line x1="82" y1="759" x2="1515" y2="759" stroke="#e2e4e6"/>
+<text x="82" y="782" font-weight="700">Adoption</text><text x="350" y="782">Implementation support and adoption mechanisms</text><text x="900" y="782">How does the new capability become normal operations?</text>
+</g>
 </g>
 
-<text x="58" y="326" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Workstream progress</text>
-<rect x="58" y="348" width="915" height="405" rx="2" fill="#fff" stroke="#d7d8d2"/>
-<g font-family="Arial" font-size="15" fill="#1f3344">
-<text x="88" y="392" font-weight="700" fill="#66727c">WORKSTREAM</text><text x="445" y="392" font-weight="700" fill="#66727c">PROGRESS</text><text x="760" y="392" font-weight="700" fill="#66727c">NEXT OUTPUT</text>
-<text x="88" y="444">Use case & value</text><rect x="445" y="427" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="427" width="225" height="18" rx="9" fill="#315f73"/><text x="760" y="444">Value case sign-off</text>
-<text x="88" y="502">Data & feature pipeline</text><rect x="445" y="485" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="485" width="188" height="18" rx="9" fill="#315f73"/><text x="760" y="502">Quality / lineage closure</text>
-<text x="88" y="560">Model & analytics</text><rect x="445" y="543" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="543" width="175" height="18" rx="9" fill="#315f73"/><text x="760" y="560">Offline validation</text>
-<text x="88" y="618">Decision-support product</text><rect x="445" y="601" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="601" width="150" height="18" rx="9" fill="#b08a4a"/><text x="760" y="618">Operator UX test</text>
-<text x="88" y="676">Governance & model risk</text><rect x="445" y="659" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="659" width="162" height="18" rx="9" fill="#315f73"/><text x="760" y="676">Pilot approval pack</text>
-<text x="88" y="734">Change & adoption</text><rect x="445" y="717" width="250" height="18" rx="9" fill="#e8ecee"/><rect x="445" y="717" width="125" height="18" rx="9" fill="#b08a4a"/><text x="760" y="734">Champion mobilization</text>
-</g>
-
-<text x="1015" y="326" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Steering agenda</text>
-<rect x="1015" y="348" width="527" height="405" rx="2" fill="#fff" stroke="#d7d8d2"/>
-<g font-family="Arial">
-<text x="1045" y="393" font-size="13" font-weight="700" fill="#b08a4a">DECISION</text><text x="1045" y="421" font-size="16" fill="#1f3344">Approve pilot operating scope and threshold</text>
-<line x1="1045" y1="448" x2="1508" y2="448" stroke="#e2e5e6"/>
-<text x="1045" y="486" font-size="13" font-weight="700" fill="#b08a4a">DECISION</text><text x="1045" y="514" font-size="16" fill="#1f3344">Confirm benefits attribution method</text>
-<line x1="1045" y1="541" x2="1508" y2="541" stroke="#e2e5e6"/>
-<text x="1045" y="579" font-size="13" font-weight="700" fill="#607f96">DEPENDENCY</text><text x="1045" y="607" font-size="16" fill="#1f3344">Close remaining data-quality gaps</text>
-<line x1="1045" y1="634" x2="1508" y2="634" stroke="#e2e5e6"/>
-<text x="1045" y="672" font-size="13" font-weight="700" fill="#a44343">RISK</text><text x="1045" y="700" font-size="16" fill="#1f3344">Pilot window compressed by upstream dependency</text>
-</g>
-<text x="58" y="848" font-family="Arial" font-size="14" fill="#52606c">The dashboard focuses steering time on decisions, risks, dependencies and value — not activity reporting.</text>
-<text x="58" y="876" font-family="Arial" font-size="12" fill="#7b8791">Actual Etihad status, dates and metrics are confidential. Values shown are reconstructed solely to demonstrate the implementation-management approach.</text>
-<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
-<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
-<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2" stroke-width="1"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">3</text>
 </svg>
