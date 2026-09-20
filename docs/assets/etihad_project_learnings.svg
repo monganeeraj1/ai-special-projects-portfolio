@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#ffffff"/>
+<text x="58" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.5" fill="#7b6a4b">AI FUEL EFFICIENCY PROGRAM | HOW THE DESIGN THINKING EVOLVED</text>
+<text x="58" y="68" font-family="Arial" font-size="24" font-weight="700" fill="#1d252b">The project became stronger as the focus shifted from “can we predict?” to “can the airline act, adopt and measure value?”</text>
+<line x1="58" y1="91" x2="1542" y2="91" stroke="#b2915f" stroke-width="2"/>
+
+<g font-family="Arial">
+<text x="58" y="132" font-size="14" font-weight="700" fill="#4e555b">DESIGN SHIFTS THAT MATTERED</text>
+<rect x="58" y="158" width="1484" height="534" fill="#ffffff" stroke="#cfd3d6"/>
+<rect x="58" y="158" width="1484" height="48" fill="#f3f2ef"/>
+<text x="82" y="189" font-size="12" font-weight="700" fill="#6a7075">EARLY QUESTION</text>
+<text x="585" y="189" font-size="12" font-weight="700" fill="#6a7075">WHAT BECAME MORE IMPORTANT</text>
+<text x="1110" y="189" font-size="12" font-weight="700" fill="#6a7075">IMPLICATION FOR THE BUILD</text>
+
+<g font-size="14" fill="#37434b">
+<text x="82" y="255" font-weight="700">Can the model predict excess fuel?</text>
+<text x="585" y="255">Can it rank cases worth acting on?</text>
+<text x="1110" y="255">Evaluate top-k / operational burden</text>
+<line x1="82" y1="282" x2="1515" y2="282" stroke="#e2e4e6"/>
+
+<text x="82" y="336" font-weight="700">Which variables explain the prediction?</text>
+<text x="585" y="336">Which variables are actually controllable?</text>
+<text x="1110" y="336">Separate context from levers</text>
+<line x1="82" y1="363" x2="1515" y2="363" stroke="#e2e4e6"/>
+
+<text x="82" y="417" font-weight="700">How accurate can the model become?</text>
+<text x="585" y="417">Is the signal available before the decision?</text>
+<text x="1110" y="417">Point-in-time feature constraints</text>
+<line x1="82" y1="444" x2="1515" y2="444" stroke="#e2e4e6"/>
+
+<text x="82" y="498" font-weight="700">How should the output be displayed?</text>
+<text x="585" y="498">What action does the operator take next?</text>
+<text x="1110" y="498">Design around workflow, not dashboard</text>
+<line x1="82" y1="525" x2="1515" y2="525" stroke="#e2e4e6"/>
+
+<text x="82" y="579" font-weight="700">What is the modeled value opportunity?</text>
+<text x="585" y="579">How much value survives adoption / realization?</text>
+<text x="1110" y="579">Benefits logic inside the program</text>
+<line x1="82" y1="606" x2="1515" y2="606" stroke="#e2e4e6"/>
+
+<text x="82" y="660" font-weight="700">Can the pilot technically work?</text>
+<text x="585" y="660">Can the capability be owned and scaled?</text>
+<text x="1110" y="660">Operating model + BAU ownership</text>
+</g>
+
+<text x="58" y="750" font-size="14" font-weight="700" fill="#4e555b">WHAT THIS CHANGED IN MY APPROACH TO AI</text>
+<rect x="58" y="774" width="1484" height="62" fill="#f5f4f1" stroke="#dad7d1"/>
+<text x="82" y="812" font-size="16" font-weight="700" fill="#1d252b">I now treat model, decision, workflow, governance and value as one system—the model is only one layer of the intervention.</text>
+</g>
+<line x1="55" y1="850" x2="1545" y2="850" stroke="#c9ced2"/>
+<text x="58" y="878" font-family="Arial" font-size="11" fill="#6b737a">AI Fuel Efficiency Program</text>
+<text x="800" y="878" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" letter-spacing="1.6" fill="#4e555b">CONFIDENTIAL</text>
+<text x="1542" y="878" text-anchor="end" font-family="Arial" font-size="11" fill="#6b737a">12</text>
+</svg>
