@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f7f7f5"/><rect width="1600" height="92" fill="#1a2632"/>
+<text x="58" y="55" font-family="Arial" font-size="31" font-weight="700" fill="#fff">AI Use-Case Funnel — From Ideas to High-Conviction Pilots</text>
+<text x="1190" y="54" font-family="Arial" font-size="14" fill="#b9c4ce">RECONSTRUCTED PORTFOLIO VIEW</text>
+<text x="58" y="135" font-family="Arial" font-size="17" fill="#52606c">Prioritize AI where value, feasibility and operational actionability intersect</text>
+
+<g font-family="Arial">
+<polygon points="80,195 770,195 690,300 160,300" fill="#dcebe7"/><text x="220" y="245" font-size="26" font-weight="700" fill="#153947">Opportunity landscape</text><text x="270" y="275" font-size="14" fill="#52606c">Operational pain points · value pools · decision gaps</text>
+<polygon points="160,320 690,320 620,425 230,425" fill="#e6edf6"/><text x="275" y="370" font-size="24" font-weight="700" fill="#153947">AI fit screen</text><text x="285" y="399" font-size="14" fill="#52606c">Data · model class · decision timing</text>
+<polygon points="230,445 620,445 560,550 290,550" fill="#f3e7dc"/><text x="325" y="495" font-size="23" font-weight="700" fill="#153947">Value case</text><text x="320" y="524" font-size="14" fill="#52606c">Opportunity · adoption · economics</text>
+<polygon points="290,570 560,570 510,675 340,675" fill="#dcebe7"/><text x="367" y="620" font-size="22" font-weight="700" fill="#153947">Pilot</text><text x="345" y="649" font-size="14" fill="#52606c">Build · validate · measure</text>
+<polygon points="340,695 510,695 470,795 380,795" fill="#1f6b62"/><text x="394" y="751" font-size="21" font-weight="700" fill="#fff">Scale</text>
+</g>
+
+<text x="860" y="195" font-family="Arial" font-size="19" font-weight="700" fill="#152635">Prioritization lens</text>
+<rect x="860" y="220" width="680" height="455" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<line x1="935" y1="595" x2="1455" y2="595" stroke="#9ba5ad" stroke-width="2"/>
+<line x1="935" y1="285" x2="935" y2="595" stroke="#9ba5ad" stroke-width="2"/>
+<text x="1180" y="640" font-family="Arial" font-size="14" fill="#52606c">AI / data feasibility →</text>
+<text x="885" y="445" transform="rotate(-90 885 445)" font-family="Arial" font-size="14" fill="#52606c">Business value / actionability →</text>
+<rect x="955" y="305" width="230" height="125" fill="#f5eee8"/><rect x="1205" y="305" width="230" height="125" fill="#e1eee9"/>
+<rect x="955" y="450" width="230" height="125" fill="#f2f3f2"/><rect x="1205" y="450" width="230" height="125" fill="#e8edf4"/>
+<text x="990" y="335" font-family="Arial" font-size="15" font-weight="700" fill="#9a582d">Explore carefully</text>
+<text x="1240" y="335" font-family="Arial" font-size="15" font-weight="700" fill="#0f6b62">Priority pilots</text>
+<text x="990" y="480" font-family="Arial" font-size="15" font-weight="700" fill="#68737c">Deprioritize</text>
+<text x="1240" y="480" font-family="Arial" font-size="15" font-weight="700" fill="#315b89">Platform enablers</text>
+<circle cx="1320" cy="375" r="28" fill="#0f6b62"/><text x="1310" y="381" font-family="Arial" font-size="17" fill="#fff">A</text>
+<circle cx="1260" cy="405" r="22" fill="#3d837b"/><text x="1253" y="411" font-family="Arial" font-size="14" fill="#fff">B</text>
+<circle cx="1110" cy="390" r="19" fill="#b96d3b"/><text x="1103" y="396" font-family="Arial" font-size="13" fill="#fff">C</text>
+<circle cx="1375" cy="505" r="24" fill="#5478a0"/><text x="1367" y="511" font-family="Arial" font-size="14" fill="#fff">D</text>
+<circle cx="1060" cy="520" r="17" fill="#9aa4aa"/><text x="1054" y="526" font-family="Arial" font-size="12" fill="#fff">E</text>
+
+<text x="860" y="735" font-family="Arial" font-size="18" font-weight="700" fill="#152635">Decision rule</text>
+<rect x="860" y="758" width="680" height="72" rx="12" fill="#1a2632"/>
+<text x="890" y="790" font-family="Arial" font-size="17" fill="#fff">Do not fund AI because it is interesting.</text>
+<text x="890" y="816" font-family="Arial" font-size="17" font-weight="700" fill="#8fd2c9">Fund it when AI creates a better decision and there is a path to realized value.</text>
+<text x="58" y="873" font-family="Arial" font-size="12" fill="#7b8791">The labels A–E are illustrative and do not identify confidential Etihad use cases.</text>
+</svg>
