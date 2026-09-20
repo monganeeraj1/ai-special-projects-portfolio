@@ -86,7 +86,7 @@ This case is based on **real professional engagement experience**. Actual client
 
 It covers:
 - AI problem formulation
-- synthetic flight-data generation
+- recreated flight-level data for the technical prototype
 - feature engineering
 - gradient-boosted regression
 - model evaluation and explainability
@@ -99,13 +99,13 @@ It covers:
 
 ### Implementation view
 
-![AI implementation dashboard](docs/assets/implementation_dashboard.svg)
+![Etihad AI steering implementation view](docs/assets/etihad_executive_dashboard.svg)
 
-*Actual client implementation materials are confidential; this view is reconstructed for portfolio demonstration.*
+*The engagement is real. Actual client data and internal Etihad materials are confidential; this view recreates the implementation work without reproducing client content.*
 
 ![AI implementation roadmap](docs/assets/implementation_roadmap.svg)
 
-*Actual client implementation plans are confidential; this roadmap is reconstructed to demonstrate the delivery approach.*
+*The roadmap reflects the implementation workstreams I worked across; client-specific dates, owners and internal materials are omitted.*
 
 ### Model & value view
 
@@ -117,7 +117,8 @@ It covers:
 
 ### Deep dive
 
-- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)\n- [Case overview](projects/00_aviation_ai_value_platform/)
+- [Implementation Playbook](projects/00_aviation_ai_value_platform/IMPLEMENTATION_PLAYBOOK.md)
+- [Case overview](projects/00_aviation_ai_value_platform/)
 - [Model Card](projects/00_aviation_ai_value_platform/MODEL_CARD.md)
 - [Failure Analysis](projects/00_aviation_ai_value_platform/FAILURE_ANALYSIS.md)
 - [Architecture Deep Dive](projects/00_aviation_ai_value_platform/ARCHITECTURE_DEEP_DIVE.md)
