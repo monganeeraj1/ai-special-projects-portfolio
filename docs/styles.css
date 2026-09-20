@@ -381,3 +381,14 @@ footer{padding:42px 0 55px;border-top:1px solid var(--line);color:var(--muted);f
   .capability-grid,.tech-foundation{grid-template-columns:1fr}
   .capability-card.capability-primary{grid-column:auto}
 }
+
+/* Airline engagement quantified results */
+.results-row{align-items:start}
+.result-metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:2px 0 22px}
+.result-metric{background:#fff;border:1px solid var(--line);border-top:3px solid var(--accent);padding:16px 14px;min-height:130px}
+.result-metric strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1;color:var(--navy);font-weight:500;margin-bottom:9px}
+.result-metric span{display:block;font-size:12px;line-height:1.45;color:#53616b}
+.result-detail{margin-top:18px!important}
+.result-detail li{margin:8px 0!important;color:#465561}
+@media(max-width:900px){.result-metrics{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.result-metrics{grid-template-columns:1fr}}
