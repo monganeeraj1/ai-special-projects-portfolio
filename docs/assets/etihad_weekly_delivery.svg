@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<rect width="1600" height="900" fill="#f7f7f5"/><rect width="1600" height="92" fill="#1a2632"/>
+<text x="58" y="55" font-family="Arial" font-size="31" font-weight="700" fill="#fff">Weekly AI Delivery Review — Workstream & Sprint Tracking</text>
+<text x="1170" y="54" font-family="Arial" font-size="14" fill="#b9c4ce">RECONSTRUCTED PORTFOLIO VIEW</text>
+
+<text x="58" y="137" font-family="Arial" font-size="17" fill="#52606c">A delivery view connecting technical progress to dependencies and decisions</text>
+<rect x="58" y="172" width="1484" height="520" rx="16" fill="#fff" stroke="#d7d8d2"/>
+<g font-family="Arial" font-size="14">
+<text x="82" y="212" font-weight="700" fill="#66727c">WORKSTREAM</text><text x="348" y="212" font-weight="700" fill="#66727c">LAST WEEK</text><text x="690" y="212" font-weight="700" fill="#66727c">THIS WEEK</text><text x="1042" y="212" font-weight="700" fill="#66727c">BLOCKER / DEPENDENCY</text><text x="1390" y="212" font-weight="700" fill="#66727c">RAG</text>
+
+<text x="82" y="264" font-weight="700" fill="#1f3344">Data</text><text x="348" y="264" fill="#52606c">Profile sources & gaps</text><text x="690" y="264" fill="#52606c">Close feature contract</text><text x="1042" y="264" fill="#52606c">Late source field</text><circle cx="1415" cy="258" r="10" fill="#c89545"/>
+
+<text x="82" y="329" font-weight="700" fill="#1f3344">Model</text><text x="348" y="329" fill="#52606c">Baseline model trained</text><text x="690" y="329" fill="#52606c">Error / segment analysis</text><text x="1042" y="329" fill="#52606c">None critical</text><circle cx="1415" cy="323" r="10" fill="#2e8b72"/>
+
+<text x="82" y="394" font-weight="700" fill="#1f3344">Product</text><text x="348" y="394" fill="#52606c">Recommendation flow</text><text x="690" y="394" fill="#52606c">Operator UX testing</text><text x="1042" y="394" fill="#52606c">Workflow decision pending</text><circle cx="1415" cy="388" r="10" fill="#c89545"/>
+
+<text x="82" y="459" font-weight="700" fill="#1f3344">Technology</text><text x="348" y="459" fill="#52606c">Interface design</text><text x="690" y="459" fill="#52606c">Pilot integration</text><text x="1042" y="459" fill="#52606c">Environment access</text><circle cx="1415" cy="453" r="10" fill="#c89545"/>
+
+<text x="82" y="524" font-weight="700" fill="#1f3344">Governance</text><text x="348" y="524" fill="#52606c">Risk taxonomy</text><text x="690" y="524" fill="#52606c">Approval pack</text><text x="1042" y="524" fill="#52606c">Control owner confirmation</text><circle cx="1415" cy="518" r="10" fill="#2e8b72"/>
+
+<text x="82" y="589" font-weight="700" fill="#1f3344">Change</text><text x="348" y="589" fill="#52606c">Stakeholder map</text><text x="690" y="589" fill="#52606c">Training / champions</text><text x="1042" y="589" fill="#52606c">User availability</text><circle cx="1415" cy="583" r="10" fill="#2e8b72"/>
+
+<text x="82" y="654" font-weight="700" fill="#1f3344">Benefits</text><text x="348" y="654" fill="#52606c">Baseline methodology</text><text x="690" y="654" fill="#52606c">Pilot measurement design</text><text x="1042" y="654" fill="#52606c">Finance validation</text><circle cx="1415" cy="648" r="10" fill="#2e8b72"/>
+</g>
+
+<rect x="58" y="726" width="460" height="106" rx="14" fill="#e2efe9"/><text x="82" y="760" font-family="Arial" font-size="14" font-weight="700" fill="#0f6b62">DELIVERY PRINCIPLE</text><text x="82" y="792" font-family="Arial" font-size="17" font-weight="700" fill="#152635">Every blocker has an owner and date.</text><text x="82" y="818" font-family="Arial" font-size="14" fill="#52606c">No unresolved dependency is hidden in a status note.</text>
+<rect x="542" y="726" width="480" height="106" rx="14" fill="#e9eef6"/><text x="566" y="760" font-family="Arial" font-size="14" font-weight="700" fill="#315b89">MODEL / PRODUCT PRINCIPLE</text><text x="566" y="792" font-family="Arial" font-size="17" font-weight="700" fill="#152635">Technical output must connect to workflow.</text><text x="566" y="818" font-family="Arial" font-size="14" fill="#52606c">A model milestone alone is not a business milestone.</text>
+<rect x="1046" y="726" width="496" height="106" rx="14" fill="#f4eadf"/><text x="1070" y="760" font-family="Arial" font-size="14" font-weight="700" fill="#a45b2d">STEERING PRINCIPLE</text><text x="1070" y="792" font-family="Arial" font-size="17" font-weight="700" fill="#152635">Escalate decisions, not activity.</text><text x="1070" y="818" font-family="Arial" font-size="14" fill="#52606c">Leadership time is reserved for trade-offs and risk.</text>
+<text x="58" y="876" font-family="Arial" font-size="12" fill="#7b8791">Actual Etihad sprint content, owners, dates and status are confidential. This is a reconstructed portfolio view.</text>
+</svg>
