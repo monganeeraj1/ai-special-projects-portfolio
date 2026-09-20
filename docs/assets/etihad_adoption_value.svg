@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#ffffff"/><rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
-<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">Scale only when operator adoption and realized economics are proven</text>
-
-
-<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">Model accuracy is necessary but insufficient: the value chain must hold from recommendation to operator action</text>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect width="1600" height="92" fill="#ffffff"/>
+<line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="47" font-family="Arial" font-size="23" font-weight="700" fill="#1b2530">Scale only when operator adoption and realized economics are proven</text>
+<text x="58" y="122" font-family="Arial" font-size="15" fill="#5d6872">Model accuracy is necessary but insufficient: the value chain must hold from recommendation to operator action</text>
 <g font-family="Arial">
 <rect x="58" y="180" width="250" height="118" rx="2" fill="#fff" stroke="#d7d8d2"/><text x="82" y="213" font-size="13" fill="#66727c">01 · ELIGIBLE</text><text x="82" y="253" font-size="26" font-weight="700" fill="#152635">Operations</text><text x="82" y="280" font-size="14" fill="#52606c">Where intervention is possible</text>
 <text x="325" y="245" font-size="28" fill="#98a2aa">→</text>
