@@ -131,5 +131,6 @@ That is the bridge between a data-science prototype and an enterprise AI investm
 Run:
 
 ```bash
-python value_model.py
+python -m fuelops.value_model     # scenarios only
+python -m fuelops                 # full pipeline; adds the pipeline-informed row to RESULTS.md
 ```

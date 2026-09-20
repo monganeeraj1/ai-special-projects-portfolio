@@ -1,8 +1,8 @@
-# Etihad Airways AI Initiative — Implementation Playbook
+# Airline AI Initiative — Implementation Playbook
 
 ## Experience-based reconstruction
 
-This case is based on my professional experience supporting an **Etihad Airways AI initiative** focused on operational and fuel-efficiency priorities.
+This case is based on my professional experience supporting an **AI initiative for a major airline** focused on operational and fuel-efficiency priorities.
 
 Actual client data, production results, internal architecture, implementation status and client materials are confidential and are not shown.
 
