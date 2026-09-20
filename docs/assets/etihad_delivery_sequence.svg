@@ -1,40 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
-<rect width="1600" height="900" fill="#f7f7f5"/>
-<rect width="1600" height="92" fill="#1a2632"/>
-<text x="58" y="55" font-family="Arial" font-size="31" font-weight="700" fill="#fff">Etihad Airways AI Initiative — End-to-End Delivery Sequence</text>
-<text x="1180" y="54" font-family="Arial" font-size="14" fill="#b9c4ce">RECONSTRUCTED PORTFOLIO VIEW</text>
-<text x="58" y="135" font-family="Arial" font-size="17" fill="#52606c">From opportunity identification to scaled operating capability</text>
+<rect width="1600" height="900" fill="#ffffff"/>
+<rect width="1600" height="92" fill="#ffffff"/><line x1="55" y1="88" x2="1545" y2="88" stroke="#b08a4a" stroke-width="3"/>
+<text x="58" y="55" font-family="Arial" font-size="<text x="58" y="50" font-family="Arial" font-size="25" font-weight="700" fill="#1b2530">AI value requires managing the full journey from opportunity selection to operating adoption</text>
+
+<text x="58" y="128" font-family="Arial" font-size="16" fill="#5d6872">A single transformation spine connects business value, data & AI, technology, governance and change</text>
 
 <g font-family="Arial">
-<rect x="58" y="175" width="285" height="112" rx="14" fill="#e2efe9"/><text x="80" y="207" font-size="14" font-weight="700" fill="#0f6b62">01 · FRAME</text><text x="80" y="237" font-size="20" font-weight="700" fill="#152635">Operational problem</text><text x="80" y="265" font-size="14" fill="#52606c">Decision inventory · KPI baseline</text>
-<rect x="365" y="175" width="285" height="112" rx="14" fill="#e9eef6"/><text x="387" y="207" font-size="14" font-weight="700" fill="#315b89">02 · DISCOVER</text><text x="387" y="237" font-size="20" font-weight="700" fill="#152635">Use-case landscape</text><text x="387" y="265" font-size="14" fill="#52606c">Value pools · users · AI fit</text>
-<rect x="672" y="175" width="285" height="112" rx="14" fill="#f4eadf"/><text x="694" y="207" font-size="14" font-weight="700" fill="#a45b2d">03 · PRIORITIZE</text><text x="694" y="237" font-size="20" font-weight="700" fill="#152635">Investment choices</text><text x="694" y="265" font-size="14" fill="#52606c">Value × feasibility × adoption</text>
-<rect x="979" y="175" width="285" height="112" rx="14" fill="#e2efe9"/><text x="1001" y="207" font-size="14" font-weight="700" fill="#0f6b62">04 · SPECIFY</text><text x="1001" y="237" font-size="20" font-weight="700" fill="#152635">Data & features</text><text x="1001" y="265" font-size="14" fill="#52606c">Point-in-time feature contract</text>
-<rect x="1286" y="175" width="256" height="112" rx="14" fill="#e9eef6"/><text x="1308" y="207" font-size="14" font-weight="700" fill="#315b89">05 · DESIGN</text><text x="1308" y="237" font-size="20" font-weight="700" fill="#152635">AI architecture</text><text x="1308" y="265" font-size="14" fill="#52606c">Model → decision layer</text>
+<rect x="58" y="175" width="285" height="112" rx="2" fill="#e2efe9"/><text x="80" y="207" font-size="14" font-weight="700" fill="#315f73">01 · FRAME</text><text x="80" y="237" font-size="20" font-weight="700" fill="#152635">Operational problem</text><text x="80" y="265" font-size="14" fill="#52606c">Decision inventory · KPI baseline</text>
+<rect x="365" y="175" width="285" height="112" rx="2" fill="#e9eef6"/><text x="387" y="207" font-size="14" font-weight="700" fill="#607f96">02 · DISCOVER</text><text x="387" y="237" font-size="20" font-weight="700" fill="#152635">Use-case landscape</text><text x="387" y="265" font-size="14" fill="#52606c">Value pools · users · AI fit</text>
+<rect x="672" y="175" width="285" height="112" rx="2" fill="#f4eadf"/><text x="694" y="207" font-size="14" font-weight="700" fill="#b08a4a">03 · PRIORITIZE</text><text x="694" y="237" font-size="20" font-weight="700" fill="#152635">Investment choices</text><text x="694" y="265" font-size="14" fill="#52606c">Value × feasibility × adoption</text>
+<rect x="979" y="175" width="285" height="112" rx="2" fill="#e2efe9"/><text x="1001" y="207" font-size="14" font-weight="700" fill="#315f73">04 · SPECIFY</text><text x="1001" y="237" font-size="20" font-weight="700" fill="#152635">Data & features</text><text x="1001" y="265" font-size="14" fill="#52606c">Point-in-time feature contract</text>
+<rect x="1286" y="175" width="256" height="112" rx="2" fill="#e9eef6"/><text x="1308" y="207" font-size="14" font-weight="700" fill="#607f96">05 · DESIGN</text><text x="1308" y="237" font-size="20" font-weight="700" fill="#152635">AI architecture</text><text x="1308" y="265" font-size="14" fill="#52606c">Model → decision layer</text>
 
 <path d="M200 315 L1400 315" stroke="#bdc7ce" stroke-width="2"/>
-<circle cx="200" cy="315" r="7" fill="#0f6b62"/><circle cx="500" cy="315" r="7" fill="#315b89"/><circle cx="800" cy="315" r="7" fill="#a45b2d"/><circle cx="1100" cy="315" r="7" fill="#0f6b62"/><circle cx="1400" cy="315" r="7" fill="#315b89"/>
+<circle cx="200" cy="315" r="7" fill="#315f73"/><circle cx="500" cy="315" r="7" fill="#607f96"/><circle cx="800" cy="315" r="7" fill="#b08a4a"/><circle cx="1100" cy="315" r="7" fill="#315f73"/><circle cx="1400" cy="315" r="7" fill="#607f96"/>
 
-<rect x="58" y="355" width="285" height="112" rx="14" fill="#f4eadf"/><text x="80" y="387" font-size="14" font-weight="700" fill="#a45b2d">06 · VALUE</text><text x="80" y="417" font-size="20" font-weight="700" fill="#152635">Business case</text><text x="80" y="445" font-size="14" fill="#52606c">Opportunity → economics</text>
-<rect x="365" y="355" width="285" height="112" rx="14" fill="#e2efe9"/><text x="387" y="387" font-size="14" font-weight="700" fill="#0f6b62">07 · BUILD</text><text x="387" y="417" font-size="20" font-weight="700" fill="#152635">Pilot</text><text x="387" y="445" font-size="14" fill="#52606c">Data · model · product</text>
-<rect x="672" y="355" width="285" height="112" rx="14" fill="#e9eef6"/><text x="694" y="387" font-size="14" font-weight="700" fill="#315b89">08 · EMBED</text><text x="694" y="417" font-size="20" font-weight="700" fill="#152635">Workflow integration</text><text x="694" y="445" font-size="14" fill="#52606c">Human decision + feedback</text>
-<rect x="979" y="355" width="285" height="112" rx="14" fill="#f4eadf"/><text x="1001" y="387" font-size="14" font-weight="700" fill="#a45b2d">09 · GOVERN</text><text x="1001" y="417" font-size="20" font-weight="700" fill="#152635">Run the program</text><text x="1001" y="445" font-size="14" fill="#52606c">RAID · steering · model risk</text>
-<rect x="1286" y="355" width="256" height="112" rx="14" fill="#e2efe9"/><text x="1308" y="387" font-size="14" font-weight="700" fill="#0f6b62">10 · SCALE</text><text x="1308" y="417" font-size="20" font-weight="700" fill="#152635">BAU capability</text><text x="1308" y="445" font-size="14" fill="#52606c">Benefits · monitoring · owner</text>
+<rect x="58" y="355" width="285" height="112" rx="2" fill="#f4eadf"/><text x="80" y="387" font-size="14" font-weight="700" fill="#b08a4a">06 · VALUE</text><text x="80" y="417" font-size="20" font-weight="700" fill="#152635">Business case</text><text x="80" y="445" font-size="14" fill="#52606c">Opportunity → economics</text>
+<rect x="365" y="355" width="285" height="112" rx="2" fill="#e2efe9"/><text x="387" y="387" font-size="14" font-weight="700" fill="#315f73">07 · BUILD</text><text x="387" y="417" font-size="20" font-weight="700" fill="#152635">Pilot</text><text x="387" y="445" font-size="14" fill="#52606c">Data · model · product</text>
+<rect x="672" y="355" width="285" height="112" rx="2" fill="#e9eef6"/><text x="694" y="387" font-size="14" font-weight="700" fill="#607f96">08 · EMBED</text><text x="694" y="417" font-size="20" font-weight="700" fill="#152635">Workflow integration</text><text x="694" y="445" font-size="14" fill="#52606c">Human decision + feedback</text>
+<rect x="979" y="355" width="285" height="112" rx="2" fill="#f4eadf"/><text x="1001" y="387" font-size="14" font-weight="700" fill="#b08a4a">09 · GOVERN</text><text x="1001" y="417" font-size="20" font-weight="700" fill="#152635">Run the program</text><text x="1001" y="445" font-size="14" fill="#52606c">RAID · steering · model risk</text>
+<rect x="1286" y="355" width="256" height="112" rx="2" fill="#e2efe9"/><text x="1308" y="387" font-size="14" font-weight="700" fill="#315f73">10 · SCALE</text><text x="1308" y="417" font-size="20" font-weight="700" fill="#152635">BAU capability</text><text x="1308" y="445" font-size="14" fill="#52606c">Benefits · monitoring · owner</text>
 </g>
 
 <text x="58" y="540" font-family="Arial" font-size="19" font-weight="700" fill="#152635">Four workstreams run in parallel</text>
 <g font-family="Arial">
-<rect x="58" y="570" width="350" height="140" rx="14" fill="#fff" stroke="#d8d8d2"/>
+<rect x="58" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
 <text x="82" y="607" font-size="16" font-weight="700" fill="#152635">Business & operations</text><text x="82" y="638" font-size="14" fill="#52606c">Use cases · workflow · operator feasibility</text><text x="82" y="665" font-size="14" fill="#52606c">Adoption · ownership · operating model</text>
-<rect x="430" y="570" width="350" height="140" rx="14" fill="#fff" stroke="#d8d8d2"/>
+<rect x="430" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
 <text x="454" y="607" font-size="16" font-weight="700" fill="#152635">Data & AI</text><text x="454" y="638" font-size="14" fill="#52606c">Data contract · model · evaluation</text><text x="454" y="665" font-size="14" fill="#52606c">Explainability · drift · monitoring</text>
-<rect x="802" y="570" width="350" height="140" rx="14" fill="#fff" stroke="#d8d8d2"/>
+<rect x="802" y="570" width="350" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
 <text x="826" y="607" font-size="16" font-weight="700" fill="#152635">Technology & integration</text><text x="826" y="638" font-size="14" fill="#52606c">Architecture · interfaces · product</text><text x="826" y="665" font-size="14" fill="#52606c">Security · deployment · environments</text>
-<rect x="1174" y="570" width="368" height="140" rx="14" fill="#fff" stroke="#d8d8d2"/>
+<rect x="1174" y="570" width="368" height="140" rx="2" fill="#fff" stroke="#d8d8d2"/>
 <text x="1198" y="607" font-size="16" font-weight="700" fill="#152635">Value & governance</text><text x="1198" y="638" font-size="14" fill="#52606c">Business case · benefits · stage gates</text><text x="1198" y="665" font-size="14" fill="#52606c">RAID · steering · decisions</text>
 </g>
-<rect x="58" y="758" width="1484" height="76" rx="12" fill="#1a2632"/>
+<rect x="58" y="758" width="1484" height="76" rx="2" fill="#1a2632"/>
 <text x="84" y="789" font-family="Arial" font-size="15" fill="#cbd4db">Core principle</text>
 <text x="84" y="816" font-family="Arial" font-size="20" font-weight="700" fill="#fff">Model performance matters — but value is created only when the recommendation changes a real operating decision.</text>
 <text x="58" y="873" font-family="Arial" font-size="12" fill="#7b8791">Actual client data, production results and internal materials remain confidential. This is a reconstructed portfolio view.</text>
+<rect x="0" y="852" width="1600" height="48" fill="#1b2530"/>
+<text x="58" y="883" font-family="Arial" font-size="14" font-weight="700" letter-spacing="1.4" fill="#ffffff">CONFIDENTIAL</text>
+<text x="195" y="883" font-family="Arial" font-size="12" fill="#cbd1d6">PORTFOLIO RECONSTRUCTION · ACTUAL CLIENT DATA, RESULTS AND INTERNAL MATERIALS NOT SHOWN</text>
 </svg>
