@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Delivery standards for an airline AI programme | Neeraj Monga</title>
-<meta name="description" content="Proposed pilot KPIs, model and agent release criteria, non-functional requirements, guardrails and monitoring thresholds for an airline fuel-efficiency AI programme.">
+<meta name="description" content="Consulting scope for pilot measurement, model readiness, non-functional requirements, guardrails and operating controls in an airline AI programme.">
 <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
@@ -11,69 +11,45 @@
 <nav><div class="wrap">
   <div class="brand"><a href="aviation-ai.html">← Airline AI case</a></div>
   <div class="navlinks">
-    <a href="#kpis">Pilot KPIs</a>
-    <a href="#release">Release criteria</a>
+    <a href="#kpis">Pilot measures</a>
+    <a href="#release">Readiness</a>
     <a href="#nfr">Non-functional</a>
     <a href="#guardrails">Guardrails</a>
-    <a href="#observability">Observability</a>
+    <a href="#observability">Operating controls</a>
   </div>
 </div></nav>
 
 <header class="hero inside-hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow">Delivery standards · reconstructed</div>
-      <h1>What "ready" has to mean before the commitment grows.</h1>
-      <p class="lead">An AI programme expands on evidence or it expands on enthusiasm. These are the acceptance criteria, requirements, guardrails and monitoring thresholds I would put in front of a steering committee — the working detail behind the <a href="aviation-ai.html#judgment">technical review questions</a> in the main case.</p>
-      <div class="toc">
-        <a href="#kpis">Business and operating measures</a>
-        <a href="#release">Model and agent release criteria</a>
-        <a href="#nfr">Non-functional requirements</a>
-        <a href="#guardrails">Guardrails and safe failure</a>
-        <a href="#observability">Observability and ownership</a>
-      </div>
+      <div class="eyebrow">Delivery standards · consulting scope</div>
+      <h1>What “ready” has to mean before the commitment grows.</h1>
+      <p class="lead">The consulting scope is not limited to defining an AI use case. It also has to define how value will be measured, what evidence is required before release, which non-functional requirements matter, how the system fails safely, and who owns each operating control.</p>
     </div>
-    <div class="hero-note">
-      <strong>Read these as design targets</strong>
-      These are initial targets for an advisory pilot — not achieved airline results, and not industry benchmarks. They assume human review of every recommendation. The pilot cohort, comparison method, review capacity and sample sizes would be agreed before evaluation, and targets refined against the observed baseline.
-    </div>
+    <aside class="case-outcome-panel">
+      <div class="kicker">What the scope covers</div>
+      <div class="outcome-mini"><strong>Value</strong><span>measurement and attribution</span></div>
+      <div class="outcome-mini"><strong>Readiness</strong><span>evidence before pilot or scale</span></div>
+      <div class="outcome-mini"><strong>NFRs</strong><span>latency, availability, audit and cost</span></div>
+      <div class="outcome-mini"><strong>Controls</strong><span>guardrails, monitoring and ownership</span></div>
+    </aside>
   </div>
 </header>
 
 <section id="kpis">
 <div class="wrap">
-  <div class="eyebrow">Proposed pilot KPIs</div>
-  <h2>Business and operating measures.</h2>
-  <p class="standfirst">A pilot has to be able to fail. Each measure below carries the rule for how it is assessed, because a target without a measurement rule is an aspiration that gets reinterpreted at the review.</p>
+  <div class="eyebrow">Pilot measurement framework</div>
+  <h2>The pilot must measure business usefulness, not just model performance.</h2>
+  <p class="standfirst">The measurement design is agreed before the pilot so teams cannot redefine success after seeing the outcome.</p>
 
   <table class="tbl">
-    <thead><tr><th>Measure</th><th>Proposed target</th><th>Measurement rule</th></tr></thead>
+    <thead><tr><th>Measure</th><th>Evidence required</th><th>Decision it informs</th></tr></thead>
     <tbody>
-      <tr>
-        <td>Incremental fuel effect</td>
-        <td data-label="Target">Test a 0.5% reduction in normalised burn for the eligible pilot cohort.</td>
-        <td data-label="Measurement rule">Use an agreed control or comparison design. Size the pilot from historical variance; report the effect <em>and</em> its confidence interval. Do not extrapolate automatically to the fleet.</td>
-      </tr>
-      <tr>
-        <td>Actionable precision</td>
-        <td data-label="Target">At least 80% of the top K recommendations judged actionable.</td>
-        <td data-label="Measurement rule">Operational specialists adjudicate feasibility and usefulness. Fix K to actual daily review capacity before comparing models.</td>
-      </tr>
-      <tr>
-        <td>Recommendation adoption</td>
-        <td data-label="Target">At least 60% of eligible, validated recommendations accepted or modified for use.</td>
-        <td data-label="Measurement rule">Record acceptance, modification and rejection reasons. Review acceptance does not by itself establish a fuel saving.</td>
-      </tr>
-      <tr>
-        <td>Review productivity</td>
-        <td data-label="Target">At least 30% reduction in median review time.</td>
-        <td data-label="Measurement rule">Compare the same task and comparable case complexity against the existing process; retain evidence quality and operational checks.</td>
-      </tr>
-      <tr>
-        <td>Economics for scale</td>
-        <td data-label="Target">Annual benefit at least 2× annual run cost in the downside case.</td>
-        <td data-label="Measurement rule">Use the pilot-supported effect, conservative adoption and sensitivity analysis. Show implementation cost and payback separately.</td>
-      </tr>
+      <tr><td>Incremental fuel impact</td><td>Agreed comparison method that controls for route, weather, payload, aircraft and operating context.</td><td>Whether the intervention creates incremental value rather than merely identifying unusual flights.</td></tr>
+      <tr><td>Actionability</td><td>Operational review of whether each recommendation points to a feasible lever at the required decision time.</td><td>Whether model output can change an operating decision.</td></tr>
+      <tr><td>Adoption</td><td>Accepted, modified and rejected recommendations with reasons captured.</td><td>Whether the workflow, explanation and recommendation are usable in practice.</td></tr>
+      <tr><td>Review productivity</td><td>Comparable cases measured before and during the pilot, while preserving evidence quality and controls.</td><td>Whether decision support improves the work rather than adding another review layer.</td></tr>
+      <tr><td>Economics</td><td>Realised benefit, implementation cost, run cost, adoption and sensitivity shown separately.</td><td>Whether the use case justifies further investment and scale.</td></tr>
     </tbody>
   </table>
 </div>
@@ -81,33 +57,17 @@
 
 <section id="release">
 <div class="wrap">
-  <div class="eyebrow">Release criteria</div>
-  <h2>Model and agent acceptance thresholds.</h2>
-
+  <div class="eyebrow">Readiness evidence</div>
+  <h2>Release decisions require evidence across model, workflow and controls.</h2>
   <table class="tbl">
-    <caption>MAE is mean absolute error in kilograms. Assess quality rates with adequate samples and confidence intervals. Zero-tolerance release rules do not guarantee failure-free operation — they determine what blocks a release.</caption>
-    <thead><tr><th>Measure</th><th>Proposed acceptance threshold</th></tr></thead>
+    <thead><tr><th>Area</th><th>Evidence required before progression</th></tr></thead>
     <tbody>
-      <tr>
-        <td>Prediction quality</td>
-        <td data-label="Threshold">At least 15% lower MAE than the agreed incumbent or simple baseline, on later unseen data. Flag material segments with more than 5% deterioration for restricted use.</td>
-      </tr>
-      <tr>
-        <td>Uncertainty calibration</td>
-        <td data-label="Threshold">A nominal 80% interval achieves 77–83% observed coverage overall. Report sampling uncertainty and segment results; wide or unreliable intervals route to review.</td>
-      </tr>
-      <tr>
-        <td>Agent task success</td>
-        <td data-label="Threshold">At least 95% successful completion on a versioned evaluation set, including ordinary, ambiguous and failure cases. Report each case class separately.</td>
-      </tr>
-      <tr>
-        <td>Grounded recommendations</td>
-        <td data-label="Threshold">At least 98% supported by the supplied evidence on an adjudicated sample. Any critical fabricated quantity or unsupported action blocks release pending correction.</td>
-      </tr>
-      <tr>
-        <td>Tool and control behaviour</td>
-        <td data-label="Threshold">At least 99.5% valid tool calls and structured responses on normal evaluation cases. Zero unauthorised or hard-constraint-violating actions may pass the release tests.</td>
-      </tr>
+      <tr><td>Data</td><td>Target definition, point-in-time availability, source ownership, lineage, quality rules and known gaps are documented.</td></tr>
+      <tr><td>Model</td><td>Performance is compared with the current baseline, reviewed by operating segment, and tested for uncertainty and failure cases.</td></tr>
+      <tr><td>Decision layer</td><td>Predictive signals are separated from controllable levers; operational constraints and abstention conditions are explicit.</td></tr>
+      <tr><td>Agent / workflow</td><td>Tool use, evidence grounding, permissions, human handoff and exception behaviour are tested against realistic tasks.</td></tr>
+      <tr><td>Benefits</td><td>The measurement method distinguishes estimated opportunity, accepted intervention and verified realised benefit.</td></tr>
+      <tr><td>Ownership</td><td>Named owners exist for data, model, platform, operating workflow, user support and benefits measurement.</td></tr>
     </tbody>
   </table>
 </div>
@@ -115,23 +75,19 @@
 
 <section id="nfr">
 <div class="wrap">
-  <div class="eyebrow">Proposed non-functional requirements</div>
-  <h2>Latency, availability, audit and unit cost are consulting scope.</h2>
-  <p class="standfirst">Latency affects whether a recommendation is still actionable. Availability and recovery determine the operational fallback. Auditability supports challenge and benefits attribution. Unit cost determines whether a useful pilot can be afforded at scale. These belong in the scope, the estimate and the acceptance process from the start — not discovered during integration.</p>
+  <div class="eyebrow">Non-functional requirements in the consulting scope</div>
+  <h2>Latency, availability, auditability and unit cost belong in the programme design.</h2>
+  <p class="standfirst">These requirements affect whether a technically sound solution is usable, supportable and economically viable. They therefore belong in the business and implementation scope—not as engineering details discovered later.</p>
 
   <table class="tbl">
-    <caption>These requirements scope an analyst and operations decision-support service. The initial load-test profile is 1,000 flight records per day, 50 concurrent reviewers and five concurrent investigations — a test assumption, not the airline's actual traffic. More detailed trajectory data needs a separate volume and processing budget. RTO is the maximum target time to restore service; RPO the maximum target loss of recoverable application state; p95 and p99 the response times within which 95% and 99% of measured requests complete.</caption>
-    <thead><tr><th>Requirement</th><th>Initial target and verification</th></tr></thead>
+    <thead><tr><th>Requirement</th><th>Consulting question</th><th>Acceptance evidence</th></tr></thead>
     <tbody>
-      <tr><td>Availability</td><td data-label="Target">99.9% monthly availability for the review service. Define the user-visible success condition and error budget; exercise dependency failure and the manual fallback.</td></tr>
-      <tr><td>Response time</td><td data-label="Target">Warm prediction API p95 ≤ 2 s. Standard agent investigation p95 ≤ 45 s and p99 ≤ 90 s under the stated load. Bound optimiser execution and return a clear timeout.</td></tr>
-      <tr><td>Data readiness</td><td data-label="Target">95% of expected eligible records ready within 15 minutes of agreed source availability. Required-field completeness ≥ 99.5%. Missing critical context blocks the affected recommendation.</td></tr>
-      <tr><td>Capacity and backlog recovery</td><td data-label="Target">Meet response targets at 2× agreed peak. Process a 24-hour backlog within 2 hours while preserving current decision deadlines. Verify with a representative load and fault test.</td></tr>
-      <tr><td>Resilience and disaster recovery</td><td data-label="Target">Application RTO ≤ 4 hours, RPO ≤ 15 minutes. Test restore and reconciliation. Use durable decision-event recording and idempotent retries to avoid lost or duplicate decisions.</td></tr>
-      <tr><td>Identity and data protection</td><td data-label="Target">Enterprise SSO, role and source access enforcement, encrypted transport and storage. 100% of negative authorisation tests deny access; protect operational content in prompts, logs and exports.</td></tr>
-      <tr><td>Auditability</td><td data-label="Target">100% of delivered recommendations carry a decision ID, data and model versions, supporting evidence, validation status and a review record. If the required audit event cannot be persisted, delivery must fail safely.</td></tr>
-      <tr><td>Change and rollback</td><td data-label="Target">100% of releases have versioned artefacts and an evaluation record. Demonstrate rollback to an approved version within 15 minutes of the decision to revert; preserve traceability for earlier recommendations.</td></tr>
-      <tr><td>Unit cost</td><td data-label="Target">Mean incremental model and tool compute cost of US$0.50 or less per completed investigation. Include failed attempts and retries; track p95 cost; account for storage, infrastructure and support separately.</td></tr>
+      <tr><td>Latency</td><td>How quickly must the recommendation arrive for the operating decision to remain actionable?</td><td>End-to-end response tested against the real decision window, including data and dependent services.</td></tr>
+      <tr><td>Availability & resilience</td><td>What happens when the AI service, source data or a dependency is unavailable?</td><td>Fallback process, recovery ownership and service restoration path are tested.</td></tr>
+      <tr><td>Auditability</td><td>Can the organisation reconstruct why a recommendation was produced and what happened next?</td><td>Trace links data snapshot, model / agent version, tool outputs, constraints, recommendation, user decision and outcome.</td></tr>
+      <tr><td>Security & access</td><td>Which users, sources and tools may the system access, and what must always be denied?</td><td>Role and source permissions are tested before pilot use; protected information is controlled in logs and outputs.</td></tr>
+      <tr><td>Capacity</td><td>Can the service operate at the expected volume without compromising the decision deadline?</td><td>Representative load and backlog scenarios are tested before scope expands.</td></tr>
+      <tr><td>Unit cost</td><td>Does the cost per useful recommendation preserve the economics of the use case at scale?</td><td>Compute, model / agent, data and support costs are included in the value case and monitored during the pilot.</td></tr>
     </tbody>
   </table>
 </div>
@@ -139,91 +95,40 @@
 
 <section id="guardrails">
 <div class="wrap">
-  <div class="eyebrow">Guardrails and safe failure behaviour</div>
-  <h2>Prompt instructions reinforce the boundaries. They do not enforce them.</h2>
-  <p class="standfirst">These controls sit in data validation, access enforcement, tool interfaces and the decision workflow — outside the language model. Each has an owner, a defined failure response, and a test that runs before release.</p>
-
-  <table class="tbl">
-    <thead><tr><th>Control boundary</th><th>Enforcement and failure behaviour</th></tr></thead>
-    <tbody>
-      <tr><td>Data validity and timing</td><td data-label="Enforcement">The data owner enforces required fields, units, timestamps and source freshness. Quarantine invalid inputs; block affected recommendations. Post-flight variables cannot enter a pre-flight feature contract.</td></tr>
-      <tr><td>Access and information boundaries</td><td data-label="Enforcement">The service enforces user and source entitlements before retrieval and tool execution. Least-privilege credentials and approved data destinations. Deny cross-scope requests; redact protected content from telemetry.</td></tr>
-      <tr><td>Prompt injection and tool use</td><td data-label="Enforcement">Treat retrieved text as untrusted data. Permit only approved tools and validated parameters. No retrieved instruction can grant authority. Block arbitrary code execution, external data transfer and unauthorised tool calls.</td></tr>
-      <tr><td>Bounded agent execution</td><td data-label="Enforcement">Initial limits: 12 tool calls, 2 retries per failing tool within the total call limit, and a 90-second investigation deadline. Stop and escalate at the first limit; never fabricate a successful result after a timeout.</td></tr>
-      <tr><td>Grounding and numerical accuracy</td><td data-label="Enforcement">Reference source records and versioned model outputs. Reconcile displayed quantities with numerical service results within a defined rounding tolerance. If evidence is missing or contradictory, flag the uncertainty and withhold the unsupported recommendation.</td></tr>
-      <tr><td>Model uncertainty and operating scope</td><td data-label="Enforcement">Check supported fleets, routes, feature ranges and uncertainty before ranking. Out-of-scope or low-confidence cases receive an explicit review status; they cannot enter the normal actionable queue as confident recommendations.</td></tr>
-      <tr><td>Operational constraints and RL</td><td data-label="Enforcement">Operations-approved constraints and limits are validated independently of the agent. Reject infeasible candidates. RL training and exploration stay offline; only reviewed, approved policies may produce advisory candidates.</td></tr>
-      <tr><td>Human authority and audit</td><td data-label="Enforcement">100% human review of operational recommendations. Tools cannot autonomously change flight plans, dispatch decisions or aircraft controls. Persist the recommendation, evidence and review decision; provide a rapid suspension mechanism.</td></tr>
-      <tr><td>Benefits and release integrity</td><td data-label="Enforcement">Keep estimated, accepted and verified savings distinct. Finance validates realised benefits and overlapping claims. Version every control, model and evaluation; any critical guardrail test failure blocks release.</td></tr>
-    </tbody>
-  </table>
-
-  <div class="worked">
-    <h3>The tests that demonstrate the controls</h3>
-    <p>The release suite includes injected instructions in retrieved records, unauthorised requests, stale weather, conflicting units, unknown fleets, infeasible optimiser output, tool timeouts and missing audit storage. The expected result in each case is a blocked output or a routed exception carrying a reason code and a trace.</p>
-    <p><strong>Release target: all known critical boundary tests pass.</strong> Repeat the suite after any change to models, prompts, tools, permissions or operational rules. Test coverage and failure history remain visible — and a pass is not a guarantee against every future attack or operating condition.</p>
+  <div class="eyebrow">Guardrails and safe failure</div>
+  <h2>Controls have to sit outside the model as well as inside the workflow.</h2>
+  <div class="points">
+    <div><h4>Data validity</h4><p>Invalid, late or incomplete critical inputs block or qualify the affected recommendation.</p></div>
+    <div><h4>Access boundaries</h4><p>Least-privilege permissions govern retrieval, tools and output destinations.</p></div>
+    <div><h4>Operational constraints</h4><p>Validated services and explicit rules—not free-form model reasoning—enforce hard operating constraints.</p></div>
+    <div><h4>Human authority</h4><p>The user retains the appropriate decision right, with accept / modify / reject and escalation captured.</p></div>
+    <div><h4>Change control</h4><p>Model, agent, prompt, tool or policy changes pass evaluation and approval before production behaviour changes.</p></div>
+    <div><h4>Benefits integrity</h4><p>Estimated, accepted and verified benefits stay separate so the programme does not count model opportunity as realised savings.</p></div>
   </div>
 </div>
 </section>
 
 <section id="observability">
 <div class="wrap">
-  <div class="eyebrow">Observability tied to ownership and action</div>
-  <h2>Every signal has an owner and a response, or it is noise.</h2>
-  <p class="standfirst">Monitoring should explain whether a failure originates in data, a model, an agent, the application or the operating process. The thresholds below are starting points, tuned during shadow operation to balance detection against false alerts. Model-quality signals use labelled outcome windows, so they cannot be assessed the moment a recommendation is made.</p>
-
+  <div class="eyebrow">Operating controls</div>
+  <h2>Every monitoring signal needs an owner and a response.</h2>
   <table class="tbl">
-    <caption>For low-volume windows, retain event counts and defer unstable rate-based alerts. PSI is the population stability index; 0.2 is an initial investigation threshold, not a universal validity boundary. Apply segment and seasonal context before acting.</caption>
-    <thead><tr><th>Signal and starting threshold</th><th>Owner and response</th></tr></thead>
+    <thead><tr><th>Signal family</th><th>Owner question</th><th>Typical response</th></tr></thead>
     <tbody>
-      <tr>
-        <td>Data freshness and completeness<br><span class="note">p95 processing lag &gt; 15 min after source availability; critical at 30 min. Required-field missingness &gt; 0.5%.</span></td>
-        <td data-label="Owner and response">Data owner investigates the source and pipeline. Block records that breach their source freshness contract. Separate source delay from processing delay.</td>
-      </tr>
-      <tr>
-        <td>Input drift<br><span class="note">PSI above 0.2 on important features, season-matched reference, adequately populated window.</span></td>
-        <td data-label="Owner and response">Data science investigates distribution and segment changes. A diagnostic warning — not proof of degraded accuracy, and not an automatic retraining trigger.</td>
-      </tr>
-      <tr>
-        <td>Prediction degradation<br><span class="note">Rolling MAE exceeds the validated reference by 20% on two consecutive non-overlapping labelled windows.</span></td>
-        <td data-label="Owner and response">Model owner checks data quality, segment mix and residual bias. Restrict the affected scope or evaluate rollback if usefulness is impaired.</td>
-      </tr>
-      <tr>
-        <td>Calibration and abstention<br><span class="note">Coverage of a nominal 80% interval falls below 75%, or abstention exceeds twice the validated reference rate.</span></td>
-        <td data-label="Owner and response">Model owner investigates uncertainty and population shift. Use at least 500 labelled cases for the initial coverage alert; route uncertain cases to review.</td>
-      </tr>
-      <tr>
-        <td>Agent and tool reliability<br><span class="note">Invalid tool calls or failed structured responses exceed 1% over a populated 15-minute window.</span></td>
-        <td data-label="Owner and response">AI engineering traces the failing dependency or step. Bound retries, prevent unsupported completion, restore a known-good workflow when needed.</td>
-      </tr>
-      <tr>
-        <td>Evidence and constraint failures<br><span class="note">Any hard-constraint breach or unauthorised action reaching the output boundary; sampled grounding below 98%.</span></td>
-        <td data-label="Owner and response">Validation blocks the output. Engineering and the operational owner investigate critical breaches; quality failures expand the evaluation set before another release.</td>
-      </tr>
-      <tr>
-        <td>Service latency and reliability<br><span class="note">Investigation p95 exceeds 45 s in three consecutive populated 5-minute windows.</span></td>
-        <td data-label="Owner and response">Service owner checks queue age, dependency latency and saturation. Preserve decision deadlines through bounded work and escalation.</td>
-      </tr>
-      <tr>
-        <td>Cost per completed investigation<br><span class="note">Daily mean exceeds US$0.50, or the retry and token profile changes materially.</span></td>
-        <td data-label="Owner and response">Engineering and the programme owner inspect model routing, repeated tool calls and context size. Reassess unit economics before increasing volume.</td>
-      </tr>
-      <tr>
-        <td>Operational usefulness<br><span class="note">Actionable precision below 80%, or adoption more than 15 percentage points below the pilot reference.</span></td>
-        <td data-label="Owner and response">Operational owner reviews rejection reasons, timing and workload. Decide whether the remedy is workflow design, data, model behaviour or training.</td>
-      </tr>
+      <tr><td>Data freshness / completeness</td><td>Is the decision being made on current, valid information?</td><td>Investigate source or pipeline; block affected recommendations where required.</td></tr>
+      <tr><td>Distribution / segment change</td><td>Has the operating population moved outside the conditions used for validation?</td><td>Review by route, fleet, season and operating context; restrict scope if needed.</td></tr>
+      <tr><td>Model usefulness</td><td>Is the output still accurate and operationally actionable?</td><td>Diagnose model, data and segment effects; evaluate rollback or revalidation.</td></tr>
+      <tr><td>Agent / tool reliability</td><td>Are tools being called correctly and evidence being preserved?</td><td>Trace the failing step, stop unsupported completion and restore a known-good workflow.</td></tr>
+      <tr><td>Operational adoption</td><td>Are users accepting, changing or rejecting recommendations—and why?</td><td>Address workflow, explanation, training, timing or model issues based on rejection reasons.</td></tr>
+      <tr><td>Benefits</td><td>Is measured value tracking the investment thesis?</td><td>Review attribution, adoption and unit economics before increasing scope.</td></tr>
     </tbody>
   </table>
 
-  <div class="case-reflection" style="margin-top:44px">A monitoring alert that does not lead to a named person taking a defined action is a dashboard, not a control.</div>
-
+  <div class="case-reflection" style="margin-top:40px">A monitoring alert that does not lead to a named person taking a defined action is a dashboard, not a control.</div>
   <p style="margin-top:34px"><a href="aviation-ai.html">← Back to the airline AI case</a> &nbsp;·&nbsp; <a href="inside-the-airline-engagement.html">Engagement walkthrough →</a></p>
 </div>
 </section>
 
-<footer><div class="wrap">
-Proposed targets for an advisory pilot, reconstructed for the portfolio. They are not achieved airline results, industry benchmarks, or a description of any client's production environment. <a href="../index.html">Back to the portfolio →</a>
-</div></footer>
-
+<footer><div class="wrap"><strong>Client confidentiality.</strong> The client reference is included to credentialise relevant experience. No confidential client data, proprietary materials, internal implementation details or non-public results are disclosed. <a href="../index.html">Back to the portfolio →</a></div></footer>
 </body>
 </html>
