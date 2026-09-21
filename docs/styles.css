@@ -488,3 +488,22 @@ nav .wrap{min-height:82px}
   .useful-item{grid-template-columns:1fr;gap:6px}
   .useful-item .useful-outcome{padding-top:0}
 }
+
+/* Public teaching & speaking evidence */
+.speaking-section{background:#eef1ef}
+.speaking-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:34px}
+.speaking-card{display:grid;grid-template-columns:180px 1fr;gap:24px;align-items:center;background:#fff;border:1px solid var(--line);padding:22px}
+.speaking-image{display:block;background:#0d1f2a;border:1px solid #d4d8da;overflow:hidden}
+.speaking-image img{display:block;width:100%;height:auto}
+.speaking-image-wide{background:#fff}
+.speaking-copy h3{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:500;margin:6px 0 10px}
+.speaking-copy p{color:#4b5964}
+.speaking-links{display:flex;gap:14px;flex-wrap:wrap}
+.capability-history{font-size:13px;color:#65717a;margin:-7px 0 18px}
+@media(max-width:900px){
+  .speaking-grid{grid-template-columns:1fr}
+}
+@media(max-width:620px){
+  .speaking-card{grid-template-columns:1fr}
+  .speaking-image{max-width:280px}
+}
