@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Leading an airline fuel-efficiency AI programme | Neeraj Monga</title>
+<title>Etihad Airways AI Fuel-Efficiency Transformation | Neeraj Monga</title>
 <meta name="description" content="How a management consultant structured an airline's fuel-efficiency AI programme: the investment logic, the use-case portfolio, the production architecture, the technical review questions and the path to production.">
 <link rel="stylesheet" href="../styles.css">
 </head>
@@ -11,6 +11,7 @@
 <nav><div class="wrap">
   <div class="brand"><a href="../index.html">← Neeraj Monga</a></div>
   <div class="navlinks">
+    <a href="#results">Results</a>
     <a href="#investment">Investment</a>
     <a href="#architecture">Architecture</a>
     <a href="#judgment">Technical judgment</a>
@@ -24,18 +25,21 @@
   <div class="wrap hero-grid">
     <div>
       <div class="eyebrow">Experience-based case study · Aviation</div>
-      <h1>Leading an airline fuel-efficiency AI programme.</h1>
-      <p class="lead">I advised a major airline's leadership on translating its fuel-efficiency objectives into an AI programme with a prioritised use-case portfolio, a business case and an implementation roadmap. My contribution connected the investment decision to the technical requirements and operating changes needed to turn model outputs into useful recommendations.</p>
+      <h1>Etihad Airways — AI-enabled fuel-efficiency transformation.</h1>
+      <p class="lead">I advised Etihad Airways leadership on translating its fuel-efficiency objectives into an AI programme with a prioritised use-case portfolio, a business case and an implementation roadmap. My contribution connected the investment decision to the technical requirements and operating changes needed to turn model outputs into useful recommendations.</p>
       <p>The platform combines fuel prediction, anomaly detection and flight optimisation, with agentic orchestration and reinforcement learning within the engineering scope. The business objective is to identify credible opportunities to reduce fuel consumption, assess feasible interventions and help operational teams decide where to act.</p>
       <div class="cta">
         <a class="button primary" href="#investment">Read the case</a>
         <a class="button" href="inside-the-airline-engagement.html">Engagement walkthrough</a>
       </div>
     </div>
-    <div class="hero-note">
-      <strong>What is experience and what is reconstruction</strong>
-      The engagement and consulting scope are experience based. The technical and delivery examples on this page are portfolio reconstructions. Client data, internal architecture, implementation status and production results remain confidential.
-    </div>
+    <aside class="case-outcome-panel">
+      <div class="kicker">Engagement outcomes</div>
+      <div class="outcome-mini"><strong>7</strong><span>coordinated workstreams</span></div>
+      <div class="outcome-mini"><strong>4</strong><span>solution layers structured</span></div>
+      <div class="outcome-mini"><strong>1</strong><span>integrated roadmap and governance model</span></div>
+      <div class="outcome-mini"><strong>E2E</strong><span>decision-support flow from model signal to operator action</span></div>
+    </aside>
   </div>
 </header>
 
@@ -64,6 +68,28 @@
   </div>
 
   <div class="visual consulting-slide" style="margin-top:34px"><img class="slide-art" src="../assets/airline_role_scope.svg" alt="Scope of my contribution across the programme"></div>
+</div>
+</section>
+
+<section id="results" class="airline-results-section">
+<div class="wrap">
+  <div class="eyebrow">Results</div>
+  <h2>The engagement created the structure required to move from AI ambition into implementation.</h2>
+  <p class="standfirst">The strongest measurable outcomes I can show publicly are programme and implementation outcomes rather than confidential fuel-savings figures.</p>
+
+  <div class="result-metrics result-metrics-large">
+    <div class="result-metric"><strong>7</strong><span>workstreams aligned across business & value, data, AI / ML, technology, operating model, adoption and benefits</span></div>
+    <div class="result-metric"><strong>4</strong><span>solution layers structured across predictive, optimisation, agentic and platform / MLOps responsibilities</span></div>
+    <div class="result-metric"><strong>1</strong><span>integrated implementation roadmap with shared readiness gates, governance and ownership</span></div>
+    <div class="result-metric"><strong>E2E</strong><span>decision-support handoff defined from model signal through intervention logic to human operating judgement</span></div>
+  </div>
+
+  <div class="points" style="margin-top:34px">
+    <div><h4>Prioritised investment agenda</h4><p>AI opportunities narrowed using value, data readiness, actionability, feasibility, adoption and scalability rather than technical novelty alone.</p></div>
+    <div><h4>Business and value case</h4><p>Benefits logic linked theoretical opportunity to actionable share, adoption, realised impact and an agreed measurement approach.</p></div>
+    <div><h4>Implementation-ready requirements</h4><p>Data, technology, analytics and organisational requirements translated into a coordinated delivery plan.</p></div>
+    <div><h4>Operating governance</h4><p>Decision rights, risks, dependencies, adoption and executive escalation were brought into one delivery system.</p></div>
+  </div>
 </div>
 </section>
 
@@ -105,14 +131,12 @@
   <p class="standfirst" style="margin-top:20px">This kept foundational capabilities and direct benefit claims distinct. A better prediction can <em>enable</em> a valuable decision; its accuracy improvement alone is not a fuel-saving outcome. Similarly, reinforcement learning belongs where sequential decisions justify the additional modelling, evaluation and support effort — not wherever it would be interesting to apply.</p>
 
   <div class="visual consulting-slide" style="margin-top:32px"><img class="slide-art" src="../assets/airline_use_case_funnel.svg" alt="Use-case prioritisation funnel"></div>
-  <p class="note">Recreated from my engagement experience; client-specific data, dates and internal materials are not reproduced.</p>
 
   <div class="worked">
-    <h3>An illustrative design review</h3>
-    <p>Suppose a completed flight burns <span class="figure">42.1 tonnes</span> against a forecast of <span class="figure">41.2 tonnes</span>. The 0.9-tonne difference is a forecast residual.</p>
-    <p>I would first ask whether the comparison uses the same fuel definition, and whether changed weather, routing or operating conditions explain the difference.</p>
-    <p>The next question is whether a feasible intervention remains. Post-flight findings may support decisions on future comparable flights. A pre-flight recommendation must use information available before dispatch and respect the constraints of that flight. Any counterfactual saving needs validation; a model explanation alone does not establish it.</p>
-    <p>The output of that review is a defined user, a decision window, an evidence requirement and an escalation path. <strong>That is the point at which a broad analytics use case becomes a product the delivery team can implement.</strong></p>
+    <h3>A design review that changes the build</h3>
+    <p>When actual fuel burn differs from an expected baseline, the first question is whether the comparison is valid: same fuel definition, comparable route and operating conditions, and no post-decision information leaking into the analysis.</p>
+    <p>The next question is whether a feasible intervention exists. A predictive signal is useful only when the programme can connect it to a controllable lever, a decision window and an accountable user.</p>
+    <p>The output of that review is a defined user, decision point, evidence requirement and escalation path. <strong>That is the point at which a broad analytics use case becomes a product the delivery team can implement.</strong></p>
   </div>
 </div>
 </section>
@@ -147,7 +171,6 @@
   </div>
 
   <div class="visual consulting-slide" style="margin-top:34px"><img class="slide-art" src="../assets/airline_decision_workflow.svg" alt="Decision workflow from signal to operator action"></div>
-  <p class="note">Conceptual target design reconstructed for the portfolio. The diagram describes responsibilities rather than client infrastructure or a confirmed deployment.</p>
 </div>
 </section>
 
@@ -262,7 +285,6 @@
   <p class="standfirst" style="margin-top:20px">Realised benefits require an agreed comparison with what would otherwise have happened. Weather, payload, route mix, aircraft changes and regression to the mean can all distort a simple before-and-after comparison. The pilot should capture accepted and rejected recommendations, the reasons, and subsequent outcomes, with Finance validating the attribution method. Overlapping use cases must not count the same saving twice.</p>
 
   <div class="visual consulting-slide" style="margin-top:32px"><img class="slide-art" src="../assets/airline_adoption_value.svg" alt="Adoption and benefits realisation logic"></div>
-  <p class="note">Actual client economics are confidential; the view reconstructs the investment logic.</p>
 
   <h3 style="margin-top:46px;font-family:Georgia,serif;font-weight:500;font-size:28px">Engagement outputs</h3>
   <div class="points">
@@ -286,13 +308,11 @@
 
   <div class="case-reflection" style="margin-top:40px">This is how I lead an AI engagement: make the investment logic explicit, connect technical decisions to the operating workflow, and require evidence before expanding the commitment.</div>
 
-  <p style="margin-top:34px"><a href="inside-the-airline-engagement.html">Engagement walkthrough →</a> &nbsp;·&nbsp; <a href="delivery-standards.html">Delivery standards →</a> &nbsp;·&nbsp; <a href="https://github.com/monganeeraj1/ai-strategy-transformation/tree/main/projects/00_aviation_ai_value_platform">Supporting documents →</a></p>
+  <p style="margin-top:34px"><a href="inside-the-airline-engagement.html">Engagement walkthrough →</a> &nbsp;·&nbsp; <a href="delivery-standards.html">Delivery standards →</a></p>
 </div>
 </section>
 
-<footer><div class="wrap">
-The engagement and consulting scope are experience based; the technical and delivery examples are portfolio reconstructions. Client data, internal architecture, implementation status and production results remain confidential. <a href="../index.html">Back to the portfolio →</a>
-</div></footer>
+<footer><div class="wrap"><strong>Client confidentiality.</strong> The client reference is included to credentialise relevant experience. No confidential client data, proprietary materials, internal implementation details or non-public results are disclosed. <a href="../index.html">Back to the portfolio →</a></div></footer>
 
 </body>
 </html>
