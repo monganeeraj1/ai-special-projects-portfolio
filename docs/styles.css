@@ -392,3 +392,50 @@ footer{padding:42px 0 55px;border-top:1px solid var(--line);color:var(--muted);f
 .result-detail li{margin:8px 0!important;color:#465561}
 @media(max-width:900px){.result-metrics{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:600px){.result-metrics{grid-template-columns:1fr}}
+
+/* Top-of-page executive redesign */
+.hero-profile .wrap{max-width:1280px}
+.hero-profile .hero-grid{grid-template-columns:.9fr 1.1fr;gap:58px;align-items:center}
+.hero-name{font-size:clamp(78px,9vw,132px);line-height:.88;letter-spacing:-4px;margin:8px 0 22px}
+.hero-positioning{font-size:clamp(32px,3.5vw,50px);max-width:760px;margin:0 0 22px}
+.hero-contact{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.hero-contact a{display:inline-flex;align-items:center;padding:10px 15px;border:1px solid var(--line);background:#fff;color:var(--navy);font-size:14px;font-weight:800;border-radius:999px}
+.exec-profile{padding:0 30px 30px;min-height:430px}
+.exec-profile-head,.exec-row{grid-template-columns:150px 1fr;padding:20px 0}
+.exec-profile-head{font-size:13px}
+.exec-row span{font-size:14px}
+.exec-row strong{font-size:18px;line-height:1.35}
+.exec-summary{font-size:16px;line-height:1.65;margin-top:26px}
+
+/* Larger impact banner */
+.impact-section{padding:42px 0;background:#102633;color:#fff}
+.impact-section .wrap{max-width:1280px}
+.impact-grid{grid-template-columns:repeat(6,1fr)}
+.impact{padding:12px 24px;border-left:1px solid rgba(255,255,255,.18)}
+.impact strong{font-size:52px;color:#fff;line-height:1}
+.impact span{font-size:14px;line-height:1.45;color:#c7d4d9;margin-top:10px}
+
+/* Larger, numbered case-study buttons with clear spacing */
+.case-card{display:flex;flex-direction:column;min-height:390px;padding:34px}
+.case-card.flagship{min-height:330px}
+.case-card-top{min-height:42px}
+.case-number{font-family:Georgia,"Times New Roman",serif;font-size:31px;color:var(--warm);line-height:1}
+.case-card h3{margin-top:26px}
+.case-proof{margin-top:24px;margin-bottom:28px;padding-top:18px}
+.case-link{position:static;left:auto;bottom:auto;margin-top:auto}
+.case-button{display:inline-flex;align-self:flex-start;background:var(--ink);color:#fff;padding:12px 18px;border-radius:999px;font-size:14px;font-weight:800}
+.case-card:hover .case-button{background:var(--accent)}
+.case-logo,.case-monogram{display:none!important}
+
+@media(max-width:950px){
+  .hero-profile .hero-grid{grid-template-columns:1fr}
+  .exec-profile{min-height:0}
+  .impact strong{font-size:44px}
+}
+@media(max-width:700px){
+  .hero-name{font-size:clamp(64px,18vw,92px);letter-spacing:-3px}
+  .impact-grid{grid-template-columns:1fr 1fr}
+  .impact:nth-child(odd){border-left:0}
+  .impact{padding:18px 14px}
+  .impact strong{font-size:42px}
+}
